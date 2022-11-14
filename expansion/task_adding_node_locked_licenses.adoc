@@ -1,0 +1,39 @@
+---
+permalink: expansion/task_adding_node_locked_licenses.html 
+sidebar: sidebar 
+keywords: cluster, feature, node-locked, license, entitle, functionality, add, add node-locked licenses 
+summary: Falls das Cluster über Funktionen verfügt, die Lizenzen mit einem Node-Locked verwenden, müssen Sie sicherstellen, dass für die neuen Nodes Lizenzen mit einem Node-Locked installiert sind. 
+---
+= Fügen Sie Node-gesperrte Lizenzen hinzu
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Wenn der Cluster über Funktionen verfügt, die Lizenzen mit gesperrten Nodes nutzen (die nur bestimmte Nodes für die lizenzierte Funktionalität berechtigen), müssen Sie sicherstellen, dass Node-gesperrte Lizenzen für die neuen Nodes installiert sind. Bevor die Nodes dem Cluster hinzugefügt werden, sollten Sie die Lizenzen hinzufügen.
+
+.Schritte
+. Fügen Sie jeden Lizenzschlüssel mit hinzu `system license add` Befehl.
++
+[listing]
+----
+cluster1::> system license add -license-code AAAAAAAAAAAAAA
+----
+. Zeigen Sie die vorhandenen Lizenzen mithilfe von an `system license show` Befehl.
++
+[listing]
+----
+cluster1::> system license show
+
+Serial Number: 9-99-999999
+Owner: cluster1
+Package           Type    Description           Expiration
+----------------- ------- --------------------- --------------------
+Base              site    Cluster Base License  -
+NFS               license NFS License           -
+CIFS              license CIFS License          -
+...
+----
+. Überprüfen Sie die Ausgabe, um sicherzustellen, dass eine Node-gesperrte Lizenz für alle Seriennummern angezeigt wird, einschließlich Seriennummern für vorhandene und neue Nodes.
+
