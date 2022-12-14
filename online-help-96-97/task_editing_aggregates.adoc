@@ -13,6 +13,7 @@ summary: Mit System Manager können Sie den Namen des Aggregats, den RAID-Typ un
 [role="lead"]
 Sie können ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) verwenden, um den Aggregatnamen, den RAID-Typ und die RAID-Gruppengröße eines vorhandenen Aggregats zu ändern, falls erforderlich.
 
+.Bevor Sie beginnen
 Für die Änderung des RAID-Typs eines Aggregats von RAID4 zu RAID-DP muss das Aggregat genug kompatible Ersatzfestplatten enthalten, ausgenommen die Hot Spares.
 
 .Über diese Aufgabe

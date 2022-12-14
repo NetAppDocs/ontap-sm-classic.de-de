@@ -13,6 +13,7 @@ summary: 'Das NVMe-Protokoll kann auf einer Storage Virtual Machine (SVM) mit Sy
 [role="lead"]
 Verwenden Sie ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher), um das NVMe-Protokoll auf einer Storage Virtual Machine (SVM) zu konfigurieren. Anschließend können Namespaces erstellt und einem NVMe-Subsystem und einem Host zugewiesen werden.
 
+.Über diese Aufgabe
 Für SVM mit NVMe sollten keine anderen Protokolle verwendet werden. Wenn Sie NVMe auswählen, werden die restlichen Protokolle deaktiviert. Sie können NVMe auch bei der Erstellung der SVM konfigurieren.
 
 .Schritte

@@ -13,6 +13,7 @@ summary: 'Der Linux-Host muss über eine iSCSI-Verbindung mit jedem Node (Ziel) 
 [role="lead"]
 Der Linux-Host muss über eine iSCSI-Verbindung mit jedem Node (Ziel) im Storage-Cluster verfügen. Sie richten die Sitzungen vom Host aus.
 
+.Über diese Aufgabe
 In ONTAP muss der iSCSI-Host über Pfade zu jedem Node im Cluster verfügen. DM-Multipath wählt die besten Wege zur Verwendung aus. Wenn Pfade ausfallen, wählt DM-Multipath alternative Pfade aus.
 
 .Schritte

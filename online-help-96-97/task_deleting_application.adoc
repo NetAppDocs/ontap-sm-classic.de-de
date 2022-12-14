@@ -13,6 +13,7 @@ summary: Sie können eine bereitgestellte Applikation löschen, wenn sie nicht m
 [role="lead"]
 Mit ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) können Sie eine bereitgestellte Anwendung löschen, wenn sie nicht mehr benötigt wird.
 
+.Über diese Aufgabe
 Als Cluster-Administrator können Sie sie löschen, wenn Sie sie nicht mehr benötigen. Das folgende Beispiel beschreibt das Löschen einer *NAS Container* Anwendung.
 
 .Schritte

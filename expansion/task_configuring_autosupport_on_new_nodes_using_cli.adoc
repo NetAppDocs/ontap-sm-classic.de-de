@@ -13,8 +13,10 @@ summary: Nachdem Sie einem Cluster Nodes hinzugefügt haben, müssen Sie AutoSup
 [role="lead"]
 Nachdem Sie einem Cluster Nodes hinzugefügt haben, müssen Sie AutoSupport auf den Nodes konfigurieren.
 
+.Bevor Sie beginnen
 AutoSupport muss auf den vorhandenen Nodes des Clusters eingerichtet werden.
 
+.Über diese Aufgabe
 Sie müssen dieses Verfahren auf beiden Knoten durchführen.
 
 .Schritte

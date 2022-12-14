@@ -13,6 +13,7 @@ summary: Bevor Sie ein Volume bereitstellen, das die LUNs enthält, müssen Sie 
 [role="lead"]
 Bevor Sie ein Volume bereitstellen, das die LUNs enthält, müssen Sie entscheiden, ob Sie das Volume zu einer vorhandenen Storage Virtual Machine (SVM) hinzufügen oder eine neue SVM für das Volume erstellen möchten. Darüber hinaus müssen Sie iSCSI auch auf einer vorhandenen SVM konfigurieren.
 
+.Über diese Aufgabe
 Wenn eine vorhandene SVM bereits mit den erforderlichen Protokollen konfiguriert ist und über LIFs verfügt, auf die über den Host zugegriffen werden kann, wird die Nutzung der vorhandenen SVM vereinfacht.
 
 Sie können eine neue SVM erstellen, wodurch Daten oder eine Administration von anderen Benutzern des Storage-Clusters getrennt werden. Ein Vorteil besteht darin, dass separate SVMs nur zur Trennung verschiedener Protokolle genutzt werden können.

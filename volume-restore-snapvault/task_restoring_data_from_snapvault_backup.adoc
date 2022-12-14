@@ -13,6 +13,7 @@ summary: Nach Auswahl des SnapVault Backup-Ziel-Volume müssen Sie die Wiederher
 [role="lead"]
 Nach Auswahl des SnapVault Backup-Ziel-Volume müssen Sie die Wiederherstellung entweder auf einem neuen Volume durchführen, um die gesicherten Daten zu testen, oder auf einem vorhandenen Volume, um die verlorenen oder beschädigten Daten wiederherzustellen.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *Ziel* ausführen.
 
 .Schritte

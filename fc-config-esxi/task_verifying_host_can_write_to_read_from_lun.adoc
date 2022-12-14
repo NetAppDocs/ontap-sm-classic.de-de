@@ -13,6 +13,7 @@ summary: Bevor Sie die LUN verwenden, sollten Sie überprüfen, ob der Host Date
 [role="lead"]
 Bevor Sie die LUN verwenden, sollten Sie überprüfen, ob der Host Daten auf die LUN schreiben und sie zurücklesen kann.
 
+.Über diese Aufgabe
 Wenn der Cluster-Node, auf dem die LUN erstellt wurde, einen Failover auf seinen Partner-Node durchführen kann, sollten Sie die Daten beim Failover des Node überprüfen. Dieser Test ist möglicherweise nicht möglich, wenn das Cluster sich in Produktionsumgebungen befindet.
 
 .Schritte

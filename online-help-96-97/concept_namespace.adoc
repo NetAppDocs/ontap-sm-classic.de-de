@@ -65,6 +65,7 @@ Wenn ein Volume erstellt wird, übernimmt das Volume automatisch die standardmä
 . Vergewissern Sie sich, dass in der Spalte *Export Policy* im Fenster *Junction Path* die Exportrichtlinie angezeigt wird, die Sie auf das Volume angewendet haben.
 
 
+.Ergebnisse
 Die Standard-Exportrichtlinie wird durch die von Ihnen ausgewählte Exportrichtlinie ersetzt.
 
 

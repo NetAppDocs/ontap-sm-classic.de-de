@@ -43,8 +43,10 @@ Sie können DDNS deaktivieren, indem Sie das Kontrollkästchen *DDNS-Dienst* dea
 
 Sie können Host-Informationen zentral mithilfe von DNS verwalten. Mit System Manager können Sie den DNS-Domain-Namen Ihres Storage-Systems hinzufügen oder ändern. Sie können DDNS auch auf Ihrem Speichersystem aktivieren, um den Namensserver automatisch im DNS-Server zu aktualisieren.
 
+.Bevor Sie beginnen
 Sie müssen einen CIFS-Server oder ein Active Directory-Konto einrichten, damit die Storage Virtual Machine (SVM) für sichere DDNS verwendet werden kann.
 
+.Über diese Aufgabe
 System Manager führt keine Validierungsprüfungen für die DNS- und DDNS-Einstellungen durch.
 
 .Schritte

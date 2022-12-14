@@ -13,6 +13,7 @@ summary: Wenn die neu installierten Controller-Module wiederverwendet werden –
 [role="lead"]
 Wenn die neu installierten Controller-Module wiederverwendet werden - nicht neu - müssen Sie in den Wartungsmodus wechseln und sicherstellen, dass ihr HA-Status auf HA festgelegt ist.
 
+.Über diese Aufgabe
 Wenn Sie neue Controller-Module verwenden, können Sie diesen Vorgang überspringen, da HA standardmäßig aktiviert ist. Andernfalls müssen Sie dieses Verfahren auf beiden Nodes ausführen.
 
 .Schritte

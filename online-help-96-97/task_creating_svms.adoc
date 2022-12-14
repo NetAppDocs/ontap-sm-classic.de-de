@@ -105,6 +105,7 @@ Die SVM wird mit der angegebenen Konfiguration erstellt.
 
 
 
+.Ergebnisse
 Die von Ihnen erstellte SVM wird automatisch gestartet. Der Name des Root-Volumes wird automatisch generiert als `SVM name_root`. Standardmäßig wird der verwendet `vsadmin` Benutzerkonto wird erstellt und befindet sich im Status gesperrt.
 
 

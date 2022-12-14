@@ -18,6 +18,7 @@ Mithilfe der ONTAP System Manager _classic_-Schnittstelle mit ONTAP 9.2 oder ein
 * Sie müssen die Passphrase kennen, die Sie für jede Peer-Beziehung verwenden.
 
 
+.Über diese Aufgabe
 Sie müssen dieses Verfahren für jedes Cluster durchführen.
 
 .Schritte
@@ -48,7 +49,7 @@ Der Authentifizierungsstatus lautet „`ausstehend`“, da nur ein Cluster konfi
 +
 Das Dialogfeld Cluster-Peer erstellen wird angezeigt.
 
-.. Geben Sie im Bereich *Details des Remote-Clusters für Peered* die gleiche Passphrase ein, die Sie in angegeben haben ,Schritt 1d Und die IP-Adressen der Intercluster-LIFs des Quellclusters, und klicken Sie dann auf *Erstellen*.
+.. Geben Sie im Bereich *Details des Remote-Clusters für Peered* die gleiche Passphrase ein, die Sie in angegeben haben <<step1d-passphrase-used,Schritt 1d>> Und die IP-Adressen der Intercluster-LIFs des Quellclusters, und klicken Sie dann auf *Erstellen*.
 
 
 +

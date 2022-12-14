@@ -28,6 +28,7 @@ Dadurch werden Authentifizierungsfehler verhindert und es wird sichergestellt, d
 
 
 
+.Über diese Aufgabe
 Beim Erstellen eines Kerberos-Bereichs müssen Sie im Assistenten zum Erstellen von Kerberos-Bereichen die folgenden Attribute festlegen:
 
 * Kerberos-Bereich
@@ -56,6 +57,7 @@ Die Standardanschlussnummer ist 88.
 
 Mit System Manager können Sie eine Kerberos-Bereichskonfiguration auf der SVM-Ebene (Storage Virtual Machine) bearbeiten.
 
+.Über diese Aufgabe
 Sie können die folgenden Attribute mit dem Assistenten zum Bearbeiten des Kerberos-Bereichs ändern:
 
 * Die KDC-IP-Adresse und die Portnummer

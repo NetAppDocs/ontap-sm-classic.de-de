@@ -13,6 +13,7 @@ summary: Mit System Manager können Sie alle Daten löschen und die Ersatzfestpl
 [role="lead"]
 Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) verwenden, um alle Daten zu löschen und die Ersatzfestplatten zu formatieren, indem Sie Nullen auf die Festplatte schreiben. Diese Festplatten können dann in neuen Aggregaten verwendet werden.
 
+.Über diese Aufgabe
 Wenn Sie die Spare-Festplatten löschen, werden alle Spares im Cluster, einschließlich Array LUNs, gelöscht. Sie können die freien Festplatten für einen bestimmten Node oder das gesamte Cluster löschen.
 
 .Schritte

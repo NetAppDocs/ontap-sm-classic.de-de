@@ -69,6 +69,7 @@ Sie können System Manager verwenden, um nicht mehr benötigte Exportrichtlinien
 
 Mit System Manager können Sie einer Exportrichtlinie Regeln hinzufügen, um den Client-Zugriff auf Daten zu definieren.
 
+.Bevor Sie beginnen
 Sie müssen die Exportrichtlinie erstellt haben, zu der Sie die Exportregeln hinzufügen möchten.
 
 .Schritte

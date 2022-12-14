@@ -13,6 +13,7 @@ summary: Beim Erstellen eines Aggregats können Sie die Standardwerte des RAID-T
 [role="lead"]
 Beim Erstellen eines Aggregats können Sie ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) verwenden, um die Standardwerte des RAID-Typs und der RAID-Gruppen-Größenoptionen des Aggregats zu ändern.
 
+.Über diese Aufgabe
 Wenn der Festplattentyp der Aggregat-Festplatten FSAS oder MSATA ist und die Festplattengröße mindestens 10 TB beträgt, ist RAID-TEC der einzige verfügbare RAID-Typ.
 
 .Schritte

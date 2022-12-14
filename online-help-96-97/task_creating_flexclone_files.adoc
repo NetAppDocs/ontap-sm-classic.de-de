@@ -35,6 +35,7 @@ Sie können eine FlexClone Datei einer übergeordneten Datei innerhalb eines Vol
 . Klicken Sie Auf *Clone*.
 
 
+.Ergebnisse
 Die FlexClone Datei wird im selben Volume erstellt wie die übergeordnete Datei.
 
 *Verwandte Informationen*

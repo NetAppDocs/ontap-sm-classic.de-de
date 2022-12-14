@@ -13,8 +13,10 @@ summary: Bevor Sie den ersten Datastore einem ESXi-Host in Ihrem Datacenter bere
 [role="lead"]
 Bevor Sie den ersten Datastore für einen ESXi Host in Ihrem Datacenter bereitstellen können, müssen Sie den Cluster oder eine spezifische Storage Virtual Machine (SVM) zur Virtual Storage Console für VMware vSphere hinzufügen. Durch Hinzufügen des Clusters können Sie Storage auf einer beliebigen SVM im Cluster bereitstellen.
 
+.Bevor Sie beginnen
 Sie müssen über Administratoranmeldedaten für das Storage-Cluster oder das, das hinzugefügt wird, verfügen.
 
+.Über diese Aufgabe
 Je nach Konfiguration wurde dieses Cluster möglicherweise automatisch erkannt oder wurde bereits hinzugefügt.
 
 .Schritte

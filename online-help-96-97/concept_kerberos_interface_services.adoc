@@ -33,6 +33,7 @@ Ein CIFS-Server ist für den grundlegenden NFS-Kerberos-Zugriff nicht erforderli
 ====
 
 
+.Über diese Aufgabe
 Wenn Sie Microsoft Active Directory Kerberos verwenden, müssen die ersten 15 Zeichen aller SPNs, die in der Domäne verwendet werden, eindeutig sein. Microsoft Active Directory hat eine Begrenzung für SPNs mit maximal 15 Zeichen und erlaubt keine doppelten SPNs.
 
 .Schritte

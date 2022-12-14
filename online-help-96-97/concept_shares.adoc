@@ -16,6 +16,7 @@ Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) z
 
 Mit System Manager können Sie eine CIFS-Freigabe erstellen, über die Sie den Ordner, qtree oder Volume angeben können, auf den CIFS-Benutzer zugreifen können.
 
+.Bevor Sie beginnen
 Sie müssen die CIFS-Lizenz installiert haben, bevor Sie CIFS einrichten und starten.
 
 .Schritte
@@ -35,6 +36,7 @@ Ab System Manager 9.6 wird die kontinuierliche Verfügbarkeit für FlexGroup Vol
 . Geben Sie eine Beschreibung oder einen Kommentar für die Freigabe an, und klicken Sie dann auf *Erstellen*.
 
 
+.Ergebnisse
 Die CIFS-Freigabe wird erstellt, wobei die Zugriffsrechte in der Gruppe auf „`Full Control for Everyone`“ eingestellt sind.
 
 
@@ -43,6 +45,7 @@ Die CIFS-Freigabe wird erstellt, wobei die Zugriffsrechte in der Gruppe auf „`
 
 Mit System Manager können Sie eine Freigabe anhalten, wenn Sie den freigegebenen Netzwerkzugriff auf einen Ordner, qtree oder Volume entfernen möchten.
 
+.Bevor Sie beginnen
 Sie müssen die CIFS-Lizenz installiert haben.
 
 .Schritte
@@ -59,6 +62,7 @@ Sie müssen die CIFS-Lizenz installiert haben.
 
 Mit System Manager können Sie eine Home Directory Freigabe erstellen und Suchpfade für Home Directorys verwalten.
 
+.Bevor Sie beginnen
 CIFS muss eingerichtet und gestartet werden.
 
 .Schritte

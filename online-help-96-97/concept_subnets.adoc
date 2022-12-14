@@ -47,8 +47,10 @@ Sie können das Subnetz auch ändern, wenn die LIF in diesem Subnetz noch verwen
 
 Sie können mit System Manager ein Subnetz löschen, wenn Sie das Subnetz nicht mehr benötigen und die IP-Adressen, die dem Subnetz zugewiesen wurden, neu zuweisen möchten.
 
+.Bevor Sie beginnen
 Das Subnetz, das Sie löschen möchten, darf keine LIFs haben, die die IP-Adressen aus dem Subnetz verwenden.
 
+.Über diese Aufgabe
 Sie können System Manager nicht zum Löschen von Subnetzen im Cluster-IPspace verwenden. Sie müssen stattdessen die Befehlszeilenschnittstelle (CLI) verwenden.
 
 .Schritte

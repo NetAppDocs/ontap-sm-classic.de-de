@@ -13,8 +13,10 @@ summary: Für ein erfolgreiches Storage-Failover und Datenmobilität müssen Sie
 [role="lead"]
 Für ein erfolgreiches Storage-Failover und Datenmobilität müssen Sie sicherstellen, dass zwei Pfade vom Host zu jedem Node im Storage-Cluster vorhanden sind. Da die Anzahl der vom iSCSI-Ziel angekündigten Pfade begrenzt ist, müssen Sie die Speicher-Cluster-Ports vom Host pingen.
 
+.Bevor Sie beginnen
 Sie müssen die IP-Adresse oder den Host-Namen aller logischen Schnittstellen (LIFs) kennen, die für iSCSI-Pfade verwendet werden sollen.
 
+.Über diese Aufgabe
 LUNs sind einem Teil der Initiatoren in der Initiatorgruppe zugeordnet, um die Anzahl der Pfade vom Host auf die LUN zu begrenzen.
 
 * Standardmäßig sind für den Host nur Pfade vom Host zum Node sichtbar, der die Storage Virtual Machine (SVM) enthält, auf der die LUN erstellt wurde, und Pfade zum HA-Partner des entsprechenden Node.

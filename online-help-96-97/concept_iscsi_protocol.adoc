@@ -19,6 +19,7 @@ Mit ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) kann das iSCSI-Protok
 
 Ein iSCSI-Alias ist eine benutzerfreundliche Kennung, die Sie einem iSCSI-Zielgerät (in diesem Fall dem Speichersystem) zuweisen, um das Zielgerät in Benutzerschnittstellen einfacher zu identifizieren. Sie können mit System Manager einen iSCSI-Alias erstellen.
 
+.Über diese Aufgabe
 Ein iSCSI-Alias ist eine Zeichenfolge aus 1 bis 128 druckbaren Zeichen.ein iSCSI-Alias darf keine Leerzeichen enthalten.
 
 .Schritte
@@ -35,6 +36,7 @@ Ein iSCSI-Alias ist eine Zeichenfolge aus 1 bis 128 druckbaren Zeichen.ein iSCSI
 
 Mit System Manager können Sie steuern, welche Netzwerkschnittstellen zur iSCSI-Kommunikation verwendet werden, indem Sie die Schnittstellen aktivieren oder deaktivieren. Wenn der iSCSI-Service aktiviert ist, werden iSCSI-Verbindungen und -Anforderungen über die Netzwerkschnittstellen akzeptiert, die für iSCSI aktiviert sind, jedoch nicht über deaktivierte Schnittstellen.
 
+.Bevor Sie beginnen
 Sie müssen alle ausstehenden iSCSI-Verbindungen und -Sitzungen, die derzeit die Schnittstelle verwenden, beendet haben. Standardmäßig ist der iSCSI-Dienst auf allen Ethernet-Schnittstellen aktiviert, nachdem Sie die iSCSI-Lizenz aktiviert haben.
 
 .Schritte

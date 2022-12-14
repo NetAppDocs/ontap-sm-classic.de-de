@@ -13,6 +13,7 @@ summary: Nach Aktivierung des Ziel-Volume müssen Sie das Volume für den Datenz
 [role="lead"]
 Nach Aktivierung des Ziel-Volume müssen Sie das Volume für den Datenzugriff konfigurieren. NAS-Clients und SAN-Hosts können auf die Daten vom Ziel-Volume zugreifen, bis das Quell-Volume erneut aktiviert ist.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *Ziel* ausführen.
 
 

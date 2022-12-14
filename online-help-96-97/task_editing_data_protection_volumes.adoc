@@ -13,6 +13,7 @@ summary: 'Mit System Manager kann der Volume-Name für ein Datensicherungs-Volum
 [role="lead"]
 Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und älter) können Sie den Volume-Namen für ein Datensicherungs-Volume ändern. Wenn auf dem Quell-Volume die Storage-Effizienz nicht aktiviert ist, können Sie die Storage-Effizienz nur auf dem Ziel-Volume aktivieren.
 
+.Über diese Aufgabe
 Die Speichereffizienz auf einem SpiegelDP-Volume kann nicht geändert werden.
 
 .Schritte

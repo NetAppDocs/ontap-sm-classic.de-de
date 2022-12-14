@@ -13,8 +13,10 @@ summary: Sie können ein Aggregat auf Basis von Storage-Empfehlungen oder manuel
 [role="lead"]
 Sie können ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) verwenden, um ein Aggregat auf Basis von Storage-Empfehlungen oder manuell zu erstellen, je nach Ihren Anforderungen. Sie können Flash Pool Aggregate, SnapLock Aggregate und einen FabricPool-fähigen Aggregate erstellen, um mithilfe von System Manager Storage für ein oder mehrere Volumes bereitzustellen.
 
+.Bevor Sie beginnen
 Sie müssen über genügend freie Disketten verfügen, um ein Aggregat zu erstellen.
 
+.Über diese Aufgabe
 Sie können die folgenden Aktionen nicht mit System Manager ausführen:
 
 * Kombinieren Sie Festplatten unterschiedlicher Größen, auch wenn genügend freie Disketten unterschiedlicher Größen vorhanden sind.
@@ -62,6 +64,7 @@ Das Dialogfeld Informationen zeigt den Status der Aggregate an.
 
 Sie können manuell ein Aggregat erstellen, das aus nur HDDs oder nur SSDs besteht, wenn Sie ONTAP System Manager Classic verwenden (verfügbar in ONTAP 9.7 und älter).
 
+.Bevor Sie beginnen
 Alle Festplatten müssen dieselbe Größe haben.
 
 .Über diese Aufgabe
@@ -103,6 +106,7 @@ Bei MetroCluster-Konfigurationen ist das Erstellen von nicht gespiegelten Aggreg
 . Klicken Sie Auf *Erstellen*.
 
 
+.Ergebnisse
 Das Aggregat wird mit der angegebenen Konfiguration erstellt und der Liste der Aggregate im Fenster Aggregate hinzugefügt.
 
 
@@ -172,6 +176,7 @@ Dedizierte SSDs
 . Klicken Sie Auf *Erstellen*.
 
 
+.Ergebnisse
 Das Flash Pool Aggregat wird mit der angegebenen Konfiguration erstellt und der Liste der Aggregate im Fenster Aggregate hinzugefügt.
 
 
@@ -180,6 +185,7 @@ Das Flash Pool Aggregat wird mit der angegebenen Konfiguration erstellt und der 
 
 Sie können System Manager Classic (verfügbar in ONTAP 9.7 und früher) verwenden, um manuell ein SnapLock-Compliance-Aggregat oder ein SnapLock Enterprise-Aggregat zu erstellen. Sie können SnapLock Volumes auf diesen Aggregaten erstellen, die mit WORM-Funktionen „`write once, read many`“ (WORM) verfügbar sind.
 
+.Bevor Sie beginnen
 Die SnapLock Lizenz muss hinzugefügt worden sein.
 
 .Über diese Aufgabe
@@ -252,6 +258,7 @@ Mithilfe von ONTAP System Manager classic (verfügbar ab ONTAP 9.7) kann manuell
 * Zwischen dem Cloud Tier und dem Aggregat muss eine dedizierte Netzwerkverbindung bestehen.
 
 
+.Über diese Aufgabe
 Die folgenden Objektspeicher können als Cloud-Tiers verwendet werden:
 
 * StorageGRID

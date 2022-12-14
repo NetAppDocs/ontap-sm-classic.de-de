@@ -25,10 +25,10 @@ Im Fenster MetroCluster Switchover und Switch Back Operations werden der Status 
 
 . Führen Sie einen der folgenden Teilschritte durch, wenn der Validierungsprozess abgeschlossen ist:
 +
-** Wenn die Validierung erfolgreich ist, fahren Sie mit Schritt fort ,5.
+** Wenn die Validierung erfolgreich ist, fahren Sie mit Schritt fort <<STEP_D638BF6093764719A0CF7421E478CF70,5>>.
 ** Wenn die Validierung fehlschlägt, aber Standort B aktiv ist, ist ein Fehler aufgetreten, z. B. ein Problem mit einem Subsystem oder die NVRAM-Spiegelung ist nicht synchronisiert. Sie können einen der folgenden Prozesse ausführen:
 +
-*** Beheben Sie das Problem, das den Fehler verursacht, klicken Sie auf *Schließen* und starten Sie dann erneut bei Schritt ,1.
+*** Beheben Sie das Problem, das den Fehler verursacht, klicken Sie auf *Schließen* und starten Sie dann erneut bei Schritt <<STEP_2BC62367710D4E23B278E2B70B80EB27,1>>.
 *** Stoppen Sie die Knoten Standort B, klicken Sie auf *Schließen* und führen Sie die Schritte unter aus xref:task_performing_unplanned_switchover.adoc[Durchführung einer ungeplanten Umschaltung].
 
 
@@ -41,7 +41,7 @@ Es wird eine Warnmeldung angezeigt, die Sie darauf hinweist, dass durch den Swit
 
 . Wenn Sie fortfahren möchten, klicken Sie auf *Ja*.
 +
-Der Switchover-Prozess beginnt. Die Zustände von Standort A und Standort B werden über den grafischen Darstellungen ihrer Konfigurationen angezeigt. Wenn der Umschaltvorgang fehlschlägt, wird eine Fehlermeldung angezeigt. Klicken Sie Auf *Schließen*. Beheben Sie alle Fehler, und starten Sie erneut bei Schritt,1
+Der Switchover-Prozess beginnt. Die Zustände von Standort A und Standort B werden über den grafischen Darstellungen ihrer Konfigurationen angezeigt. Wenn der Umschaltvorgang fehlschlägt, wird eine Fehlermeldung angezeigt. Klicken Sie Auf *Schließen*. Beheben Sie alle Fehler, und starten Sie erneut bei Schritt<<STEP_2BC62367710D4E23B278E2B70B80EB27,1>>
 
 . Warten Sie, bis System Manager zeigt, dass die Reparatur abgeschlossen ist.
 +

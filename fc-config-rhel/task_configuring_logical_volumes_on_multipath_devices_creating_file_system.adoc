@@ -13,8 +13,10 @@ summary: 'Wenn der Linux-Host zum ersten Mal auf ein neues SCSI-Gerät (LUN) zug
 [role="lead"]
 Wenn der Linux-Host zum ersten Mal auf ein neues SCSI-Gerät (LUN) zugreift, gibt es keine Partition oder kein Dateisystem. Wenn Sie ein partitionierte Multipath-Gerät verwenden möchten, müssen Sie zuerst die zugrunde liegenden SCSI-Geräte partitionieren. Es könnte auch sinnvoll sein, logische Volumes auf Multipath-Geräten zu erstellen und optional ein Dateisystem zu erstellen.
 
+.Bevor Sie beginnen
 SCSI-Geräte und entsprechende Multipath-Geräte müssen vom Linux-Host erkannt worden sein.
 
+.Über diese Aufgabe
 Mindestens DM-Multipath sollte auf den SCSI-Geräten konfiguriert werden. Alle Konfigurationen, die über DM-Multipath hinausgehen, sind optional. Die folgenden Schritte sind allgemeine Richtlinien, wenn Sie zusätzliche Konfigurationen durchführen möchten, wie z. B. Partitionierung, Konfiguration von logischen Volumes auf Multipath-Geräten und Erstellung eines Dateisystems. Weitere Informationen zu Linux-Befehlen finden Sie in der Dokumentation zu Red hat Enterprise Linux und den man-Pages.
 
 .Schritte

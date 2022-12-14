@@ -17,6 +17,7 @@ Die Storage Virtual Machine (SVM) stellt das iSCSI-Ziel bereit, über das ein Ho
 * Sie müssen über genügend Netzwerkadressen verfügen, um für jeden Node zwei LIFs zu erstellen.
 
 
+.Über diese Aufgabe
 LUNs sind einem Teil der Initiatoren in der Initiatorgruppe zugeordnet, um die Anzahl der Pfade vom Host auf die LUN zu begrenzen.
 
 * Standardmäßig verwendet ONTAP die selektive LUN-Zuordnung (Selective LUN Map, SLM), um den Zugriff auf die LUN nur über Pfade auf dem Node zu ermöglichen, der die LUN und deren HA-Partner besitzt.

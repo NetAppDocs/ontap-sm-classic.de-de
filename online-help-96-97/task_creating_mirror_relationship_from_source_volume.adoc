@@ -95,6 +95,7 @@ Wenn auf dem ausgewählten Cluster eine Version der ONTAP Software vor ONTAP 9.3
 . Klicken Sie Auf *Speichern*.
 
 
+.Ergebnisse
 Ein neues Zielvolume vom Typ _dp_ wird mit den folgenden Standardeinstellungen erstellt:
 
 * Autogrow ist aktiviert.

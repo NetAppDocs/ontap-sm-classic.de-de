@@ -13,6 +13,7 @@ summary: 'Wenn Sie eine vorhandene Storage Virtual Machine (SVM) verwenden möch
 [role="lead"]
 Wenn Sie eine vorhandene Storage Virtual Machine (SVM) verwenden möchten, müssen Sie überprüfen, ob der iSCSI-Service auf der SVM ausgeführt wird.
 
+.Bevor Sie beginnen
 Sie müssen eine vorhandene SVM ausgewählt haben, auf der Sie eine neue LUN erstellen möchten.
 
 .Schritte

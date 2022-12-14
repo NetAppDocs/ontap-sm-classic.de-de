@@ -13,6 +13,7 @@ summary: 'ISCSI kann auf einer vorhandenen Storage Virtual Machine (SVM) konfigu
 [role="lead"]
 ISCSI kann auf einer vorhandenen Storage Virtual Machine (SVM) konfiguriert werden. Das iSCSI-Protokoll muss bereits aktiviert, aber nicht auf der SVM konfiguriert sein. Diese Information richtet sich an SVMs, für die Sie mehrere Protokolle konfigurieren, iSCSI jedoch noch nicht konfiguriert sind.
 
+.Bevor Sie beginnen
 Sie müssen über genügend Netzwerkadressen verfügen, um für jeden Node zwei LIFs zu erstellen.
 
 .Schritte

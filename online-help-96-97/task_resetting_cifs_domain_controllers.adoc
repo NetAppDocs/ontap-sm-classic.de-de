@@ -13,6 +13,7 @@ summary: Mit System Manager können Sie die CIFS-Verbindung auf Domänencontroll
 [role="lead"]
 Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) verwenden, um die CIFS-Verbindung auf Domänencontroller für die angegebene Domäne zurückzusetzen. Wenn die Informationen des Domänencontrollers nicht zurückgesetzt werden, kann dies zu einem Verbindungsfehler führen.
 
+.Über diese Aufgabe
 Sie müssen die Ermittlungsdaten des verfügbaren Domänencontrollers des Speichersystems aktualisieren, nachdem Sie eine Domäne aus der Liste der bevorzugten Domänencontroller hinzugefügt oder gelöscht haben. Sie können die verfügbaren Informationen zur Erkennung von Domänen-Controllern in ONTAP über die Befehlszeilenschnittstelle (CLI) des Storage-Systems aktualisieren.
 
 .Schritte

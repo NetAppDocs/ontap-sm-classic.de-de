@@ -13,6 +13,7 @@ summary: Mit ONTAP System Manager kann ein Cluster in Ihrem Datacenter erstellt 
 [role="lead"]
 Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und älter) können Sie ein Cluster in Ihrem Datacenter erstellen und einrichten.
 
+.Über diese Aufgabe
 Wenn der Cluster ONTAP 9.1 oder höher unterstützt, können Sie nur die Storage-Systeme mit ONTAP 9.1 oder höher hinzufügen.
 
 .Schritte

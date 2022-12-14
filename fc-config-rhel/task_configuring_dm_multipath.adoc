@@ -13,6 +13,7 @@ summary: DM-Multipath managt mehrere Pfade zwischen dem Linux-Host und dem Stora
 [role="lead"]
 DM-Multipath managt mehrere Pfade zwischen dem Linux-Host und dem Storage-Cluster. Die Konfiguration von DM-Multipath auf einer LUN, die dem Linux-Host als SCSI-Gerät angezeigt wird, ermöglicht es Ihrem Linux-Host, auf seine LUN auf dem Storage-Cluster zuzugreifen, wenn ein Pfad oder eine Komponente ausfällt.
 
+.Bevor Sie beginnen
 Sie müssen die erforderliche Version von DM-Multipath aus dem Interoperabilitäts-Matrix-Tool ermittelt haben.
 
 https://mysupport.netapp.com/matrix["NetApp Interoperabilitäts-Matrix-Tool"]

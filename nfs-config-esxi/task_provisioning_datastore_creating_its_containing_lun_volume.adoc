@@ -13,10 +13,12 @@ summary: Ein Datastore enthält Virtual Machines und deren VMDKs auf dem ESXi Ho
 [role="lead"]
 Ein Datastore enthält Virtual Machines und deren VMDKs auf dem ESXi Host. Der Datastore auf dem ESXi-Host wird auf einem Volume auf dem Storage-Cluster bereitgestellt.
 
+.Bevor Sie beginnen
 Die Virtual Storage Console for VMware vSphere for (VSC) muss mit dem vCenter Server installiert und registriert werden, der den ESXi Host verwaltet.
 
 VSC muss über ausreichende Cluster oder Zugangsdaten verfügen, um das Volume auf der angegebenen SVM zu erstellen.
 
+.Über diese Aufgabe
 VSC automatisiert die Datastore-Bereitstellung, einschließlich der Erstellung eines Volumes auf der angegebenen SVM.
 
 .Schritte

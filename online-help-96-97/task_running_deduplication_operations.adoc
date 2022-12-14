@@ -18,6 +18,7 @@ Mit ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) kann die Deduplizieru
 * Das Volume muss online sein und angehängt sein.
 
 
+.Über diese Aufgabe
 Die Deduplizierung ist ein Hintergrundprozess, der während des Betriebs Systemressourcen verbraucht. Somit können auch andere laufende Vorgänge beeinträchtigt werden. Sie müssen die Deduplizierung abbrechen, bevor Sie einen anderen Vorgang durchführen können.
 
 .Schritte

@@ -13,8 +13,10 @@ summary: 'Sie können iSCSI auf einer vorhandenen Storage Virtual Machine (SVM) 
 [role="lead"]
 Sie können iSCSI auf einer vorhandenen Storage Virtual Machine (SVM) konfigurieren und mit einem einzigen Assistenten eine LUN und das zugehörige Volume erstellen. Das iSCSI-Protokoll muss bereits aktiviert, aber nicht auf der SVM konfiguriert sein. Diese Information richtet sich an SVMs, für die Sie mehrere Protokolle konfigurieren, iSCSI jedoch noch nicht konfiguriert sind.
 
+.Bevor Sie beginnen
 Sie müssen über genügend Netzwerkadressen verfügen, um für jeden Node zwei LIFs zu erstellen.
 
+.Über diese Aufgabe
 LUNs sind einem Teil der Initiatoren in der Initiatorgruppe zugeordnet, um die Anzahl der Pfade vom Host auf die LUN zu begrenzen.
 
 * ONTAP verwendet eine selektive LUN-Zuordnung (Selective LUN Map, SLM), um die LUN nur durch Pfade auf dem Node, der die LUN und deren HA-Partner besitzt, zugänglich zu machen.

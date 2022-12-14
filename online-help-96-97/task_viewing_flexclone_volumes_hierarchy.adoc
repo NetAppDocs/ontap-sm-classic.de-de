@@ -20,6 +20,7 @@ Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und älter) können Si
 . Klicken Sie Auf *Mehr Aktionen* > *Klonen* > *Hierarchie Anzeigen*.
 
 
+.Ergebnisse
 Es werden Volumes angezeigt, die mindestens ein Child-FlexClone Volume besitzen. Die FlexClone Volumes werden als Kinder ihres jeweiligen übergeordneten Volumes angezeigt.
 
 *Verwandte Informationen*

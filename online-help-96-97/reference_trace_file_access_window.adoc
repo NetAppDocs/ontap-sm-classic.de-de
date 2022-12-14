@@ -77,6 +77,7 @@ Im Dialogfeld „Erweiterte Optionen“ können Sie den Datei- oder Dateipfad an
 
 
 
+.Ergebnisliste für CIFS-Protokoll-Tracing
 Wenn Sie das CIFS-Protokoll angeben, werden in der Ergebnisliste basierend auf den von Ihnen angegebenen Parametern die folgenden Daten für Ihren Trace angezeigt. Die Daten werden in umgekehrter chronologischer Reihenfolge angezeigt. Wenn Sie die Verfolgung beenden, bleiben die Ergebnisse in der Liste, bis Sie eine andere Spur starten.
 
 * Share: Der Name der Freigabe, auf die das System zugreifen wollte, ob erfolgreich oder nicht.
@@ -91,6 +92,7 @@ Wenn das Trace-Ergebnis eine Meldung anzeigt, dass der Zugriff nicht für "Synch
 ====
 
 
+.Ergebnisliste für NFS-Protokoll-Tracing
 Wenn Sie das NFS-Protokoll angeben, werden in der Ergebnisliste basierend auf den von Ihnen angegebenen Parametern die folgenden Daten für Ihren Trace angezeigt. Die Daten werden in umgekehrter chronologischer Reihenfolge angezeigt. Wenn Sie die Verfolgung beenden, bleiben die Ergebnisse in der Liste, bis Sie eine andere Spur starten.
 
 * Pfad: Der Dateipfad der Datei, auf die das System zugreifen wollte, ob erfolgreich oder nicht.

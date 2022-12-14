@@ -13,8 +13,10 @@ summary: Bevor Sie ein Multipath-Gerät verwenden, sollten Sie überprüfen, ob 
 [role="lead"]
 Bevor Sie ein Multipath-Gerät verwenden, sollten Sie überprüfen, ob der Host Daten auf das Multipath-Gerät schreiben und es zurücklesen kann.
 
+.Bevor Sie beginnen
 DM-Multipath muss auf dem Linux-Host für die Storage-Cluster-Knoten konfiguriert sein, auf die Sie zugreifen.
 
+.Über diese Aufgabe
 Wenn ein Failover des Storage-Cluster-Node, dem das Multipath-Gerät entspricht, auf seinen Partner-Node möglich ist, sollten Sie überprüfen, ob die Daten beim Failover des Node gelesen werden. Diese Überprüfung ist möglicherweise nicht möglich, wenn das Storage Cluster in Produktion verwendet wird.
 
 .Schritte

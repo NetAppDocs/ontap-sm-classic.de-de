@@ -19,6 +19,7 @@ Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) z
 
 Mit System Manager können Sie eine gespiegelte Beziehung löschen und die gespiegelte Beziehung zwischen den Quell- und Ziel-Volumes permanent beenden. Wenn eine gespiegelte Beziehung gelöscht wird, wird die Basis-Snapshot Kopie des Quell-Volume gelöscht.
 
+.Über diese Aufgabe
 Es ist eine Best Practice, die Spiegelbeziehung zu unterbrechen, bevor die Beziehung gelöscht wird.
 
 .Schritte
@@ -27,6 +28,7 @@ Es ist eine Best Practice, die Spiegelbeziehung zu unterbrechen, bevor die Bezie
 . Aktivieren Sie die Kontrollkästchen, um die Spiegelbeziehung zu löschen und die Basis-Snapshot-Kopien freizugeben, und klicken Sie dann auf *Löschen*.
 
 
+.Ergebnisse
 Die Beziehung wird gelöscht und die Snapshot Basis-Kopie auf dem Quell-Volume wird gelöscht.
 
 
@@ -35,6 +37,7 @@ Die Beziehung wird gelöscht und die Snapshot Basis-Kopie auf dem Quell-Volume w
 
 Sie können System Manager verwenden, um eine zuvor beschädigte Spiegelbeziehung wiederherzustellen. Sie können einen Neusynchronisierung durchführen, um nach einem Ausfall, bei dem das Quell-Volume deaktiviert wurde, eine Wiederherstellung durchzuführen.
 
+.Bevor Sie beginnen
 Das Quell- und Ziel-Cluster sowie die Quell-SVM und Ziel-SVM müssen sich in Peer-Beziehungen befinden.
 
 .Über diese Aufgabe
@@ -66,6 +69,7 @@ Wenn die Ablaufzeit eines Volumes in der Vergangenheit liegt oder noch nicht fes
 
 Sie können System Manager verwenden, um eine stillgelegte Spiegelbeziehung fortzusetzen. Wenn Sie die Beziehung fortsetzen, wird der normale Datentransfer zum Spiegelziel fortgesetzt und alle Spiegelaktivitäten werden neu gestartet.
 
+.Über diese Aufgabe
 Wenn Sie eine beschädigte Spiegelbeziehung von der Befehlszeilenschnittstelle (CLI) stillgelegt haben, können Sie die Beziehung zu System Manager nicht wieder aufnehmen. Sie müssen die Verbindung mit der CLI fortsetzen.
 
 .Schritte
@@ -75,6 +79,7 @@ Wenn Sie eine beschädigte Spiegelbeziehung von der Befehlszeilenschnittstelle (
 . Aktivieren Sie das Bestätigungsfeld und klicken Sie auf *Fortsetzen*.
 
 
+.Ergebnisse
 Die Datenübertragung an das gespiegelte Ziel wird für die ausgewählte gespiegelte Beziehung fortgesetzt.
 
 
@@ -83,6 +88,7 @@ Die Datenübertragung an das gespiegelte Ziel wird für die ausgewählte gespieg
 
 Mit System Manager können Sie eine außerplanmäßige Spiegelaktualisierung des Ziels initiieren. Möglicherweise müssen Sie ein manuelles Update durchführen, um Datenverlust aufgrund eines bevorstehenden Stromausfalls, geplanter Wartungsarbeiten oder Datenmigrationen zu vermeiden.
 
+.Bevor Sie beginnen
 Die Mirror-Beziehung muss sich in einem Snapmirrored Zustand befinden.
 
 .Schritte
@@ -105,6 +111,7 @@ Die Mirror-Beziehung muss sich in einem Snapmirrored Zustand befinden.
 
 Mit System Manager kann ein Spiegelungszielort stillgelegt werden, um es zu stabilisieren, bevor Sie eine Snapshot Kopie erstellen. Der Quiesce-Vorgang ermöglicht den Abschluss aktiver Spiegeltransfers und deaktiviert zukünftige Transfers für die Spiegelbeziehung.
 
+.Über diese Aufgabe
 Sie können nur Spiegelbeziehungen stilllegen, die im SnapMirror-Status liegen.
 
 .Schritte
@@ -128,6 +135,7 @@ Wenn Sie eine Mirror-Beziehung starten, müssen Sie diese Beziehung initialisier
 . Überprüfen Sie den Status der Spiegelbeziehung im Fenster *Schutz*.
 
 
+.Ergebnisse
 Eine Snapshot Kopie wird erstellt und an das Ziel übertragen. Diese Snapshot Kopie dient als Basis für nachfolgende inkrementelle Snapshot Kopien.
 
 
@@ -273,6 +281,7 @@ Das Suffix des Volume-Namens wird an die Namen des Quell-Volumes angehängt, um 
 . Klicken Sie Auf *Erstellen*.
 
 
+.Ergebnisse
 Wenn Sie ein Zielvolume erstellen möchten, wird ein Zielvolumen vom Typ _dp_ erstellt, wobei das Sprachattribut auf das Sprachattribut des Quell-Volumes eingestellt ist.
 
 Zwischen dem Quell-Volume und dem Ziel-Volume wird eine Mirror-Beziehung erstellt. Die Basis-Snapshot-Kopie wird an das Ziel-Volume übertragen, wenn Sie sich für die Initialisierung der Beziehung entschieden haben.
@@ -283,6 +292,7 @@ Zwischen dem Quell-Volume und dem Ziel-Volume wird eine Mirror-Beziehung erstell
 
 Sie können mit System Manager eine zuvor beschädigte Spiegelbeziehung wiederherstellen. Bei einer umgekehrten Neusynchronisierung werden die Funktionen des Quell-Volume und des Ziel-Volume rückgängig gemacht.
 
+.Bevor Sie beginnen
 Das Quell-Volume muss online sein.
 
 .Über diese Aufgabe

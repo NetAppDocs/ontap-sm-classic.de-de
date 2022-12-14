@@ -81,6 +81,7 @@ Für gespiegelte Aggregate wird ein Dialogfeld *Add Capacity* mit den Informatio
 . Klicken Sie im Dialogfeld *Kapazität hinzufügen* auf *Ja*, um die Kapazitätsfestplatten hinzuzufügen.
 
 
+.Ergebnisse
 Die Kapazitätsfestplatten werden dem ausgewählten Aggregat hinzugefügt und die Aggregatgröße wird erhöht.
 
 *Verwandte Informationen*

@@ -13,6 +13,7 @@ summary: 'Verwenden Sie die klassische Benutzeroberfläche von ONTAP System Mana
 [role="lead"]
 Mithilfe der Schnittstelle „ONTAP System Manager _classic_“ mit ONTAP 9.7 oder einer älteren Version können Sie ein Volume verschieben und entscheiden, ob eine manuelle Umstellung erforderlich ist. Wenn Sie die LUN-Nodes für die Berichterstellung aktualisieren müssen Sie die erweiterte Prozedur in der Befehlszeilenschnittstelle (CLI) befolgen. Optional können Sie auch den Zeitpunkt für eine Volume-Verschiebung planen.
 
+.Über diese Aufgabe
 Das Quell-Volume einer SnapMirror oder SnapVault Beziehung kann verschoben werden, während das Volume gespiegelt wird. Bei SnapMirror Services erfolgt eine kurze Pause während der Umstellungsphase des Volume-Verschiebungs-Jobs.
 
 Das Ziel-Volume kann auch verschoben werden. In der iterativen Phase werden SnapMirror oder SnapVault Updates und Volume-Verschiebung gleichzeitig ausgeführt. Bei der Evaluierung, ob eine Umstellung in der Umstellungsphase möglich ist, wird die Priorität zwischen der Umstellung und SnapMirror oder SnapVault Updates auf der First Come und First Service-Basis festgelegt. Bis der erste Vorgang abgeschlossen ist, werden andere Vorgänge blockiert.
@@ -62,4 +63,5 @@ Sie müssen warten, bis diese spezifischen Vorgänge abgeschlossen sind, bevor S
 
 
 
+.Verwandte Informationen
 link:task_verifying_lun_reporting_nodes_after_moving_volume.html["Überprüfung der Nodes für LUN-Berichte nach der Verschiebung eines Volumes"]

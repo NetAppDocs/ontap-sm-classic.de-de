@@ -13,8 +13,10 @@ summary: 'Der weltweite Port-Name (WWPN) ist erforderlich, um die FC-Switches zu
 [role="lead"]
 Der weltweite Port-Name (WWPN) ist erforderlich, um die FC-Switches zu Zone und die Initiatorgruppen zu erstellen, die dem Host den Zugriff auf seine LUN ermöglichen.
 
+.Bevor Sie beginnen
 Sie müssen das HBA-Dienstprogramm des Herstellers für die HBAs in Ihrem Host installiert haben und verifizierte HBAs werden für Ihre Konfiguration unterstützte Treiber, Firmware und BIOS-Versionen ausführen.
 
+.Über diese Aufgabe
 Der WWPN wird für die gesamte Konfiguration verwendet. Sie müssen den Worldwide Node Name (WWNN) nicht aufzeichnen.
 
 .Schritte

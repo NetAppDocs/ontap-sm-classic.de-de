@@ -52,6 +52,7 @@ Bei diesem Wert wird die Groß-/Kleinschreibung beachtet. Die angegebene Einheit
 
 Mit dem ONTAP System Manager classic (erhältlich in ONTAP 9.7 und älter) können Sie eine nicht mehr benötigte Richtliniengruppe für Storage-Servicequalität (QoS) löschen.
 
+.Bevor Sie beginnen
 Sie müssen alle Speicherobjekte aufheben, die der Richtliniengruppe zugewiesen sind.
 
 .Schritte

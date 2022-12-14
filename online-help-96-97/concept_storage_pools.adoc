@@ -25,6 +25,7 @@ Ein Speicherpool ist eine Sammlung von SSDs (Cache-Festplatten). Sie können mit
 * Alle SSDs in einem Storage-Pool müssen dem gleichen HA-Paar gehören.
 
 
+.Über diese Aufgabe
 System Manager erzwingt die Hot Spare-Regel für SSD RAID-Gruppen, wenn Sie SSDs zum Hinzufügen von Festplatten zu einem Storage-Pool verwenden. Wenn beispielsweise 10 SSDs in der SSD-RAID-Gruppe und die Option vorhanden sind `raid.min_spare_count` Ist auf festgelegt `1` Auf Node-Ebene verlässt System Manager eine SSD als Hot Spare und verwendet die anderen 9 SSDs für SSD-bezogene Vorgänge.
 
 Sie können nicht partitionierte SSDs beim Erstellen eines Storage-Pools mit System Manager verwenden.
@@ -42,6 +43,7 @@ Sie können nicht partitionierte SSDs beim Erstellen eines Storage-Pools mit Sys
 
 Sie können SSDs einem vorhandenen Storage-Pool hinzufügen und dessen Cache-Größe mit System Manager erhöhen.
 
+.Bevor Sie beginnen
 Beide Nodes des HA-Paars müssen betriebsbereit sein, damit über einen Storage-Pool SSDs und SSD-Spares zugewiesen werden können.
 
 .Über diese Aufgabe
@@ -68,6 +70,7 @@ Wenn beispielsweise 10 SSDs in der SSD-RAID-Gruppe und die Option vorhanden sind
 
 Es könnte sein, dass Sie einen Speicherpool löschen möchten, wenn der Cache des Speicherpools nicht optimal ist oder nicht mehr von einem Aggregat oder Flash Pool Aggregat verwendet wird. Sie können einen Speicherpool löschen, indem Sie in System Manager das Dialogfeld Speicherpool löschen verwenden.
 
+.Bevor Sie beginnen
 Der Speicherpool darf von keinem Aggregat verwendet werden.
 
 .Schritte

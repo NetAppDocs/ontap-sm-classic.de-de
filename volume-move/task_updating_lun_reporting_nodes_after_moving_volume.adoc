@@ -13,6 +13,7 @@ summary: 'Wenn sich das Volume, das Sie enthaltene LUNs verschoben haben und das
 [role="lead"]
 Wenn sich das Volume, das Sie enthaltene LUNs verschoben haben und das Volume nun auf einem anderen HA-Paar befindet, sollten Sie alle Remote-Nodes aus der Liste Selective LUN Map (SLM) Reporting-Nodes entfernen. Die LUN-Zuordnung enthält dann nur den Owner-Node und seinen HA-Partner, wodurch sichergestellt wird, dass nur optimierte LUN-Pfade verwendet werden.
 
+.Über diese Aufgabe
 Dieses Verfahren ist nur erforderlich, wenn Sie das Volume von seinem HA-Paar auf ein anderes HA-Paar verschoben haben. Wenn sich das Volume auf einem anderen Node desselben HA-Paars befindet, können Sie diesen Vorgang überspringen.
 
 .Schritte

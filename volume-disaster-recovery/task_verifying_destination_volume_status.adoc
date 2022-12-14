@@ -13,6 +13,7 @@ summary: Nach dem Brechen der SnapMirror Beziehung müssen Sie sicherstellen, da
 [role="lead"]
 Nach dem Brechen der SnapMirror Beziehung müssen Sie sicherstellen, dass das Ziel-Volume über Lese-/Schreibzugriff verfügt und dass die Ziel-Volume-Einstellungen den Einstellungen des Quell-Volume entsprechen.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *Ziel* ausführen.
 
 .Schritte

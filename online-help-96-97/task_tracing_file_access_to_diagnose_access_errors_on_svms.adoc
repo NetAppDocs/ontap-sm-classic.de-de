@@ -13,6 +13,7 @@ summary: 'Ab System Manager 9.6 können Sie CIFS- oder NFS-Dateizugriffsfehler a
 [role="lead"]
 Ab System Manager 9.6 können Sie CIFS- oder NFS-Dateizugriffsfehler auf einer Storage Virtual Machine (SVM) diagnostizieren.
 
+.Über diese Aufgabe
 Probleme beim Dateizugriff, z. B. ein Fehler „`Access Denied`“, treten wahrscheinlich auf, wenn Probleme mit einer Freigabkonfiguration, Berechtigungen oder Benutzerzuordnung auftreten. Mit System Manager können Sie Probleme beim Dateizugriff beheben, indem Sie die Ergebnisse der Zugriffspurenverfolgung für die Datei oder die Freigabe anzeigen, auf die ein Benutzer zugreifen möchte. System Manager zeigt an, ob die Datei oder Freigabe über effektive Lese-, Schreib- oder Ausführungsberechtigungen verfügt und warum der Zugriff wirksam ist oder nicht.
 
 .Schritte

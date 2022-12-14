@@ -14,6 +14,7 @@ summary: Ein FlexVol Volume lässt sich zur Kapazitätsauslastung unterbrechungs
 [role="lead"]
 Mit ONTAP System Manager classic (erhältlich in ONTAP 9.7 und früher) können Sie ein FlexVol Volume unterbrechungsfrei auf ein anderes Aggregat oder einen anderen Node verschieben, um Kapazitätsauslastung und Performance zu verbessern.
 
+.Bevor Sie beginnen
 Wenn Sie ein Datensicherungs-Volume verschieben, müssen Beziehungen zur Datensicherung-Spiegelung initialisiert werden, bevor Sie das Volume verschieben.
 
 .Über diese Aufgabe

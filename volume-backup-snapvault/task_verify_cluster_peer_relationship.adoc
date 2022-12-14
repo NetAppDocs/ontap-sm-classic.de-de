@@ -13,6 +13,7 @@ summary: Bevor Sie ein Volume zur Datensicherung mit SnapVault Technologie einri
 [role="lead"]
 Bevor Sie ein Volume zur Datensicherung mit SnapVault Technologie einrichten, müssen Sie sicherstellen, dass das Quell-Cluster und das Ziel-Cluster Peered sind und über die Peer-Beziehung miteinander kommunizieren. Es muss außerdem sichergestellt werden, dass die Quell-SVM und Ziel-SVM Peered sind und über die Peer-Beziehung miteinander kommunizieren.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *source* ausführen.
 
 

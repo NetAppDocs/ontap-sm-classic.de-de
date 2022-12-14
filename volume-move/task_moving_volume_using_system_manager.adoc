@@ -13,8 +13,10 @@ summary: Über die klassische Benutzeroberfläche von ONTAP System Manager mit O
 [role="lead"]
 Sie können ein Volume über die Schnittstelle ONTAP System Manager _classic_ mit ONTAP 9.7 oder einer älteren Version verschieben, indem Sie ein Volume und das Zielaggregat auswählen, den Verschiebevorgang starten und optional den Auftrag zur Volume-Verschiebung überwachen. Bei Nutzung von System Manager wird die Verschiebung eines Volumes automatisch abgeschlossen.
 
+.Bevor Sie beginnen
 Sie sollten den verfügbaren Platz auf dem Quellaggregat und dem Zielaggregat vor der Verschiebung des Volumes und nach der Verschiebung des Volumes überprüft haben.
 
+.Über diese Aufgabe
 Ein Volume-Verschiebevorgang wird nur in demselben Cluster unterstützt. Darüber hinaus muss sich das Aggregat, von dem Sie das Volume verschieben, und das Aggregat, von dem Sie das Volume verschieben, in derselben Storage Virtual Machine (SVM) befinden. Durch eine Verschiebung eines Volumes wird der Client-Zugriff nicht unterbrochen.
 
 .Schritte
@@ -85,5 +87,5 @@ image::../media/vol_move_cutover.gif[Dieses Bild wird durch den umgebenden Text 
 .. Klicken Sie auf *OK*.
 
 
-. Wiederholen ,Schritt 4.
+. Wiederholen <<step4-monitor,Schritt 4>>.
 

@@ -30,6 +30,7 @@ Sie können ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) z
 
 Sie können in System Manager die Registerkarte Initiatorgruppen verwenden, um Initiatorgruppen zu löschen.
 
+.Bevor Sie beginnen
 Die Zuordnung aller LUNs zur Initiatorgruppe muss manuell aufgehoben werden.
 
 .Schritte
@@ -60,6 +61,7 @@ Mit System Manager können Sie Initiatoren zu einer Initiatorgruppe hinzufügen.
 
 Sie können einen Initiator mit der Registerkarte Initiatorgruppen in System Manager löschen. Zum Löschen eines Initiators aus einer Initiatorgruppe müssen Sie den Initiator der Initiatorgruppe zuordnen.
 
+.Bevor Sie beginnen
 Die Zuordnung aller LUNs, die der Initiatorgruppe zugeordnet sind und den Initiator enthalten, den Sie löschen möchten, muss manuell aufgehoben werden.
 
 .Schritte

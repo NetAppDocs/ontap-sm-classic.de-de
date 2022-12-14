@@ -13,6 +13,7 @@ summary: Nachdem Sie ein Cluster erweitert haben, sollten Sie eine AutoSupport M
 [role="lead"]
 Nachdem Sie ein Cluster erweitert haben, sollten Sie eine AutoSupport Meldung senden, um anzugeben, dass die Erweiterung abgeschlossen ist. Diese Nachricht teilt internen und externen Support-Mitarbeitern mit, dass die Erweiterung abgeschlossen ist und als Zeitstempel für jegliche spätere Fehlerbehebung fungiert.
 
+.Bevor Sie beginnen
 AutoSupport muss eingerichtet sein.
 
 .Schritte

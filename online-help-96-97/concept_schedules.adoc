@@ -19,6 +19,7 @@ Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) können S
 
 Mit System Manager können Sie Zeitpläne zum Ausführen eines Jobs zu einem bestimmten Zeitpunkt oder zu regelmäßigen Zeiträumen erstellen.
 
+.Über diese Aufgabe
 Wenn Sie in einer MetroCluster-Konfiguration einen Zeitplan erstellen, empfiehlt es sich, auch am verbliebenen Standort einen gleichwertigen Zeitplan auf dem Cluster zu erstellen.
 
 .Schritte
@@ -60,6 +61,7 @@ Wählen Sie *Erweitert* aus, und geben Sie die Termindaten und Wiederholungsdeta
 
 Sie können Änderungen an einem zuvor erstellten Cron-Zeitplan oder einen Intervallzeitplan vornehmen, wenn dieser Ihre Anforderungen nicht mit System Manager erfüllt. Sie können Terminplandetails wie wiederkehrende Tage und Stunden, Intervalloptionen und erweiterte Cron-Optionen ändern.
 
+.Über diese Aufgabe
 Wenn Sie einen Zeitplan in einer MetroCluster-Konfiguration bearbeiten, empfiehlt es sich, auch den entsprechenden Zeitplan auf dem verbleibenden Site-Cluster zu bearbeiten.
 
 .Schritte

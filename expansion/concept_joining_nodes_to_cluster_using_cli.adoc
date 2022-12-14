@@ -96,7 +96,7 @@ cluster1-2            true    true
 cluster1-3            true    true
 3 entries were displayed.
 ----
-. Wiederholen Sie die Schritte ,#STEP_3D8223C5AC7145EE8C9A9397270D0610 Bis ,#STEP_F6678CB6B1A94AF08F86F83BA8E35 Für das zweite neu installierte Controller-Modul.
+. Wiederholen Sie die Schritte <<STEP_3D8223C5AC7145EE8C9A9397270D0610,#STEP_3D8223C5AC7145EE8C9A9397270D0610>> Bis <<STEP_F6678CB6B1A94AF08F86F83BA8BA8E35,#STEP_F6678CB6B1A94AF08F86F83BA8E35>> Für das zweite neu installierte Controller-Modul.
 +
 Der Cluster Setup-Assistent unterscheidet sich auf dem zweiten Node folgendermaßen:
 

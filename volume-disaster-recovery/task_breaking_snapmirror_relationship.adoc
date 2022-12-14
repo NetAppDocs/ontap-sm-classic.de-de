@@ -13,8 +13,10 @@ summary: Sie müssen die SnapMirror Beziehung stilllegen und unterbrechen, um da
 [role="lead"]
 Sie müssen die SnapMirror Beziehung stilllegen und unterbrechen, um das Ziel-Volume zu aktivieren. Nach der Stilllegung werden zukünftige SnapMirror Datentransfers deaktiviert.
 
+.Bevor Sie beginnen
 Das Ziel-Volume muss auf dem Ziel-SVM-Namespace gemountet werden.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *Ziel* ausführen.
 
 .Schritte

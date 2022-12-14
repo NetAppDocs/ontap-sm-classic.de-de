@@ -44,7 +44,7 @@ Mit ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) können Snapshot Kopi
 Das Quell-Volume
  a| 
 .. Wählen Sie *Quellvolumen*.
-.. ,Fahren Sie mit Schritt 6 fort.
+.. <<STEP_3D59B4A5225847F1B3EF9F3D38C78DFA,Fahren Sie mit Schritt 6 fort>>.
 
 
 

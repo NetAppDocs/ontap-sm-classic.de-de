@@ -18,6 +18,7 @@ Die für iSCSI erstellten Ports müssen dem iSCSI-Software-Adapter zur Unterstü
 * Der iSCSI-Software-Adapter muss auf dem ESXi-Host aktiviert sein.
 
 
+.Über diese Aufgabe
 Sie können die iSCSI-Ports mit dem vSphere-Client binden.
 
 Detaillierte Anweisungen finden Sie unter _VMware vSphere Storage_ für Ihre Version von ESXi 5 von VMware.

@@ -13,4 +13,5 @@ summary: Zum Hinzufügen eines NFS-Volumes zu einer SVM mit NFS-Aktivierung müs
 [role="lead"]
 Zum Hinzufügen eines NFS-Volumes zu einer SVM mit NFS-Aktivierung müssen ein Volume erstellt und konfiguriert, eine Exportrichtlinie erstellt und der Zugriff von einem UNIX-Administrationshost überprüft werden. Sie können dann den NFS-Client-Zugriff konfigurieren.
 
+.Bevor Sie beginnen
 NFS muss auf der SVM vollständig eingerichtet sein.

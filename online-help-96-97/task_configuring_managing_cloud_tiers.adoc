@@ -31,6 +31,7 @@ Mit System Manager können Sie einem SSD-Aggregat oder einem VMDK-Aggregat (Virt
 * Wenn die Kommunikation zwischen dem Cloud-Tier und dem Cluster über SSL oder TLS verschlüsselt ist, müssen die erforderlichen Zertifikate installiert sein.
 
 
+.Über diese Aufgabe
 Die folgenden Objektspeicher können als Cloud-Tiers verwendet werden:
 
 * StorageGRID
@@ -86,6 +87,7 @@ Wenn Sie den Typ AWS Commercial Cloud Service (C2S) ausgewählt haben, müssen S
 
 Mithilfe von System Manager können Sie ein All-Flash-Aggregat an eine Cloud-Tier anschließen. Sie können selten genutzte Daten in Cloud-Tiers speichern.
 
+.Bevor Sie beginnen
 Dem Cluster muss eine Cloud-Tier hinzugefügt werden.
 
 .Schritte
@@ -110,6 +112,7 @@ Mit System Manager kann ein FabricPool-fähiges Aggregat erstellt werden, um ein
 * Zwischen dem Cloud Tier und dem Aggregat muss eine dedizierte Netzwerkverbindung bestehen.
 
 
+.Über diese Aufgabe
 Die folgenden Objektspeicher können als Cloud-Tiers verwendet werden:
 
 * StorageGRID
@@ -199,6 +202,7 @@ Wenn Sie den Cloud-Tier für AWS Commercial Cloud Service (C2S) ausgewählt habe
 
 Mit System Manager können Sie eine Cloud-Tier löschen, die Sie nicht mehr benötigen.
 
+.Bevor Sie beginnen
 Sie müssen das mit dem Cloud-Tier verknüpfte FabricPool-fähige Aggregat gelöscht haben.
 
 .Schritte

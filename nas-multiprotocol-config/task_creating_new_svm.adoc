@@ -28,6 +28,7 @@ Sie können einen Assistenten verwenden, der Sie beim Erstellen einer neuen SVM 
 * Die Zeit auf den AD-Domänencontrollern, -Clients und -SVMs müssen so innerhalb von fünf Minuten synchronisiert werden.
 
 
+.Über diese Aufgabe
 Wenn Sie eine SVM für Multi-Protokoll-Zugriff erstellen, sollten Sie die Abschnitte zur Bereitstellung im SVM Setup-Fenster (Storage Virtual Machine) nicht verwenden, das zwei Volumes erstellt, und nicht ein einzelnes Volume mit Multi-Protokoll-Zugriff. Sie können das Volume später im Workflow bereitstellen.
 
 .Schritte
@@ -119,6 +120,7 @@ Der DNS-Administrator muss den CIFS-Servernamen und die IP-Adresse der Daten-LIF
 
 
 
+.Ergebnisse
 Eine neue SVM wird erstellt, die über dieselbe Daten-LIF auf einen CIFS-Server und einen NFS-Server zugreifen kann.
 
 

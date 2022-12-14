@@ -31,6 +31,7 @@ Sie können ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) v
 . Aktivieren Sie das Bestätigungsfeld, und klicken Sie dann auf *break*.
 
 
+.Ergebnisse
 Die SnapMirror Beziehung zur Datensicherung ist beschädigt. Der Ziel-Volume-Typ ändert sich von Datensicherung (DP), schreibgeschützt in Lesen/Schreiben (RW). Das System speichert die Snapshot-Basiskopie für die Datensicherungsspiegelbeziehung zu einem späteren Zeitpunkt.
 
 *Verwandte Informationen*

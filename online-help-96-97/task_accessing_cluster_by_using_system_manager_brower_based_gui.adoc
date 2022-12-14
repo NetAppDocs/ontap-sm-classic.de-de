@@ -18,6 +18,7 @@ Wenn Sie für den Zugriff auf ein Cluster eine grafische Schnittstelle anstelle 
 * Sie müssen Cookies und Website-Daten im Browser aktiviert haben.
 
 
+.Über diese Aufgabe
 Sie können eine Cluster-Management-LIF oder Node-Management-LIF verwenden, um auf ONTAP System Manager zuzugreifen. Für einen unterbrechungsfreien Zugriff auf ONTAP System Manager sollten Sie eine Cluster-Management-LIF verwenden.
 
 .Schritte

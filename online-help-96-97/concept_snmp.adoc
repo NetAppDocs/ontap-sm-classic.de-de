@@ -31,6 +31,7 @@ Sie können SNMP auf Ihren Clustern mit System Manager aktivieren oder deaktivie
 
 Mit dem Dialogfeld SNMP-Einstellungen bearbeiten in System Manager können Sie Informationen über den Speicherort des Storage-Systems und die Kontaktmitarbeiter aktualisieren und die SNMP-Communitys Ihres Systems angeben.
 
+.Über diese Aufgabe
 System Manager verwendet die SNMP-Protokolle SNMPv1 und SNMPv2c sowie eine SNMP-Community, um Storage-Systeme zu erkennen.
 
 .Schritte
@@ -60,6 +61,7 @@ Der Community-Name kann aus 32 Zeichen bestehen und darf die folgenden Sonderzei
 
 SNMP-Traps ermöglichen es Ihnen, den Zustand und den Zustand der verschiedenen Komponenten Ihres Speichersystems zu überwachen. Über das Dialogfeld SNMP-Einstellungen bearbeiten in System Manager können Sie SNMP-Traps auf Ihrem Speichersystem aktivieren oder deaktivieren.
 
+.Über diese Aufgabe
 Obwohl SNMP standardmäßig aktiviert ist, sind SNMP-Traps standardmäßig deaktiviert.
 
 .Schritte

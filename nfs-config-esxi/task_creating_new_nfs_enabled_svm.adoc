@@ -24,6 +24,7 @@ Die Einrichtung einer neuen SVM umfasst die Erstellung der neuen SVM und die Akt
 * Alle externen Firewalls müssen entsprechend konfiguriert sein, um den Zugriff auf Netzwerkdienste zu ermöglichen.
 
 
+.Über diese Aufgabe
 Sie können einen Assistenten verwenden, der Sie durch die Erstellung der SVM, die Konfiguration von DNS, die Erstellung einer Daten-LIF und die Aktivierung von NFS führt.
 
 .Schritte
@@ -98,4 +99,5 @@ NFS Clients müssen die IP-Adresse der Daten-LIF kennen.
 
 
 
+.Ergebnisse
 Es wird eine neue SVM mit aktiviertem NFS erstellt.

@@ -13,4 +13,5 @@ summary: Zum Hinzufügen eines CIFS-Volumes zu einer SVM mit CIFS-Aktivierung m�
 [role="lead"]
 Zum Hinzufügen eines CIFS-Volumes zu einer SVM mit CIFS-Aktivierung müssen ein Volume erstellt und konfiguriert, eine Freigabe erstellt und dessen Berechtigungen festgelegt und der Zugriff von einem Windows Administrations-Host überprüft werden. Anschließend können Sie den CIFS-Client-Zugriff konfigurieren.
 
+.Bevor Sie beginnen
 CIFS muss auf der SVM vollständig eingerichtet sein.

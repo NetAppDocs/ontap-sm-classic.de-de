@@ -13,8 +13,10 @@ summary: Sie können System Manager verwenden, um schnell einen weiteren Namespa
 [role="lead"]
 Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) verwenden, um schnell einen weiteren Namespace der gleichen Konfiguration zu erstellen, indem Sie einen Namespace klonen. Sie können den neu geklonten Namespace einem anderen Host-NQN zuordnen.
 
+.Bevor Sie beginnen
 Zum Klonen eines Namespace benötigen Sie eine FlexClone-Lizenz.
 
+.Über diese Aufgabe
 Sie können einen Namespace mit der ausgewählten Host-Zuordnung klonen und mit einem anderen Subsystem verknüpfen.
 
 .Schritte

@@ -15,8 +15,10 @@ summary: Über die Schnittstelle „classic“ des ONTAP System Manager mit ONTA
 
 Cluster kommunizieren miteinander über logische Schnittstellen (LIFs), die für die Kommunikation zwischen Clustern dediziert sind. Sie müssen innerhalb jedes IPspace, der für Peering verwendet wird, eine Intercluster LIF erstellen. Die LIFs müssen auf jedem Node in jedem Cluster erstellt werden, für das Sie eine Peer-Beziehung erstellen möchten.
 
+.Bevor Sie beginnen
 Sie müssen das Subnetz und die Ports und optional die IP-Adressen identifiziert haben, die Sie für die Intercluster LIFs verwenden möchten.
 
+.Über diese Aufgabe
 Sie müssen dieses Verfahren auf beiden Clustern durchführen, für die Sie eine Peer-Beziehung erstellen möchten. Wenn Sie beispielsweise ein Cluster mit vier Nodes haben, das Sie mit Cluster X über IPspace A Peer mit Cluster Y über IPspace Y erstellen möchten, benötigen Sie insgesamt acht Intercluster-LIFs. Vier auf IPspace A (einer pro Knoten) und vier auf IPspace Y (einer pro Knoten).
 
 .Schritte
@@ -49,7 +51,7 @@ image::../media/lif_creation_intercluster.gif[Das Dialogfeld Netzwerk-Inteface e
 .. Klicken Sie Auf *Erstellen*.
 
 
-. Wiederholen ,Schritt 1 Für jeden Node im Cluster.
+. Wiederholen <<step1-intercluster-lif,Schritt 1>> Für jeden Node im Cluster.
 +
 Jeder Node im Cluster verfügt über eine Intercluster-LIF.
 
@@ -67,4 +69,5 @@ Sie können auf das Spaltenanzeigesymbol klicken (image:../media/icon_columnshow
 
 
 
+.Ergebnisse
 Alle Nodes in jedem Cluster verfügen über Intercluster LIFs, die alle miteinander kommunizieren können.

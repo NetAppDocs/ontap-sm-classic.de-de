@@ -117,6 +117,7 @@ Auf der Grundlage des ausgewählten Portsets werden die LIFs über die Portsätz
 . Klicken Sie Auf *Absenden & Fortfahren*.
 
 
+.Ergebnisse
 ISCSI-LIFs und -Portsätze werden mit der angegebenen Konfiguration erstellt. Die LIFs werden basierend auf dem ausgewählten Portsatz auf den Portsätzen verteilt. Der iSCSI-Service wird gestartet, wenn alle LIFs erfolgreich erstellt wurden.
 
 Wenn die LIF-Erstellung fehlschlägt, können Sie die LIFs über das Fenster „Netzwerkschnittstellen“ erstellen, die LIFs mithilfe des LUNs-Fensters an die Portsätze anhängen und dann den iSCSI-Service über das iSCSI-Fenster starten.

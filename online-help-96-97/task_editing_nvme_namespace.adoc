@@ -11,6 +11,7 @@ summary: Sie können mit System Manager den Namespace bearbeiten, indem Sie das 
 [role="lead"]
 Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) verwenden, um den Namespace zu bearbeiten, indem Sie das Subsystem ändern, dem der Namespace zugeordnet ist.
 
+.Über diese Aufgabe
 Sie können in diesem Fenster nur die NVMe-Subsystem-Einstellungen ändern. Sie können die anderen Namespace-Details nicht bearbeiten.
 
 .Schritte

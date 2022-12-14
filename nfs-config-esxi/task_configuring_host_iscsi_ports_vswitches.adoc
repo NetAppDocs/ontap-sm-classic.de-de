@@ -13,6 +13,7 @@ summary: Der ESXi Host benötigt Netzwerkports für die NFS-Verbindungen zum Sto
 [role="lead"]
 Der ESXi Host benötigt Netzwerkports für die NFS-Verbindungen zum Storage-Cluster.
 
+.Über diese Aufgabe
 Es wird empfohlen, IP Hash als NIC Teaming Policy zu verwenden, für die ein einziger VMkernel Port auf einem einzelnen vSwitch erforderlich ist.
 
 Die für NFS verwendeten Host-Ports und Storage-Cluster-Ports müssen IP-Adressen im selben Subnetz haben.

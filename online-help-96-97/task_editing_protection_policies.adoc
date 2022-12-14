@@ -13,6 +13,7 @@ summary: Mit System Manager können Sie eine Sicherungsrichtlinie ändern und di
 [role="lead"]
 Mit System Manager können Sie eine Sicherungsrichtlinie ändern und die Richtlinie auf eine Datensicherungsbeziehung anwenden.
 
+.Über diese Aufgabe
 Die Sicherungsrichtlinien werden auf der Cluster-Ebene nicht angezeigt.
 
 .Schritte

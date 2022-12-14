@@ -18,8 +18,10 @@ Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) z
 [role="lead"]
 Mit System Manager können Sie eine Mirror- und Vault-Beziehung bearbeiten, indem Sie die ausgewählte Richtlinie oder den ausgewählten Zeitplan ändern. Sie können jedoch die Parameter einer vorhandenen Richtlinie oder eines vorhandenen Zeitplans nicht bearbeiten.
 
+.Bevor Sie beginnen
 Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.
 
+.Über diese Aufgabe
 Sie können den Beziehungstyp einer versionsflexiblen Spiegelbeziehung, Vault-Beziehung oder Mirror und Vault-Beziehung ändern, indem Sie den Richtlinientyp ändern.
 
 .Schritte
@@ -107,6 +109,7 @@ Wählen Sie *Keine*.
 [role="lead"]
 Mit System Manager können Sie manuell eine außerplanmäßige inkrementelle Aktualisierung initiieren. Möglicherweise benötigen Sie ein manuelles Update, um Datenverlust aufgrund eines bevorstehenden Stromausfalls, geplanter Wartungsarbeiten oder Datenmigrationen zu vermeiden.
 
+.Bevor Sie beginnen
 Die Mirror- und Vault-Beziehung muss initialisiert werden und in einem Snapmirrored-Status.
 
 .Schritte
@@ -130,6 +133,7 @@ Die Mirror- und Vault-Beziehung muss initialisiert werden und in einem Snapmirro
 [role="lead"]
 Sie können mit System Manager eine Mirror- und Vault-Beziehung initialisieren, wenn Sie die Beziehung beim Erstellen nicht bereits initialisiert haben. Wenn Sie eine Beziehung initialisieren, wird ein vollständiger Basistransfer der Daten vom Quell-Volume zum Zielsystem durchgeführt.
 
+.Bevor Sie beginnen
 Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.
 
 .Schritte
@@ -139,6 +143,7 @@ Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.
 . Überprüfen Sie den Status der Beziehung im Fenster *Schutz*.
 
 
+.Ergebnisse
 Eine Snapshot Kopie wird erstellt und an das Ziel übertragen.
 
 Diese Snapshot Kopie dient als Basis für nachfolgende inkrementelle Snapshot Kopien.
@@ -210,8 +215,10 @@ Sie können die Richtlinie auswählen, die die maximale Anzahl übereinstimmende
 [role="lead"]
 Sie können System Manager verwenden, um eine zuvor kaputte Mirror und Vault-Beziehung wiederherzustellen. Sie können einen Neusynchronisierung durchführen, um nach einem Ausfall, bei dem das Quell-Volume deaktiviert wurde, eine Wiederherstellung durchzuführen.
 
+.Bevor Sie beginnen
 Die Quell- und Ziel-Cluster sowie die Quell- und Ziel-Storage Virtual Machines (SVMs) müssen sich in Peer-Beziehungen befinden.
 
+.Über diese Aufgabe
 Vor der Durchführung einer Neusynchronisierung sollten Sie Folgendes beachten:
 
 * Wenn Sie eine Neusynchronisierung durchführen, wird der Inhalt auf dem Ziel-Volume durch den Inhalt der Quelle überschrieben.
@@ -237,6 +244,7 @@ Der Neusynchronisierung kann zum Verlust neuer Daten führen, die nach dem Erste
 [role="lead"]
 Sie können mit System Manager eine zuvor beschädigte Mirror und Vault-Beziehung wiederherstellen. Bei einer umgekehrten Neusynchronisierung werden die Funktionen der Quell- und Ziel-Volumes umgekehrt. Sie können das Ziel-Volume verwenden, um Daten bereitzustellen, während Sie die Quelle reparieren oder ersetzen, die Quelle aktualisieren und die ursprüngliche Konfiguration der Systeme wiederherstellen.
 
+.Bevor Sie beginnen
 Das Quell-Volume muss online sein.
 
 .Über diese Aufgabe
@@ -268,6 +276,7 @@ Mit System Manager kann eine gespiegelte und Vault-Beziehung unterbrochen werden
 * Das Ziel-Volume muss auf dem Namespace des Ziel-Storage Virtual Machine (SVM) gemountet werden.
 
 
+.Über diese Aufgabe
 Sie können Beziehungen zwischen ONTAP Systemen und SolidFire Storage-Systemen spiegeln.
 
 .Schritte
@@ -276,6 +285,7 @@ Sie können Beziehungen zwischen ONTAP Systemen und SolidFire Storage-Systemen s
 . Aktivieren Sie das Bestätigungsfeld, und klicken Sie dann auf *break*.
 
 
+.Ergebnisse
 Die Beziehung zwischen Spiegel und Tresor ist kaputt. Der Ziel-Volume-Typ ändert sich von Datenschutz (DP) schreibgeschützt in Lesen/Schreiben. Das System speichert die Basis-Snapshot Kopie für die Mirror- und Vault-Beziehung zur späteren Verwendung.
 
 
@@ -285,6 +295,7 @@ Die Beziehung zwischen Spiegel und Tresor ist kaputt. Der Ziel-Volume-Typ änder
 [role="lead"]
 Wenn Sie eine stillgelegte Mirror- und Vault-Beziehung haben, können Sie mit System Manager die Beziehung fortsetzen. Wenn Sie die Beziehung fortsetzen, wird die normale Datenübertragung zum Ziel-Volume fortgesetzt und alle Schutzaktivitäten werden neu gestartet.
 
+.Über diese Aufgabe
 Wenn Sie eine beschädigte Mirror- und Vault-Beziehung von der Befehlszeilenschnittstelle (CLI) stillgelegt haben, können Sie die Beziehung nicht mehr aus System Manager fortsetzen. Sie müssen die Verbindung mit der CLI fortsetzen.
 
 .Schritte
@@ -293,6 +304,7 @@ Wenn Sie eine beschädigte Mirror- und Vault-Beziehung von der Befehlszeilenschn
 . Aktivieren Sie das Bestätigungsfeld, und klicken Sie dann auf *Wiederaufnehmen*.
 
 
+.Ergebnisse
 Normale Datenübertragungen werden fortgesetzt. Wenn ein geplanter Transfer für die Beziehung vorhanden ist, wird der Transfer vom nächsten Zeitplan gestartet.
 
 
@@ -319,6 +331,7 @@ Wenn die Beziehung nicht freigegeben wird, müssen Sie die CLI verwenden, um den
 
 
 
+.Ergebnisse
 Die Beziehung wird gelöscht und die Snapshot Kopien der Basis auf dem Quell-Volume werden dauerhaft gelöscht.
 
 
@@ -328,6 +341,7 @@ Die Beziehung wird gelöscht und die Snapshot Kopien der Basis auf dem Quell-Vol
 [role="lead"]
 Mit System Manager kann ein Ziel-Volume stillgelegt werden, um das Ziel zu stabilisieren, bevor eine Snapshot Kopie erstellt wird. Der Quiesce-Vorgang ermöglicht den Abschluss aktiver Datentransfers und deaktiviert zukünftige Transfers für die Spiegelungs- und Vault-Beziehung.
 
+.Bevor Sie beginnen
 Die Mirror- und Vault-Beziehung muss sich in einem Snapmirrored-Zustand befinden.
 
 .Schritte
@@ -336,4 +350,5 @@ Die Mirror- und Vault-Beziehung muss sich in einem Snapmirrored-Zustand befinden
 . Aktivieren Sie das Bestätigungsfeld, und klicken Sie dann auf *Quiesce*.
 
 
+.Ergebnisse
 Wenn keine Übertragung läuft, wird der Transferstatus als stillgelegt angezeigt. Wenn eine Übertragung ausgeführt wird, ist die Übertragung nicht betroffen, und der Übertragungsstatus wird als Umleitung angezeigt, bis die Übertragung abgeschlossen ist.

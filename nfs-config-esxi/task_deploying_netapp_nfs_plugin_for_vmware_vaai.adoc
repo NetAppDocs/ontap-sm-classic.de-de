@@ -13,6 +13,7 @@ summary: Das Plug-in ist eine Softwarebibliothek, in der die VMware Virtual Disk
 [role="lead"]
 Das Plug-in ist eine Softwarebibliothek, in der die VMware Virtual Disk Libraries integriert sind, die auf dem ESXi Host installiert sind. Durch das Herunterladen und Installieren des NFS-Plug-ins für VMware VAAI können Sie die Performance des Klonens mithilfe der Optionen für Copy Offload und Speicherplatzreservierung verbessern.
 
+.Über diese Aufgabe
 Um konsistenten Zugriff auf die Virtual Machines auf dem ESXi Host zu ermöglichen, auf dem Sie das NFS Plug-in installieren, können Sie Virtual Machines migrieren oder das NFS-Plug-in während der geplanten Wartungsarbeiten installieren.
 
 .Schritte

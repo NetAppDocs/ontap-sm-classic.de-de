@@ -13,6 +13,7 @@ summary: Bei ONTAP 9.4 und höher lässt sich das ONTAP Software-Image von der N
 [role="lead"]
 Sie können ONTAP Software Images mit ONTAP System Manager classic erhalten (erhältlich in ONTAP 9.7 und früher). Bei ONTAP 9.4 und höher lässt sich das ONTAP Software-Image von der NetApp Support-Website in einen lokalen Ordner kopieren. Für Upgrades von ONTAP 9.3 oder früher müssen Sie das ONTAP Software-Image auf einen HTTP-Server oder FTP-Server in Ihrem Netzwerk kopieren.
 
+.Über diese Aufgabe
 Für ein Upgrade des Clusters auf die Zielversion von ONTAP benötigen Sie Zugriff auf Software-Images. Software-Images, Informationen zu Firmware-Versionen und die neueste Firmware für Ihr Plattformmodell finden Sie auf der NetApp Support Site. Sie sollten folgende wichtige Informationen beachten:
 
 * Software-Images sind für Plattformmodelle spezifisch.

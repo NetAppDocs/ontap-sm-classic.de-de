@@ -13,6 +13,7 @@ summary: Mithilfe der klassischen Oberfläche des ONTAP System Managers mit ONTA
 [role="lead"]
 Mithilfe der Schnittstelle ONTAP System Manager _classic_ mit ONTAP 9.7 oder einer älteren Version können Sie überprüfen, ob SNMP auf dem Cluster aktiviert ist.
 
+.Über diese Aufgabe
 In allen Versionen von ONTAP ist SNMPv3 standardmäßig auf Clusterebene aktiviert und SNMPv1 und SNMPv2c standardmäßig deaktiviert. SNMPv1 und SNMPv2c sind aktiviert, wenn Sie eine SNMP-Community erstellen.
 
 SNMP ist standardmäßig auf Daten-LIFs deaktiviert. Informationen zur Aktivierung von SNMP auf Daten-LIFs finden Sie unter https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"^].

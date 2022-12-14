@@ -13,8 +13,10 @@ summary: Der Windows-Host muss über eine iSCSI-Verbindung zu jedem Knoten im Cl
 [role="lead"]
 Der Windows-Host muss über eine iSCSI-Verbindung zu jedem Knoten im Cluster verfügen. Sie erstellen die Sitzungen vom Host aus, indem Sie das Dialogfeld iSCSI Initiator Properties auf dem Host verwenden.
 
+.Bevor Sie beginnen
 Sie müssen die IP-Adresse einer iSCSI-Daten-LIF auf der Storage Virtual Machine (SVM) kennen, die die LUN enthält, auf die Sie zugreifen.
 
+.Über diese Aufgabe
 In ONTAP muss der iSCSI-Host über Pfade zu jedem Node im Cluster verfügen. Das native DSM wählt die besten Pfade aus. Wenn Pfade ausfallen, wählt das native DSM alternative Pfade aus.
 
 Die Schaltflächen und Beschriftungen im Dialogfeld iSCSI-Initiator-Eigenschaften variieren zwischen den Windows-Versionen. Einige der Schritte in der Aufgabe enthalten mehr als eine Schaltfläche oder einen Namen. Sie sollten den Namen auswählen, der mit der von Ihnen verwendeten Windows-Version übereinstimmt.

@@ -23,4 +23,5 @@ image::../media/aggregate_creation_iscsi_windows.gif[Erstellen eines Aggregats-B
 
 
 
+.Ergebnisse
 Das Aggregat wird mit der angegebenen Konfiguration erstellt und der Liste der Aggregate im Fenster Aggregate hinzugefügt.

@@ -18,6 +18,7 @@ Sie müssen eine SnapMirror Beziehung zwischen dem Quell-Volume auf einem Cluste
 * Beide Cluster müssen entsprechend konfiguriert und eingerichtet werden, um die Anforderungen Ihrer Umgebung für Benutzerzugriff, Authentifizierung und Client-Zugriff zu erfüllen.
 
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *source* ausführen.
 
 .Schritte

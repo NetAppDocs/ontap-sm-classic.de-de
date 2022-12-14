@@ -13,8 +13,10 @@ summary: 'Sie können die klassische Schnittstelle von ONTAP System Manager mit 
 [role="lead"]
 Sie können die Schnittstelle ONTAP System Manager _classic_ mit ONTAP 9.7 oder einer älteren Version verwenden, um einen traphost (SNMP Manager) zum Empfangen von SNMP-Benachrichtigungen (SNMP Trap Protocol Data Units) hinzuzufügen, wenn Traps im Cluster erzeugt werden.
 
+.Bevor Sie beginnen
 IPv6 muss auf dem Cluster aktiviert sein, wenn Sie SNMP-Traphosts mit IPv6-Adressen konfigurieren.
 
+.Über diese Aufgabe
 SNMP- und SNMP-Traps sind standardmäßig aktiviert. Der technische Bericht TR-4220 zur SNMP-Unterstützung enthält Listen aller Standardereignisse, die durch SNMP-Traps unterstützt werden.
 
 http://www.netapp.com/us/media/tr-4220.pdf["Technischer Bericht von NetApp 4220: SNMP-Support in Data ONTAP"^]
@@ -29,6 +31,6 @@ Die IP-Adresse eines SNMP traphosts kann IPv4 oder IPv6 sein.
 +
 image::../media/snmp_add_traphost.gif[Dieses Bild zeigt das Dialogfeld SNMP-Einstellungen bearbeiten,Traphosts tab,in which the traphost status "enabled" is checked and the example traphost IP address "192.0.2.0" is entered.]
 
-. Um einen anderen traphost hinzuzufügen, wiederholen Sie den Vorgang ,Schritt 2 Und ,Schritt 3.
+. Um einen anderen traphost hinzuzufügen, wiederholen Sie den Vorgang <<step2-verify-enable-traps,Schritt 2>> Und <<step3-enter-traphost-ip,Schritt 3>>.
 . Wenn Sie das Hinzufügen von Traphosts abgeschlossen haben, klicken Sie im Dialogfeld *SNMP-Einstellungen bearbeiten* auf *OK*.
 

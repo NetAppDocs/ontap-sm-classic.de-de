@@ -13,8 +13,10 @@ summary: Ab System Manager 9.6 können Sie die Eigenschaften eines vorhandenen F
 [role="lead"]
 Ab System Manager 9.6 können Sie die Eigenschaften eines vorhandenen FlexGroup-Volumes bearbeiten.
 
+.Bevor Sie beginnen
 Das FlexGroup Volume muss online sein.
 
+.Über diese Aufgabe
 FabricPool FlexGroup Volumes können unter folgenden Bedingungen erweitert werden:
 
 * Ein FabricPool FlexGroup Volume kann nur mit FabricPool Aggregaten erweitert werden.

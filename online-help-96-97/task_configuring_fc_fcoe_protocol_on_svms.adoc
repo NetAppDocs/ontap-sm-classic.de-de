@@ -50,6 +50,7 @@ Sie können nur den LIF-Namen und den Home-Port ändern. Sie müssen sicherstell
 . Klicken Sie Auf *Absenden & Fortfahren*.
 
 
+.Ergebnisse
 Die Daten-LIFs und Portsätze werden mit der angegebenen Konfiguration erstellt. Die LIFs sind entsprechend auf die Portsätze verteilt. Der FCP-Service wird gestartet, wenn alle LIFs erfolgreich für mindestens ein Protokoll erstellt wurden.
 
 Wenn die LIF-Erstellung fehlschlägt, können Sie die LIFs erstellen und den FCP-Service über das FC/FCoE-Fenster starten.

@@ -17,7 +17,7 @@ image::../media/peering_workflow.gif[Peering-Workflow]
 
 
 
-== Voraussetzungen für Cluster-Peering
+== [[Prerequisites-Peering, Voraussetzungen für Cluster Peering]] Voraussetzungen für Cluster-Peering
 
 Bevor Sie Cluster-Peering einrichten, sollten Sie bestätigen, dass Konnektivität, Port, IP-Adresse, Subnetz, Firewall, Und die Anforderungen für die Cluster-Benennung erfüllen.
 
@@ -100,7 +100,7 @@ Sie können eine authentifizierte Cluster-Peer-Beziehung erstellen, um Cluster z
 .Bevor Sie beginnen
 * Sie müssen die Anforderungen zur Durchführung dieser Aufgabe geprüft und erfüllt haben.
 +
-,Voraussetzungen für Cluster-Peering
+<<prerequisites-peering,Voraussetzungen für Cluster-Peering>>
 
 * Sie müssen logische Schnittstellen (LIFs) zwischen Clustern erstellt haben.
 * Sie sollten beachten, welche Version von ONTAP für jedes Cluster ausgeführt wird.
@@ -167,6 +167,7 @@ Sie sollten die SVM-Details im SVM-Peering-Fenster angeben, um den Peering-Proze
 
 Das SVM-Peering ermöglicht Ihnen die Einrichtung einer Peer-Beziehung zwischen zwei Storage Virtual Machines (SVMs) zur Datensicherung.
 
+.Bevor Sie beginnen
 Sie müssen eine Peer-Beziehung zwischen den Clustern erstellt haben, in denen die SVMs, die Sie Peer-to-Peer-residieren möchten.
 
 .Über diese Aufgabe

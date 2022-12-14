@@ -15,6 +15,7 @@ Sie können die Schnittstelle ONTAP System Manager _classic_ mit ONTAP 9.7 oder 
 
 Der SNMPv3-Benutzer kann SNMP-Dienstprogramme über den traphost (SNMP Manager) mit den von Ihnen angegebenen Authentifizierungs- und Datenschutzeinstellungen ausführen. SNMPv3 bietet erweiterte Sicherheit durch Nutzung von Passphrases und Verschlüsselung.
 
+.Über diese Aufgabe
 Wenn Sie einen SNMPv3-Benutzer auf Cluster-Ebene hinzufügen, kann dieser Benutzer über alle LIFs, auf die die Firewall-Richtlinie „`mgmt`“ angewendet wurde, auf das Cluster zugreifen.
 
 .Schritte

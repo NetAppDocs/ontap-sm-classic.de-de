@@ -13,6 +13,7 @@ summary: Falls das Quell-Volume nicht verfügbar ist, müssen Sie sicherstellen,
 [role="lead"]
 Falls das Quell-Volume nicht verfügbar ist, müssen Sie sicherstellen, dass das Quell-Volume offline ist, und dann das Ziel-Volume identifizieren, das für den Datenzugriff aktiviert werden muss.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *source* ausführen.
 
 .Schritte

@@ -35,6 +35,7 @@ Wenn sich der Cluster in einem gemischten Versionszustand befindet, können Sie 
 * Das Aggregat darf keine Array-LUNs enthalten.
 
 
+.Über diese Aufgabe
 Es müssen plattformspezifische und Workload-spezifische Best Practices für die Größe und Konfiguration von Flash Pool für Aggregate der SSD-Klasse bekannt sein.
 
 .Schritte
@@ -84,6 +85,7 @@ Für gespiegelte Aggregate wird ein Dialogfeld *Cache hinzufügen* angezeigt, in
 . Klicken Sie im Dialogfeld *Cache hinzufügen* auf *Ja*.
 
 
+.Ergebnisse
 Die Cache-Platten werden dem ausgewählten Aggregat hinzugefügt.
 
 
@@ -126,6 +128,7 @@ Bei gespiegelten Aggregaten wird ein Dialogfeld „Cache hinzufügen“ mit den 
 . Klicken Sie im Dialogfeld *Cache hinzufügen* auf *Ja*.
 
 
+.Ergebnisse
 Die Cache-Festplatten werden dem ausgewählten Flash Pool Aggregat hinzugefügt.
 
 *Verwandte Informationen*

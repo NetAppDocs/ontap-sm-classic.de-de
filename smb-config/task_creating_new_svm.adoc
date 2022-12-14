@@ -136,4 +136,5 @@ Der DNS-Administrator muss den CIFS-Servernamen und die IP-Adresse der Daten-LIF
 
 
 
+.Ergebnisse
 Eine neue SVM wird mit einem CIFS-Server erstellt, der ein gemeinsam genutztes neues Volume enthält.

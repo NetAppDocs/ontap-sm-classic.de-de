@@ -40,6 +40,7 @@ Sie müssen stattdessen die Befehlszeilenschnittstelle (CLI) verwenden.
 
 Wenn Sie die Broadcast-Domäne nicht mehr benötigen, können Sie eine Broadcast-Domäne mit System Manager löschen.
 
+.Bevor Sie beginnen
 Der Broadcast-Domäne, die Sie löschen möchten, dürfen keine Subnetze zugeordnet werden.
 
 .Über diese Aufgabe

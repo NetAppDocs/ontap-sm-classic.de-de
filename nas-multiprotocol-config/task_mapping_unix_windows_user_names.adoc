@@ -13,6 +13,7 @@ summary: Wenn Ihre Site sowohl Windows- als auch UNIX-Benutzerkonten umfasst, so
 [role="lead"]
 Wenn Ihre Site sowohl Windows- als auch UNIX-Benutzerkonten umfasst, sollten Sie die Namenszuordnung verwenden, um sicherzustellen, dass Windows-Benutzer mit UNIX-Dateiberechtigungen auf Dateien zugreifen können und dass UNIX-Benutzer mit NTFS-Dateiberechtigungen auf Dateien zugreifen können. Das NamensMapping kann eine beliebige Kombination von impliziten Zuordnungen, Konvertierungsregeln und Standardbenutzern umfassen.
 
+.Über diese Aufgabe
 Sie sollten dieses Verfahren nur verwenden, wenn auf Ihrer Site Windows- und UNIX-Benutzerkonten vorhanden sind, die nicht implizit zugeordnet werden können, d. h. wenn die Kleinbuchstaben der einzelnen Windows-Benutzernamen mit dem UNIX-Benutzernamen übereinstimmen. Dies kann mit NIS, LDAP oder lokalen Benutzern erfolgen. Wenn Sie zwei Gruppen von Benutzern haben, die nicht übereinstimmen, sollten Sie die Namenszuordnung konfigurieren.
 
 .Schritte

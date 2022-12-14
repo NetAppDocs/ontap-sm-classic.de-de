@@ -13,8 +13,10 @@ summary: Wenn der Windows-Host zum ersten Mal auf eine neue LUN zugreift, hat si
 [role="lead"]
 Wenn der Windows-Host zum ersten Mal auf eine neue LUN zugreift, hat sie keine Partition oder kein Dateisystem. Sie müssen die LUN initialisieren und optional mit einem Dateisystem formatieren.
 
+.Bevor Sie beginnen
 Die LUN muss vom Windows-Host erkannt worden sein.
 
+.Über diese Aufgabe
 LUNs werden in der Windows-Festplattenverwaltung als Festplatten angezeigt.
 
 Sie können den Datenträger als Basislaufwerk mit einer GPT- oder MBR-Partitionstabelle initialisieren.

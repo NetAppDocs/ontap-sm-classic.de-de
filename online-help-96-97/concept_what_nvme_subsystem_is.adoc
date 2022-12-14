@@ -83,6 +83,7 @@ Die Details zum NVMe-Subsystem werden aktualisiert und das Fenster „NVMe-Subsy
 
 Mit System Manager kann ein NVMe-Subsystem aus einem Cluster gelöscht werden.
 
+.Über diese Aufgabe
 Wenn Sie ein NVMe-Subsystem löschen, treten die folgenden Aktionen auf:
 
 * Wenn Hosts im NVMe-Subsystem konfiguriert sind, werden die zugeordneten Hosts entfernt.
@@ -108,8 +109,8 @@ Das NVMe-Subsystem wird aus dem Cluster gelöscht und das NVMe-Subsystem-Fenster
 
 Im Fenster NVMe-Subsysteme wird standardmäßig eine Bestandsliste der NVMe-Subsysteme in einem Cluster angezeigt. Sie können die Liste filtern, um nur Subsysteme anzuzeigen, die für eine SVM spezifisch sind. Im Fenster können Sie auch NVMe-Subsysteme erstellen, bearbeiten oder löschen. Sie können auf dieses Fenster zugreifen, indem Sie *Storage* > *NVMe* > *Subsysteme* wählen.
 
-* ,NVMe-Subsystems
-* ,Symbolleiste
+* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,NVMe-Subsystems>>
+* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Symbolleiste>>
 
 
 

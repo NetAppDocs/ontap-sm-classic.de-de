@@ -13,6 +13,7 @@ summary: Ab System Manager 9.6 können Sie eine ungeplante Umschaltung eines Met
 [role="lead"]
 Ab System Manager 9.6 können Sie eine ungeplante Umschaltung eines MetroCluster Standorts initiieren. Dieser Vorgang ist nach einem Ausfall oder einem Ausfall hilfreich.
 
+.Bevor Sie beginnen
 Die MetroCluster wird im normalen Betrieb ausgeführt. Die Nodes im lokalen Cluster (Standort A) sind jedoch aktiv, die Nodes im Remote-Cluster (Standort B) sind jedoch nicht verfügbar.
 
 .Schritte
@@ -42,7 +43,7 @@ Es wird eine Warnmeldung angezeigt, die Sie darauf hinweist, dass der Umschaltvo
 +
 [NOTE]
 ====
-Wie in Schritt angegeben ,1, Standort B muss eigentlich ausgefallen sein und nicht nur unverbunden. Zudem sollte berücksichtigt werden, dass der Switchover-Vorgang zu Datenverlust führen kann.
+Wie in Schritt angegeben <<STEP_EBC0FFC2349B415AB24156AAAD3F0386,1>>, Standort B muss eigentlich ausgefallen sein und nicht nur unverbunden. Zudem sollte berücksichtigt werden, dass der Switchover-Vorgang zu Datenverlust führen kann.
 
 ====
 . Wenn Sie fortfahren möchten, stellen Sie sicher, dass das Kontrollkästchen aktiviert ist, und klicken Sie dann auf *Ja*.

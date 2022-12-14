@@ -13,6 +13,7 @@ summary: Nachdem Sie den Wiederherstellungsvorgang vom SnapVault Backup-Ziel-Vol
 [role="lead"]
 Nachdem Sie den Wiederherstellungsvorgang vom SnapVault Backup-Ziel-Volume durchgeführt haben, müssen Sie den Status des Wiederherstellungsvorgangs im Quell-Cluster überprüfen.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *source* ausführen.
 
 .Schritte

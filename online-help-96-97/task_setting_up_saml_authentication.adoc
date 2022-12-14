@@ -32,6 +32,7 @@ Lesen Sie die Dokumentation, die von der von Ihnen konfigurierten IdP bereitgest
 * Sie müssen die URI des IdP haben.
 
 
+.Über diese Aufgabe
 Die mit System Manager validierten IDPs sind Shibboleth und Active Directory Federation Services.
 
 [NOTE]
@@ -73,6 +74,7 @@ Wenn der Benutzer nach der Konfiguration des IdP versucht, sich unter Verwendung
 
 Sie können die SAML-Authentifizierung (Security Assertion Markup Language) deaktivieren, wenn Sie den Remote-Zugriff auf System Manager deaktivieren oder die SAML-Konfiguration bearbeiten möchten.
 
+.Über diese Aufgabe
 Durch die Deaktivierung der SAML-Authentifizierung wird die SAML-Konfiguration nicht gelöscht.
 
 .Schritte

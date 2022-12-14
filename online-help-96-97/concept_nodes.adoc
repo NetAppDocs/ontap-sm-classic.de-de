@@ -17,8 +17,10 @@ Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) können S
 
 Sie können mit System Manager die ComplexClock-Zeit auf die aktuelle Cluster-Zeit initialisieren. Sie müssen die ComplianceClock-Zeit initialisieren, um SnapLock-Aggregate zu erstellen.
 
+.Bevor Sie beginnen
 Die SnapLock Lizenz muss installiert sein.
 
+.Über diese Aufgabe
 Sie können die Zeit der ComplexClock nach der Initialisierung nicht ändern oder beenden.
 
 .Schritte

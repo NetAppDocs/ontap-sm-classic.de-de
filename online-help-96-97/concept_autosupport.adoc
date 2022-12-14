@@ -34,6 +34,7 @@ Sie können bis zu fünf E-Mail-Adressen der Hostnamen hinzufügen.
 
 Sie können die AutoSupport-Einstellungen in Ihrem Storage-System mit System Manager aktivieren oder deaktivieren. Mithilfe von AutoSupport-Meldungen können Sie den Zustand Ihres Storage-Systems überwachen oder Benachrichtigungen an den technischen Support und die interne Support-Abteilung senden.
 
+.Über diese Aufgabe
 Die Option AutoSupport ist standardmäßig aktiviert.
 
 .Schritte

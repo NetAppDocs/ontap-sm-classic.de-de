@@ -13,8 +13,10 @@ summary: Bevor Sie die LUN verwenden, sollten Sie überprüfen, ob der Host Date
 [role="lead"]
 Bevor Sie die LUN verwenden, sollten Sie überprüfen, ob der Host Daten auf die LUN schreiben und sie zurücklesen kann.
 
+.Bevor Sie beginnen
 Die LUN muss initialisiert und mit einem Dateisystem formatiert werden.
 
+.Über diese Aufgabe
 Wenn der Storage-Cluster-Node, auf dem die LUN erstellt wird, einen Failover auf den Partner-Node durchführen kann, sollten Sie die Daten beim Failover des Node überprüfen. Dieser Test ist möglicherweise nicht möglich, wenn das Storage-Cluster in Produktion verwendet wird.
 
 Wenn einer der Tests fehlschlägt, sollten Sie überprüfen, ob der FC-Service ausgeführt wird und die FC-Pfade zur LUN überprüfen.

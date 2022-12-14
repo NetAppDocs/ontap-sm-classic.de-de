@@ -13,6 +13,7 @@ summary: Sie sollten den Status der SnapMirror Beziehungen in regelmäßigen Abs
 [role="lead"]
 Sie sollten den Status der SnapMirror Beziehungen in regelmäßigen Abständen überwachen, um zu gewährleisten, dass die SnapMirror Datentransfers wie im angegebenen Zeitplan stattfinden.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *Ziel* ausführen.
 
 .Schritte

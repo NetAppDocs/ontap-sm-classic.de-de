@@ -13,8 +13,10 @@ summary: 'Sie können System Manager classic (verfügbar ab ONTAP 9.7) verwenden
 [role="lead"]
 Sie können System Manager classic (verfügbar ab ONTAP 9.7) verwenden, um ein FlexClone Volume vom übergeordneten Volume zu trennen. Nach der Teilung wird das FlexClone Volume zu einem normalen FlexVol Volume. Zudem wird der Festplattenspeicher des übergeordneten Volume genutzt, und die Storage-Effizienz bleibt erhalten.
 
+.Bevor Sie beginnen
 Das FlexClone Volume muss online sein.
 
+.Über diese Aufgabe
 Bei Systemen, die _nicht_ AFF Systeme sind, wird durch den Klon-Splitting alle vorhandenen Snapshot Kopien des Klons gelöscht. Die für SnapMirror Updates erforderlichen Snapshot Kopien werden ebenfalls gelöscht. Daher können nachfolgende SnapMirror Updates fehlschlagen.
 
 Sie können den Klon-Splitting-Vorgang unterbrechen, wenn Sie einen anderen Vorgang auf dem Volume ausführen müssen. Sie können den Klon-Splitting-Vorgang fortsetzen, nachdem der andere Vorgang abgeschlossen ist.

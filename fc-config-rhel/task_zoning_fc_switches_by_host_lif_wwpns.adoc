@@ -18,6 +18,7 @@ Beim Zoning von FC-Switches werden die Hosts mit dem Storage verbunden und die A
 * Sie müssen den WWPN der einzelnen Host-Initiator-Ports und jeder FC-LIF für die Storage Virtual Machine (SVM) kennen, in der Sie die LUN erstellt haben.
 
 
+.Über diese Aufgabe
 Informationen zum Zoning der Switches finden Sie in der Dokumentation des Switch-Anbieters.
 
 Sie müssen die Zone nach WWPN und nicht nach physischem Port angeben. Jeder Initiator-Port muss sich in einer separaten Zone mit allen entsprechenden Ziel-Ports befinden.

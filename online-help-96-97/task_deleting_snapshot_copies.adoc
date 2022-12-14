@@ -13,6 +13,7 @@ summary: Sie können eine Snapshot-Kopie löschen, um Festplattenspeicher zu spa
 [role="lead"]
 Sie können eine Snapshot-Kopie löschen, um Festplattenspeicher zu sparen oder freien Speicherplatz freizugeben, indem Sie ONTAP System Manager classic verwenden (verfügbar in ONTAP 9.7 und früher). Sie können außerdem eine Snapshot Kopie löschen, wenn die Snapshot Kopie nicht mehr erforderlich ist.
 
+.Bevor Sie beginnen
 Wenn Sie eine Snapshot Kopie löschen möchten, die besetzt oder gesperrt ist, müssen Sie die Snapshot Kopie aus der Applikation, die die Snapshot Kopie verwendet hat, freigegeben haben.
 
 .Über diese Aufgabe

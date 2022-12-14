@@ -15,8 +15,10 @@ Sie können Nodes für die LUN-Berichterstellung hinzufügen, um optimierte LUN-
 
 Wenn das zu verschiebende Volume LUNs enthält und sich das Zielaggregat auf einem anderen HA-Paar befindet, fügt ONTAP der Liste Selective LUN Map Reporting Nodes automatisch ein HA-Paar hinzu
 
+.Bevor Sie beginnen
 Es müssen zwei LIFs konfiguriert werden: Eine LIF auf dem Ziel-Node und die andere LIF auf dem HA-Partner des Ziel-Node.
 
+.Über diese Aufgabe
 Diese Vorgehensweise ist nur erforderlich, wenn Sie ein Volume von einem HA-Paar auf ein anderes HA-Paar verschieben. Wenn Sie ein Volume zu einem anderen Node desselben HA-Paares verschieben – beispielsweise wenn Sie ein 2-Node-Cluster oder eine MetroCluster-Konfiguration haben – können Sie diesen Vorgang überspringen.
 
 .Schritte

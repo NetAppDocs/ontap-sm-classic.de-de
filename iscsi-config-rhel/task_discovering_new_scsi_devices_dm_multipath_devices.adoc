@@ -13,6 +13,7 @@ summary: 'LUNs auf dem Storage-Cluster werden dem Linux-Host als SCSI-Geräte an
 [role="lead"]
 LUNs auf dem Storage-Cluster werden dem Linux-Host als SCSI-Geräte angezeigt. Bei diesen handelt es sich um I/O-Pfade, die DM-Multipath-Aggregate zu einem neuen Gerät, dem sogenannten Multipath-Gerät, darstellen. Der Host erkennt nicht automatisch neue SCSI-Geräte (LUNs), die Sie Ihrem System hinzufügen. Sie müssen sie manuell erneut scannen, um sie zu entdecken.
 
+.Bevor Sie beginnen
 Sie müssen eine Kopie des besitzen `rescan` Skript, das im ist `sg3_utils` Paket, das Teil Ihrer Linux-Betriebssystemverteilung ist.
 
 .Schritte

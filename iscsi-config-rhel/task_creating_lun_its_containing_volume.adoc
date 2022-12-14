@@ -26,6 +26,7 @@ LUNs sind einem Teil der Initiatoren in der Initiatorgruppe zugeordnet, um die A
 * Beim Verschieben eines Volumes oder einer LUN müssen Sie die Liste der SLM-Reporting-Nodes vor dem Verschieben ändern.
 
 
+.Über diese Aufgabe
 Wenn Ihre Organisation eine Namenskonvention hat, sollten Sie Namen für die LUN, das Volume usw. verwenden, die zu Ihrem Übereinkommen passen. Andernfalls sollten Sie die Standardnamen akzeptieren.
 
 .Schritte

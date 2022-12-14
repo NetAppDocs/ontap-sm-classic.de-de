@@ -13,6 +13,7 @@ summary: 'Sie können Volume-Eigenschaften wie den Volume-Namen, den Sicherheits
 [role="lead"]
 Mit ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) können Volume-Eigenschaften wie Volume-Name, Sicherheitsstil, fraktionale Reserve und Speicherplatzgarantie geändert werden. Sie können die Einstellungen für die Storage-Effizienz (Deduplizierungszeitplan, Deduplizierungsrichtlinie und Komprimierung) und die Einstellungen zur Speicherplatzrückgewinnung ändern.
 
+.Bevor Sie beginnen
 Zur Aktivierung der Volume-Verschlüsselung müssen Sie die Volume-Verschlüsselungslizenz mit System Manager installiert haben, und Sie müssen „`Key-Manager Setup`“ über die Befehlszeilenschnittstelle (CLI) aktiviert haben. Sie müssen Ihren Webbrowser aktualisieren, nachdem Sie „`key-Manager Setup`“ aktiviert haben.
 
 .Über diese Aufgabe

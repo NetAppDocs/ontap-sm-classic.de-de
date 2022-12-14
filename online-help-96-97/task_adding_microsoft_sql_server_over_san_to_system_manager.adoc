@@ -13,6 +13,7 @@ summary: Sie können die Registerkarte Erweitert verwenden, um System Manager ei
 [role="lead"]
 Sie können die Registerkarte Erweitert verwenden, um ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) eine Instanz von Microsoft SQL Server über SAN hinzuzufügen.
 
+.Über diese Aufgabe
 Im folgenden Verfahren wird beschrieben, wie Sie eine *Microsoft SQL Server*-Instanz über SAN zu System Manager hinzufügen. Sie können SMB nur als Exportprotokoll auswählen, wenn das Cluster für CIFS lizenziert ist. Dieses muss auf der Storage Virtual Machine (SVM) konfiguriert werden.
 
 .Schritte
@@ -50,4 +51,5 @@ Legen Sie SAN fest
 . Klicken Sie Auf *Anwendung Hinzufügen*
 
 
+.Ergebnisse
 Die Microsoft SQL Server-Instanz über SAN wird zu System Manager hinzugefügt.

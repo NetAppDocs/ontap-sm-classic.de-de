@@ -190,4 +190,5 @@ Wenn auf dem ausgewählten Cluster eine Version der ONTAP Software vor ONTAP 9.3
 . Überprüfen Sie, ob das erstellte Volume in der Liste der Volumes im Fenster *Volume* enthalten ist.
 
 
+.Ergebnisse
 Das Volume wird mit Unix-Stil Sicherheit und UNIX 700 „`read write execute`“ Berechtigungen für den Eigentümer erstellt.

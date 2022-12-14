@@ -30,6 +30,7 @@ Dies ist der Fall, wenn Sie dieses Verfahren nicht zur Erstellung der SVM bei de
 
 
 
+.Über diese Aufgabe
 Die Reihenfolge, in der Sie CIFS und NFS konfigurieren, wirkt sich auf die angezeigten Dialogfelder aus. In dieser Prozedur müssen Sie zunächst CIFS und NFS konfigurieren.
 
 .Schritte

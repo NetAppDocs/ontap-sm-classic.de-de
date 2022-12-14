@@ -13,6 +13,7 @@ summary: Nachdem die Controller-Module physisch installiert sind, können Sie je
 [role="lead"]
 Nachdem die Controller-Module physisch installiert sind, können Sie jedes einzelne einschalten und seine Node-Management-LIF konfigurieren.
 
+.Über diese Aufgabe
 Sie müssen dieses Verfahren auf beiden Knoten durchführen.
 
 .Schritte

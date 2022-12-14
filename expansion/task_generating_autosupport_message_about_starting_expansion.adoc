@@ -13,6 +13,7 @@ summary: Unmittelbar bevor Sie ein Cluster erweitern, sollten Sie eine AutoSuppo
 [role="lead"]
 Unmittelbar bevor Sie ein Cluster erweitern, sollten Sie eine AutoSupport-Meldung senden, um anzugeben, dass Sie im Begriff sind, den Erweiterungsprozess zu starten. Die Nachricht informiert interne und externe Support-Mitarbeiter über die Erweiterung und dient als Zeitstempel für jegliche spätere Fehlerbehebung.
 
+.Bevor Sie beginnen
 AutoSupport muss eingerichtet sein.
 
 .Schritte

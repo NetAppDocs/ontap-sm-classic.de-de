@@ -13,8 +13,10 @@ summary: Mithilfe des Fensters „Speicher“ können Sie die Speicherempfehlung
 [role="lead"]
 Sie können die Storage-Empfehlungen zum Erstellen von Aggregaten mithilfe des Storage-Fensters in ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) prüfen.
 
+.Bevor Sie beginnen
 Sie müssen das Cluster, das Netzwerk und die Support-Details einrichten.
 
+.Über diese Aufgabe
 Sie können Daten-Aggregate gemäß den Storage-Empfehlungen erstellen oder diesen Schritt überspringen und Daten-Aggregate zu einem späteren Zeitpunkt mit System Manager erstellen.
 
 

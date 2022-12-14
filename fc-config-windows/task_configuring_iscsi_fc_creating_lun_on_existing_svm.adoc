@@ -13,6 +13,7 @@ summary: 'Sie können FC auf einer vorhandenen Storage Virtual Machine (SVM) kon
 [role="lead"]
 Sie können FC auf einer vorhandenen Storage Virtual Machine (SVM) konfigurieren und mit einem einzigen Assistenten eine LUN und das zugehörige Volume erstellen. Das FC-Protokoll muss bereits aktiviert, jedoch nicht auf der SVM konfiguriert sein. Diese Informationen gelten für SVMs, für die Sie mehrere Protokolle konfigurieren, jedoch noch nicht FC.
 
+.Bevor Sie beginnen
 Ihre FC-Fabric muss konfiguriert sein und die gewünschten physischen Ports müssen mit der Fabric verbunden werden.
 
 .Schritte

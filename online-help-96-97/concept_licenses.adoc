@@ -25,6 +25,7 @@ Weitere Informationen zum Verwalten von Lizenzen mit ONTAP 9.8 und höher finden
 * https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["Aktivieren Sie neue Funktionen durch Hinzufügen von Lizenzschlüssel"^]
 
 
+.Bevor Sie beginnen
 Die Softwarelizenz, die Sie löschen möchten, darf nicht von einem Dienst oder einer Funktion verwendet werden.
 
 .Schritte
@@ -55,6 +56,7 @@ Sie können jeweils nur ein Lizenzpaket löschen.
 . Aktivieren Sie das Bestätigungsfeld, und klicken Sie dann auf *Löschen*.
 
 
+.Ergebnisse
 Die Softwarelizenz wird aus Ihrem Speichersystem gelöscht. Die gelöschte Lizenz wird auch aus der Liste der Lizenzen im Fenster Lizenzen entfernt.
 
 

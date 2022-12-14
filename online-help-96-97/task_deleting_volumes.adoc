@@ -13,6 +13,7 @@ summary: Sie können mit System Manager ein FlexVol Volume löschen, wenn Sie ni
 [role="lead"]
 Sie können mit ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) ein FlexVol Volume löschen, wenn Sie keine Daten mehr benötigen, die ein Volume enthält, oder die Daten, die ein Volume enthält, an einen anderen Speicherort kopiert haben. Wenn Sie ein Volume löschen, werden alle Daten des Volume zerstört, und diese Daten können nicht wiederhergestellt werden.
 
+.Bevor Sie beginnen
 Bevor Sie ein FlexVol Volume löschen, müssen die folgenden Bedingungen vorliegen:
 
 * Das Volume muss abgehängt werden und sich im Offline-Zustand befinden.
@@ -20,6 +21,7 @@ Bevor Sie ein FlexVol Volume löschen, müssen die folgenden Bedingungen vorlieg
 * Die SnapMirror Beziehungen müssen gelöscht werden, wenn sich das Volume in einer oder mehreren SnapMirror Beziehungen befindet.
 
 
+.Über diese Aufgabe
 Beim Löschen eines FlexVol Volumes sollten Sie die folgenden Einschränkungen beachten:
 
 * Sie können ein komplettes SnapLock Enterprise Volume oder eine Datei in einem SnapLock Enterprise Volume löschen. Es ist jedoch nicht möglich, nur die Daten einer Datei in einem SnapLock Enterprise Volume zu löschen.

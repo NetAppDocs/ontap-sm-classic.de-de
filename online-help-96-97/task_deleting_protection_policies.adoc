@@ -13,6 +13,7 @@ summary: Eine Sicherungsrichtlinie können Sie mit System Manager löschen, wenn
 [role="lead"]
 Eine Sicherungsrichtlinie können Sie mit System Manager löschen, wenn Sie die Richtlinie nicht mehr verwenden möchten.
 
+.Über diese Aufgabe
 Die Spiegelrichtlinien oder Vault-Richtlinien auf Cluster-Ebene werden nicht angezeigt.
 
 .Schritte

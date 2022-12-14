@@ -13,6 +13,7 @@ summary: Sie müssen das SnapVault Backup-Ziel-Volume identifizieren, von dem Si
 [role="lead"]
 Sie müssen das SnapVault Backup-Ziel-Volume identifizieren, von dem Sie Daten wiederherstellen möchten, wenn die Daten im Quell-Volume beschädigt sind oder verloren gehen.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe aus dem Cluster *source* ausführen.
 
 .Schritte

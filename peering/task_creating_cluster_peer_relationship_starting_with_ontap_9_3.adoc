@@ -13,6 +13,7 @@ summary: Sie können eine Cluster-Peer-Beziehung zwischen zwei Clustern erstelle
 [role="lead"]
 Ab ONTAP 9.3 können Sie bis ONTAP 9.7 die ONTAP System Manager _classic_ Schnittstelle verwenden, um eine Cluster-Peer-Beziehung zwischen zwei Clustern zu erstellen. Dazu wird eine vom System generierte Passphrase und die IP-Adressen der Intercluster-LIFs des Remote-Clusters bereitgestellt.
 
+.Über diese Aufgabe
 Ab ONTAP 9.6 ist die Cluster-Peering-Verschlüsselung bei allen neu erstellten Cluster-Peering-Beziehungen standardmäßig aktiviert. Die Cluster-Peering-Verschlüsselung muss manuell aktiviert werden, damit die vor dem Upgrade auf ONTAP 9.6 erstellte Peering-Beziehung Peering durchgeführt wird. Die Cluster-Peering-Verschlüsselung ist nicht für Cluster verfügbar, auf denen ONTAP 9.5 oder eine frühere Version ausgeführt wird. Daher müssen beide Cluster in der Peering-Beziehung ONTAP 9.6 ausführen, um die Verschlüsselung von Cluster-Peering zu ermöglichen.
 
 Die Cluster-Peering-Verschlüsselung verwendet die Transport Security Layer (TLS) zum sicheren Cluster-übergreifenden Peering von Kommunikation für ONTAP Funktionen wie SnapMirror und FlexCache.
@@ -40,7 +41,7 @@ image::../media/generate_passphrase.gif[Dieses Bild wird durch den umgebenden Te
 .. Klicken Sie Auf *Fertig*.
 
 
-. Geben Sie im Quellcluster die generierte Passphrase ein, die Sie in erhalten haben ,Schritt 2.
+. Geben Sie im Quellcluster die generierte Passphrase ein, die Sie in erhalten haben <<step2-passphrase,Schritt 2>>.
 . Klicken Sie Auf *Cluster Peering Initiieren*.
 +
 Die Cluster-Peer-Beziehung wurde erfolgreich erstellt.

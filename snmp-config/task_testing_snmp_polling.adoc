@@ -13,6 +13,7 @@ summary: Nachdem Sie SNMP konfiguriert haben, sollten Sie überprüfen, dass Sie
 [role="lead"]
 Nachdem Sie SNMP konfiguriert haben, sollten Sie überprüfen, dass Sie den Cluster anfragen können.
 
+.Über diese Aufgabe
 Um einen Cluster abzufragen, müssen Sie einen Drittanbieter-Befehl wie verwenden `snmpwalk`.
 
 .Schritte

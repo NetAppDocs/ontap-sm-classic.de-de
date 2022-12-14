@@ -13,8 +13,10 @@ summary: Wenn das Quell-Volume online ist, müssen Sie die Daten zwischen dem Zi
 [role="lead"]
 Wenn das Quell-Volume online ist, müssen Sie die Daten zwischen dem Ziel-Volume und dem Quell-Volume neu synchronisieren, um die neuesten Daten vom Ziel-Volume zu replizieren.
 
+.Bevor Sie beginnen
 Das Quell-Volume muss online sein.
 
+.Über diese Aufgabe
 Sie müssen die Aufgabe aus dem Cluster *Ziel* ausführen.
 
 Die folgende Abbildung zeigt, dass die Daten vom aktiven Ziel-Volume auf das schreibgeschützte Quell-Volume repliziert werden:

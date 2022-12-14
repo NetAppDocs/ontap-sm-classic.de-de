@@ -21,6 +21,7 @@ Wenn das zu konfigurierende Protokoll auf der SVM nicht aktiviert ist, können S
 * Zur Konfiguration des CIFS-Protokolls müssen die Anmeldeinformationen für Active Directory, Organisationseinheit und Administratorkonto vorhanden sein.
 
 
+.Über diese Aufgabe
 SnapLock Aggregate werden nicht für die automatische Erstellung von Volumes in Betracht gezogen.
 
 .Schritte
@@ -110,4 +111,5 @@ Standardmäßig ist dieser Parameter auf CN=Computer eingestellt.
 . Klicken Sie Auf *Absenden & Fortfahren*.
 
 
+.Ergebnisse
 Der CIFS-Server und die NIS-Domäne werden mit der angegebenen Konfiguration konfiguriert und die Daten-LIFs werden erstellt. Standardmäßig haben Daten-LIFs Managementzugriff. Sie können die Konfigurationsdetails auf der Zusammenfassungsseite anzeigen.

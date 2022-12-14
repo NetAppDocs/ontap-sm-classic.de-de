@@ -19,6 +19,7 @@ Mit ONTAP System Manager classic (verfügbar unter ONTAP 9.7 und älter) können
 
 Sie können mit System Manager ein Cluster-Benutzerkonto hinzufügen und eine Anmeldemethode für den Zugriff auf das Storage-System angeben.
 
+.Über diese Aufgabe
 In Clustern, auf denen die SAML-Authentifizierung aktiviert ist, können Sie für eine bestimmte Anwendung entweder SAML-Authentifizierung oder passwortbasierte Authentifizierung hinzufügen oder beide Authentifizierungstypen hinzufügen.
 
 .Schritte

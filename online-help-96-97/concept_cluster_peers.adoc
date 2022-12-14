@@ -76,7 +76,7 @@ Die erforderliche Mindestlänge der Passphrase beträgt acht Zeichen.
 +
 Die Passphrase wird sofort geändert. Es kann jedoch zu einer Verzögerung kommen, bevor der korrekte Authentifizierungsstatus angezeigt wird.
 
-. Melden Sie sich beim Remote-Cluster an, und führen Sie die Schritte aus ,1 Bis ,4 So ändern Sie die Passphrase im Remote-Cluster.
+. Melden Sie sich beim Remote-Cluster an, und führen Sie die Schritte aus <<STEP_52691237935644E3A8710F51CC2E3F81,1>> Bis <<STEP_1ABAF15926174E709CA59192E200ABE3,4>> So ändern Sie die Passphrase im Remote-Cluster.
 +
 Der Authentifizierungsstatus des lokalen Clusters wird als angezeigt `ok_and_offer` Bis Sie die Passphrase im Remote-Cluster ändern.
 
@@ -88,6 +88,7 @@ Der Authentifizierungsstatus des lokalen Clusters wird als angezeigt `ok_and_off
 
 Mit System Manager können Sie den IPspace und die für das Remote-Cluster konfigurierten logischen Schnittstellen (LIFs) ändern. Sie können neue Intercluster-IP-Adressen hinzufügen oder vorhandene IP-Adressen entfernen.
 
+.Bevor Sie beginnen
 Sie müssen mindestens eine Cluster-IP-Adresse haben, um die Cluster-Peer-Beziehung zu erstellen.
 
 .Schritte
@@ -116,6 +117,7 @@ Das Dialogfeld Peer-Netzwerkparameter bearbeiten wird angezeigt.
 
 Sie können den Peering-Verschlüsselungsstatus für das ausgewählte Cluster mit System Manager ändern.
 
+.Über diese Aufgabe
 Der Verschlüsselungsstatus kann aktiviert oder deaktiviert werden. Sie können den Status von aktiviert auf deaktiviert oder von deaktiviert auf aktiviert ändern, indem Sie *Verschlüsselung ändern* wählen.
 
 .Schritte
@@ -148,8 +150,8 @@ Wenn die Passphrase, die am lokalen Standort verwendet wird, nicht mit der Passp
 Wählen Sie eine der folgenden Optionen:
 
 +
-** *Erstellen Sie eine Passphrase*: Fahren Sie mit Schritt fort ,#STEP_1ABAF15926174E709CA59192E200ABE3.
-** *Bereits eine Passphrase*: Fahren Sie mit Schritt fort ,#STEP_2EFD8222431974811AD2260C3F31DC977.
+** *Erstellen Sie eine Passphrase*: Fahren Sie mit Schritt fort <<STEP_1ABAF15926174E709CA59192E200ABE3,#STEP_1ABAF15926174E709CA59192E200ABE3>>.
+** *Bereits eine Passphrase*: Fahren Sie mit Schritt fort <<STEP_2EFD822431974811AD2260C3F31DC977,#STEP_2EFD8222431974811AD2260C3F31DC977>>.
 
 
 . Wenn Sie *Passphrase generieren* wählen, füllen Sie die erforderlichen Felder aus:
@@ -191,7 +193,7 @@ Sie können mit System Manager eine Cluster-Peer-Beziehung löschen, wenn die Be
 . Klicken Sie Auf *Konfiguration* > *Cluster Peers*.
 . Wählen Sie den Cluster Peer aus, für den Sie die Beziehung löschen möchten, und klicken Sie dann auf *Löschen*.
 . Aktivieren Sie das Bestätigungsfeld, und klicken Sie dann auf *Löschen*.
-. Melden Sie sich beim Remote-Cluster an, und führen Sie die Schritte aus ,1 Bis ,3 Zum Löschen der Peer-Beziehung zwischen dem lokalen Cluster und dem Remote-Cluster.
+. Melden Sie sich beim Remote-Cluster an, und führen Sie die Schritte aus <<STEP_313E6AFE5C2B4D8C9E9723FAF1F8534A,1>> Bis <<STEP_24E41EC7F4E746D09897FC2DCBEC0E18,3>> Zum Löschen der Peer-Beziehung zwischen dem lokalen Cluster und dem Remote-Cluster.
 +
 Der Status der Peer-Beziehung wird als „`ungesund`“ angezeigt, bis die Beziehung sowohl aus dem lokalen Cluster als auch aus dem Remote-Cluster gelöscht wird.
 

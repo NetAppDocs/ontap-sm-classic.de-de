@@ -13,6 +13,7 @@ summary: 'Sie müssen der Standard-Exportrichtlinie eine Regel hinzufügen, dami
 [role="lead"]
 Sie müssen der Standard-Exportrichtlinie eine Regel hinzufügen, damit alle Clients über NFSv3 Zugriff haben. Ohne diese Regel wird allen NFS-Clients der Zugriff auf die Storage Virtual Machine (SVM) und ihre Volumes verweigert.
 
+.Über diese Aufgabe
 Sie sollten alle NFS-Zugriffe als Standard-Exportrichtlinie festlegen und den Zugriff auf einzelne Volumes später einschränken, indem Sie benutzerdefinierte Exportrichtlinien für individuelle Volumes erstellen.
 
 .Schritte
@@ -35,4 +36,5 @@ image::../media/export_rule_for_root_volume_multi.gif[Dieses Bild wird durch den
 
 
 
+.Ergebnisse
 NFSv3-Clients können jetzt auf alle Volumes zugreifen, die auf der SVM erstellt wurden.

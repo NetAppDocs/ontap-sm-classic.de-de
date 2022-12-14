@@ -13,6 +13,7 @@ summary: Der iSCSI-Software-Adapter erstellt die iSCSI-Verbindung auf dem ESX-Ho
 [role="lead"]
 Der iSCSI-Softwareadapter erstellt die iSCSI-Verbindung auf dem ESXi-Host. Sie ist in das Betriebssystem integriert, muss jedoch erst aktiviert sein, bevor sie verwendet werden kann.
 
+.Bevor Sie beginnen
 Auf Ihrer Workstation muss ein VMware vSphere Client installiert sein, oder Sie müssen Zugriff auf einen vSphere Web Client haben.
 
 .Schritte

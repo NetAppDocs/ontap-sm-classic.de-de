@@ -9249,4 +9249,9 @@
   <block id="1cea5f7ff46fdcaad82b7016abae2ceb" category="sidebar">SMB/CIFS-Konfiguration</block>
   <block id="8cadc76a323c196244af8dd4c3ad5543" category="sidebar">Laden Sie ein CIFS-Volume auf eine CIFS-fähige SVM ein</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">Administration der Cluster-Erweiterung</block>
+  <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">Ergebnisse</block>
+  <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[Prerequisites-Peering, Voraussetzungen für Cluster Peering]] Voraussetzungen für Cluster-Peering</block>
+  <block id="f6544266822afc00f9e28a38a852cab9" category="paragraph-title">Ergebnisliste für CIFS-Protokoll-Tracing</block>
+  <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">Ergebnisliste für NFS-Protokoll-Tracing</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Verwandte Informationen</block>
 </blocks>

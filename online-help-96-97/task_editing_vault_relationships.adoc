@@ -19,6 +19,7 @@ Sie können ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) verwenden, um
 
 Mit System Manager können Sie eine Vault-Beziehung bearbeiten, indem Sie eine vorhandene Richtlinie auswählen oder im Cluster einen Zeitplan festlegen oder eine neue Richtlinie oder einen neuen Zeitplan erstellen. Sie können jedoch die Parameter einer vorhandenen Richtlinie oder eines vorhandenen Zeitplans nicht bearbeiten.
 
+.Bevor Sie beginnen
 Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.
 
 .Schritte
@@ -109,6 +110,7 @@ xref:reference_protection_window.adoc[Sicherungsfenster]
 
 Sie können System Manager zum Initialisieren einer Vault-Beziehung verwenden, wenn Sie sie beim Erstellen der Beziehung noch nicht initialisiert haben. Vom Quell-FlexVol Volume zum FlexVol Ziel-Volume wird ein Basistransfer der Daten initiiert.
 
+.Bevor Sie beginnen
 Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.
 
 .Schritte
@@ -117,6 +119,7 @@ Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.
 . Klicken Sie im Fenster *Initialisieren* auf *Initialisieren*.
 
 
+.Ergebnisse
 Eine Snapshot Kopie wird erstellt und an das Ziel übertragen.
 
 Diese Snapshot Kopie dient als Basis für nachfolgende inkrementelle Snapshot Kopien.
@@ -192,6 +195,7 @@ Die standardmäßige Aufbewahrungsfrist kann auf einen beliebigen Wert zwischen 
 . Klicken Sie Auf *Erstellen*.
 
 
+.Ergebnisse
 Wenn Sie sich dafür entschieden haben, ein Ziel-Volume zu erstellen, wird ein Volume vom Typ _dp_ mit den folgenden Standardeinstellungen erstellt:
 
 * Autogrow ist aktiviert.
@@ -208,6 +212,7 @@ Zwischen dem Ziel-Volume und dem Quell-Volume wird eine Vault-Beziehung erstellt
 
 Mit System Manager können Sie manuell eine außerplanmäßige inkrementelle Aktualisierung initiieren. Möglicherweise benötigen Sie ein manuelles Update, um Datenverlust aufgrund eines bevorstehenden Stromausfalls, geplanter Wartungsarbeiten oder Datenmigrationen zu vermeiden.
 
+.Bevor Sie beginnen
 Die Vault-Beziehung muss initialisiert werden.
 
 .Schritte
@@ -230,6 +235,7 @@ Die Vault-Beziehung muss initialisiert werden.
 
 Mithilfe von System Manager kann eine Vault-Beziehung zwischen einem Quell- und Ziel-Volume beendet und die Snapshot Kopien vom Quellvolume freigegeben werden.
 
+.Über diese Aufgabe
 Durch die Freigabe der Beziehung werden die Snapshot Kopien, die von der Vault-Beziehung auf dem Quell-Volume verwendet werden, endgültig entfernt. Um die Vault-Beziehung neu zu erstellen, müssen Sie die Neusynchronisierung vom Quell-Volume mithilfe der Befehlszeilenschnittstelle (CLI) ausführen.
 
 .Schritte
@@ -256,6 +262,7 @@ Sie können mit System Manager eine stillgelegte Vault-Beziehung fortsetzen. Wen
 . Klicken Sie im Fenster *Fortsetzen* auf *Fortsetzen*.
 
 
+.Ergebnisse
 Normale Datenübertragungen werden fortgesetzt. Wenn ein geplanter Transfer für die Beziehung vorhanden ist, wird der Transfer vom nächsten Zeitplan gestartet.
 
 
@@ -270,6 +277,7 @@ Sie können mit System Manager Datentransfers zum Ziel-FlexVol-Volume deaktivier
 . Klicken Sie im Fenster *Quiesce* auf *Quiesce*.
 
 
+.Ergebnisse
 Wenn keine Übertragung läuft, wird der Transferstatus als stillgelegt angezeigt. Wenn eine Übertragung ausgeführt wird, ist die Übertragung nicht betroffen, und der Übertragungsstatus wird als Umleitung angezeigt, bis die Übertragung abgeschlossen ist.
 
 *Verwandte Informationen*

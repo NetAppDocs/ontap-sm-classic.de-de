@@ -13,6 +13,7 @@ summary: For automatisiert viele Konfigurations- und Bereitstellungsaufgaben, di
 [role="lead"]
 Virtual Storage Console for automatisiert viele Konfigurations- und Bereitstellungsaufgaben, die für die Verwendung von Storage mit einem ESXi Host erforderlich sind. Ist ein Plug-in für vCenter Server.
 
+.Bevor Sie beginnen
 Sie müssen über Administratoranmeldedaten auf dem vCenter Server verfügen, der zum Verwalten des ESXi-Hosts verwendet wird.
 
 .Über diese Aufgabe

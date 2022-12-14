@@ -33,6 +33,7 @@ Die Liste der LDAP-Clients wird im LDAP-Fenster angezeigt.
 
 Mit einem LDAP-Server können Sie Benutzerinformationen zentral verwalten. Wenn Sie Ihre Benutzerdatenbank auf einem LDAP-Server in Ihrer Umgebung speichern, können Sie Ihre Storage Virtual Machine (SVM) so konfigurieren, dass Benutzerinformationen in Ihrer vorhandenen LDAP-Datenbank angezeigt werden.
 
+.Über diese Aufgabe
 ONTAP unterstützt LDAP zur Benutzerauthentifizierung, Autorisierung für Dateizugriffe sowie Services zur Benutzersuche und -Zuordnung zwischen NFS und CIFS.
 
 

@@ -13,6 +13,7 @@ summary: Sie können im Dialogfeld LUN Properties in System Manager den Namen, d
 [role="lead"]
 Sie können im Dialogfeld LUN-Eigenschaften in ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) den Namen, die Beschreibung, die Größe, die Einstellung für Speicherplatzreservierung oder die zugeordneten Initiator-Hosts einer LUN ändern.
 
+.Über diese Aufgabe
 Wenn Sie die Größe einer LUN ändern, müssen Sie die für den Host-Typ und die Anwendung, die die LUN verwendet, empfohlenen Schritte auf der Host-Seite ausführen.
 
 .Schritte

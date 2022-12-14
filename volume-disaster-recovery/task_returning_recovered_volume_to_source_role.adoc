@@ -13,6 +13,7 @@ summary: Nachdem Sie die Daten vom Ziel-Volume zum Quell-Volume neu synchronisie
 [role="lead"]
 Nachdem Sie die Daten vom Ziel-Volume zum Quell-Volume neu synchronisiert haben, müssen Sie das Quell-Volume aktivieren, indem Sie die SnapMirror Beziehung unterbrechen. Anschließend sollten Sie das Ziel-Volume neu synchronisieren, um das reaktivierte Quell-Volume zu schützen.
 
+.Über diese Aufgabe
 Die Break- und Reverse-Resynchronisierung wird vom * Source*-Cluster durchgeführt.
 
 Die folgende Abbildung zeigt, dass die Quell- und Zieldatenträger gelesen/geschrieben werden, wenn Sie die SnapMirror Beziehung unterbrechen. Nach dem umgekehrten Resync-Vorgang werden die Daten vom aktiven Quell-Volume auf das schreibgeschützte Ziel-Volume repliziert.
@@ -60,4 +61,5 @@ Wenn Sie ONTAP 9.2 oder eine frühere Version verwenden, wird die SnapMirror-Ric
 
 
 
+.Ergebnisse
 Das Quell-Volume hat Lese-/Schreibzugriff und ist durch das Ziel-Volume geschützt.

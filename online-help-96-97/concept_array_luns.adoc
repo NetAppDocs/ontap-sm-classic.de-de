@@ -74,6 +74,7 @@ Stattdessen müssen Sie die Befehlszeilenschnittstelle verwenden.
 
 Sie können System Manager verwenden, um alle Daten zu löschen und die Ersatzarray-LUNs zu formatieren, indem Sie Nullen auf die Array-LUNs schreiben. Diese Array-LUNs können dann in neuen Aggregaten verwendet werden.
 
+.Über diese Aufgabe
 Wenn Sie die Spare Array LUNs löschen, werden alle Spares im Cluster, einschließlich Festplatten, gelöscht. Sie können die freien Array-LUNs für einen bestimmten Node oder das gesamte Cluster löschen.
 
 .Schritte

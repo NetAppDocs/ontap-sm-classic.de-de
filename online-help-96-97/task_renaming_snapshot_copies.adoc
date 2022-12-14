@@ -13,6 +13,7 @@ summary: Sie können mit System Manager eine Snapshot Kopie umbenennen, um Ihre 
 [role="lead"]
 Sie können ONTAP System Manager classic (verfügbar unter ONTAP 9.7 und früher) verwenden, um eine Snapshot Kopie umzubenennen und um die Snapshot Kopien zu organisieren und zu verwalten.
 
+.Über diese Aufgabe
 Sie können die Snapshot Kopien (die in DEN WORM-Status übernommen wurden) von einem SnapLock-DP Volume, das sich in einer SnapVault-Beziehung befindet, nicht umbenennen.
 
 .Schritte

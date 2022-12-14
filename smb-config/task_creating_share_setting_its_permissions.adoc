@@ -13,6 +13,7 @@ summary: 'Bevor Windows Benutzer auf ein Volume zugreifen können, müssen Sie e
 [role="lead"]
 Bevor Windows Benutzer auf ein Volume zugreifen können, müssen Sie eine CIFS-Freigabe auf dem Volume erstellen und den Zugriff auf die Freigabe durch Ändern der Zugriffssteuerungsliste (Access Control List, ACL) für die Freigabe einschränken.
 
+.Über diese Aufgabe
 Zu Testzwecken sollten Sie nur Administratoren Zugriff gewähren. Später können Sie nach der Prüfung, ob auf das Volume zugegriffen werden kann, den Zugriff auf mehr Clients ermöglichen.
 
 .Schritte

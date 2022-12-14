@@ -18,6 +18,7 @@ Sie können ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) verwenden, um
 * Das FlexGroup Volume muss sich offline befinden.
 
 
+.Über diese Aufgabe
 System Manager unterstützt nicht das zusammengehörige Management von FlexGroup Volumes.
 
 .Schritte

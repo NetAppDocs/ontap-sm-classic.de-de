@@ -13,6 +13,7 @@ summary: Wenn Sie eine vorhandene Storage Virtual Machine verwenden möchten, m�
 [role="lead"]
 Wenn Sie eine vorhandene Storage Virtual Machine (SVM) verwenden möchten, müssen Sie überprüfen, ob der FC-Service mithilfe von ONTAP System Manager auf der SVM ausgeführt wird. Sie müssen außerdem überprüfen, ob bereits FC-logische Schnittstellen (LIFs) erstellt wurden.
 
+.Bevor Sie beginnen
 Sie müssen eine vorhandene SVM ausgewählt haben, auf der Sie eine neue LUN erstellen möchten.
 
 .Schritte

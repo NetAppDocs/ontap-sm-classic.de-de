@@ -13,6 +13,7 @@ summary: Wenn Ihr Cluster für SAN konfiguriert ist, müssen Sie SAN-LIFs auf de
 [role="lead"]
 Wenn Ihr Cluster für SAN konfiguriert ist, müssen Sie SAN-LIFs auf den neu hinzugefügten Nodes erstellen und anschließend Pfade aktualisieren.
 
+.Über diese Aufgabe
 Diese Vorgehensweise ist nur erforderlich, wenn das Cluster LUNs enthält. Wenn das Cluster nur Dateien enthält, können Sie diesen Vorgang überspringen.
 
 .Schritte

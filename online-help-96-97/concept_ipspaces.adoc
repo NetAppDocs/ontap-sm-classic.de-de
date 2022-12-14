@@ -37,8 +37,10 @@ Sie können mit System Manager einen vorhandenen IPspace umbenennen.
 
 Sie können mit System Manager einen IPspace löschen, wenn Sie den IPspace nicht mehr benötigen.
 
+.Bevor Sie beginnen
 Der zu löschende IPspace darf nicht mit Broadcast-Domänen, Netzwerkschnittstellen, Peer-Beziehungen oder Storage Virtual Machines (SVMs) verknüpft werden.
 
+.Über diese Aufgabe
 Der vom System definierte IPspace „`Default`“ und der IPspace „`Cluster`“ können nicht gelöscht werden.
 
 .Schritte

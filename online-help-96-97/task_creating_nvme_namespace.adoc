@@ -13,6 +13,7 @@ summary: 'Mit System Manager können Sie einen oder mehrere NVMe Namespaces erst
 [role="lead"]
 ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) kann verwendet werden, um einen oder mehrere NVMe Namespaces zu erstellen und jede Verbindung zu einem Host oder einem Host-Satz von Hosts auf einer Storage Virtual Machine (SVM) herzustellen. Der NVMe Namespace ist eine Menge an Arbeitsspeicher, die in logische Blöcke formatiert werden kann. Jeder Namespace kann einem NVMe-Subsystem zugeordnet werden.
 
+.Bevor Sie beginnen
 Die SVM muss bereits mit dem NVMe-Protokoll konfiguriert sein. Um einen Namespace zuzuordnen, muss mindestens eine logische Schnittstelle mit dem Datenprotokoll NVMe in dem Node vorhanden sein, der den Namespace besitzt.
 
 .Schritte

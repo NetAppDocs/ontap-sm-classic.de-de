@@ -13,6 +13,7 @@ summary: Sie können eine bereitgestellte Applikation bearbeiten, um die Storage
 [role="lead"]
 Mit ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) können Sie eine bereitgestellte Applikation bearbeiten, um die Storage-Größe zu erhöhen oder die Snapshot-Kopien der Applikation zu verwalten.
 
+.Über diese Aufgabe
 Als Cluster-Administrator können Sie nach dem Bereitstellen einer Applikation die Größe des Storage bearbeiten. Sie können auch Snapshot Kopien der Applikation erstellen, wiederherstellen oder löschen. Im folgenden Beispiel wird beschrieben, wie eine *NAS Container*-Anwendung bearbeitet wird.
 
 .Schritte

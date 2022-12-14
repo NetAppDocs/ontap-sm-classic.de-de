@@ -19,6 +19,7 @@ Sie können ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) z
 
 Sie können die Mitgliedschaften lokaler Gruppen verwalten, indem Sie einen lokalen Benutzer, einen Active Directory-Benutzer oder eine Active Directory-Gruppe mit System Manager hinzufügen und entfernen. Sie können die Berechtigungen, die einer Gruppe zugewiesen sind, und die Beschreibung einer Gruppe ändern, um die Gruppe leicht zu identifizieren.
 
+.Über diese Aufgabe
 Beim Hinzufügen oder Entfernen von Mitgliedern aus einer lokalen Windows-Gruppe müssen Sie Folgendes beachten:
 
 * Benutzer können nicht zur speziellen Gruppe „_Everyone_“ hinzugefügt oder aus dieser entfernt werden.
@@ -45,6 +46,7 @@ Sie können die Berechtigungen aus dem vordefinierten Satz unterstützter Berech
 . Klicken Sie Auf *Bearbeiten*.
 
 
+.Ergebnisse
 Die Einstellungen der lokalen Windows-Gruppe werden geändert und die Änderungen werden auf der Registerkarte *Gruppen* angezeigt.
 
 
@@ -53,6 +55,7 @@ Die Einstellungen der lokalen Windows-Gruppe werden geändert und die Änderunge
 
 Mit System Manager lassen sich lokale Windows Gruppen erstellen, die über eine SMB-Verbindung für den Zugriff auf die Daten in der Storage Virtual Machine (SVM) verwendet werden können. Sie können auch die Berechtigungen zuweisen, die die Benutzerrechte oder Fähigkeiten definieren, die ein Mitglied der Gruppe bei der Durchführung von Administratoraktivitäten hat.
 
+.Bevor Sie beginnen
 CIFS-Server muss für die SVM konfiguriert sein.
 
 .Über diese Aufgabe
@@ -111,6 +114,7 @@ Sie können die Berechtigungen aus dem vordefinierten Satz unterstützter Berech
 . Klicken Sie Auf *Erstellen*.
 
 
+.Ergebnisse
 Die lokale Windows-Gruppe wird erstellt und im Fenster Gruppen aufgelistet.
 
 
@@ -124,6 +128,7 @@ Sie können einen lokalen Benutzer, einen Active Directory-Benutzer oder eine Ac
 * Der Benutzer muss vorhanden sein, bevor Sie den Benutzer einer Gruppe hinzufügen können.
 
 
+.Über diese Aufgabe
 Beim Hinzufügen von Mitgliedern zu einer lokalen Windows-Gruppe müssen Sie Folgendes beachten:
 
 * Sie können keine Benutzer zur speziellen _everyone_-Gruppe hinzufügen.
@@ -148,6 +153,7 @@ Sie können das Benutzerkonto entweder umbenennen oder das Benutzerkonto über d
 . Klicken Sie auf *OK*.
 
 
+.Ergebnisse
 Der Benutzer, den Sie hinzugefügt haben, wird im Benutzerstab der Registerkarte *Gruppen* aufgelistet.
 
 
@@ -177,6 +183,7 @@ Sie können mit System Manager eine lokale Windows-Gruppe umbenennen, um die Gru
 . Geben Sie im Fenster *Gruppe umbenennen* einen neuen Namen für die Gruppe an.
 
 
+.Ergebnisse
 Der Name der lokalen Gruppe wird geändert, und die Gruppe wird mit dem neuen Namen im Fenster Gruppen aufgelistet.
 
 
@@ -203,6 +210,7 @@ Windows-Sicherheitsdeskriptoren für Dateien und Verzeichnisse, die sich auf die
 . Klicken Sie Auf *Löschen*.
 
 
+.Ergebnisse
 Die lokale Gruppe wird zusammen mit ihren Mitgliedschaftsdatensätzen gelöscht.
 
 
@@ -215,6 +223,7 @@ Mit System Manager können Sie ein lokales Windows-Benutzerkonto erstellen, das 
 * Der CIFS-Server muss für die SVM konfiguriert sein.
 
 
+.Über diese Aufgabe
 Ein lokaler Windows-Benutzername muss die folgenden Anforderungen erfüllen:
 
 * Darf 20 Zeichen nicht überschreiten
@@ -255,6 +264,7 @@ Das Passwort muss die Anforderungen des Passworts erfüllen.
 . Klicken Sie Auf *Erstellen*.
 
 
+.Ergebnisse
 Das lokale Windows-Benutzerkonto wird erstellt und den ausgewählten Gruppen wird eine Mitgliedschaft zugewiesen. Das Benutzerkonto wird auf der Registerkarte *Benutzer* aufgelistet.
 
 
@@ -272,6 +282,7 @@ Sie können mit System Manager ein lokales Windows-Benutzerkonto ändern, wenn S
 . Klicken Sie Auf *Ändern*.
 
 
+.Ergebnisse
 Die Attribute des lokalen Windows-Benutzerkontos werden geändert und werden auf der Registerkarte *Users* angezeigt.
 
 
@@ -285,6 +296,7 @@ Mit System Manager können Sie einem Benutzerkonto Gruppenmitgliedschaften zuwei
 * Der Benutzer muss vorhanden sein, bevor Sie den Benutzer einer Gruppe hinzufügen können.
 
 
+.Über diese Aufgabe
 Sie können keine Benutzer zur speziellen _everyone_-Gruppe hinzufügen.
 
 .Schritte
@@ -296,6 +308,7 @@ Sie können keine Benutzer zur speziellen _everyone_-Gruppe hinzufügen.
 . Klicken Sie auf *OK*.
 
 
+.Ergebnisse
 Dem Benutzerkonto wird allen ausgewählten Gruppen eine Mitgliedschaft zugewiesen, und der Benutzer verfügt über die Berechtigungen, die diesen Gruppen zugeordnet sind.
 
 
@@ -326,6 +339,7 @@ Mit System Manager können Sie ein lokales Windows-Benutzerkonto umbenennen, um 
 . Bestätigen Sie den neuen Namen und klicken Sie dann auf *Umbenennen*.
 
 
+.Ergebnisse
 Der Benutzername wird geändert und der neue Name wird auf der Registerkarte *Benutzer* angezeigt.
 
 
@@ -334,6 +348,7 @@ Der Benutzername wird geändert und der neue Name wird auf der Registerkarte *Be
 
 Mit System Manager können Sie das Passwort eines lokalen Windows-Benutzers zurücksetzen. Möglicherweise möchten Sie das Passwort zurücksetzen, wenn das aktuelle Passwort kompromittiert ist oder der Benutzer das Passwort vergessen hat.
 
+.Über diese Aufgabe
 Das von Ihnen festgelegte Passwort muss die folgenden Kriterien erfüllen:
 
 * Muss mindestens sechs Zeichen lang sein
@@ -376,6 +391,7 @@ Mit System Manager können Sie ein lokales Windows-Benutzerkonto von einer Stora
 . Klicken Sie Auf *Löschen*.
 
 
+.Ergebnisse
 Das lokale Benutzerkonto wird zusammen mit den Gruppenmitgliedeinträgen gelöscht.
 
 

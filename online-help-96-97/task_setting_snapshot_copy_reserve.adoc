@@ -13,6 +13,7 @@ summary: 'Sie können System Manager verwenden, um Speicherplatz (gemessen als P
 [role="lead"]
 Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) lassen sich Speicherplatz für die Snapshot-Kopien in einem Volume reservieren (gemessen als Prozentsatz). Durch Festlegen der Snapshot Kopie-Reserve können Sie genügend Festplattenspeicher für die Snapshot-Kopien zuweisen, damit sie nicht den aktiven Speicherplatz des File-Systems belegen.
 
+.Über diese Aufgabe
 Der Standardspeicherplatz, der für Snapshot-Kopien reserviert ist, beträgt 5 Prozent für SAN- und VMware-Volumes.
 
 .Schritte

@@ -13,6 +13,7 @@ summary: Sie können die Unterbrechung beim Datenzugriff minimieren, wenn Sie da
 [role="lead"]
 Sie können die Unterbrechung beim Datenzugriff minimieren, wenn Sie das Ziel-Volume aktivieren, indem Sie erforderliche Konfigurationen wie LIFs, CIFS-Freigaben und Exportrichtlinien für die NAS-Umgebung sowie LIFs und Initiatorgruppen für die SAN-Umgebung auf der SVM mit dem Ziel-Volume einrichten.
 
+.Über diese Aufgabe
 Sie müssen diese Aufgabe auf dem *Ziel*-Cluster für die SVM mit dem Ziel-Volume ausführen.
 
 

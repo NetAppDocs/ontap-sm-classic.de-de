@@ -13,6 +13,7 @@ summary: Sie können die Zeitzone für ein Cluster manuell einstellen oder ände
 [role="lead"]
 Sie können die Zeitzone für ein Cluster manuell einstellen oder ändern. Verwenden Sie dazu das Dialogfeld Datum und Uhrzeit bearbeiten in ONTAP System Manager Classic (verfügbar unter ONTAP 9.7 und früher). Sie können dem Cluster auch Zeitserver hinzufügen.
 
+.Über diese Aufgabe
 Network Time Protocol (NTP) ist immer auf einem Cluster aktiviert. Sie können NTP deaktivieren, aber es wird nicht empfohlen.
 
 Sie können die IP-Adressen des NTP-Servers an Ihrem Standort hinzufügen. Dieser Server wird verwendet, um die Zeit über das Cluster hinweg zu synchronisieren.

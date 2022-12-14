@@ -13,6 +13,7 @@ summary: Sie können die Protokollierung aktivieren und den Wert für das Inakti
 [role="lead"]
 Sie können die Protokollierung aktivieren und den Wert für das Inaktivitätszeitlimit für ONTAP System Manager Classic (verfügbar in ONTAP 9.7 oder früher) angeben.
 
+.Über diese Aufgabe
 Sie können die Optionen im System Manager-Anmeldefenster konfigurieren. Sie müssen sich jedoch bei der Anwendung anmelden, um den Wert für die Inaktivität anzugeben.
 
 .Schritte

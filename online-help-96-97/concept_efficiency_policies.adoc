@@ -58,6 +58,7 @@ Mit System Manager können Sie die Attribute einer Effizienzrichtlinie ändern, 
 
 Sie können System Managerto eine nicht mehr erforderliche Effizienzrichtlinie löschen.
 
+.Bevor Sie beginnen
 Die Effizienzrichtlinie muss deaktiviert werden.
 
 .Schritte

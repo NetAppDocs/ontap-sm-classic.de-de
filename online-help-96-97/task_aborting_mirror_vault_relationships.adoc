@@ -21,4 +21,5 @@ Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) wird ein 
 . Klicken Sie Auf *Abbrechen*.
 
 
+.Ergebnisse
 Der Übertragungsstatus wird als „`Aborting`“ angezeigt, bis der Vorgang abgeschlossen ist und nach Abschluss des Vorgangs als „`Idle`“ angezeigt wird.

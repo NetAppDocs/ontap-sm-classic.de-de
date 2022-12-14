@@ -14,8 +14,10 @@ summary: System Manager sichert Daten und sorgt für erhöhte Ausfallsicherheit,
 [role="lead"]
 Mit ONTAP System Manager Classic (verfügbar ab ONTAP 9.7) können Sie Daten sichern und erhöhte Ausfallsicherheit durch Echtzeitspiegelung von Daten innerhalb eines einzelnen Aggregats ermöglichen. Die Spiegelung von Aggregaten beseitigt Single Points of Failure bei der Verbindung zu Festplatten und Array LUNs.
 
+.Bevor Sie beginnen
 Im anderen Pool muss es ausreichend freie Disketten geben um das Aggregat zu spiegeln.
 
+.Über diese Aufgabe
 Sie können ein Flash Pool Aggregat nicht spiegeln, wenn die Cache-Quelle Storage Pool ist.
 
 .Schritte

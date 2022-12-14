@@ -58,6 +58,7 @@ Sie können die Details einer vorhandenen Snapshot-Richtlinie, z. B. den Planung
 
 Mit System Manager können Sie Snapshot-Richtlinien löschen. Wenn Sie eine Snapshot-Richtlinie löschen, die von einem oder mehreren Volumes verwendet wird, werden gemäß der gelöschten Richtlinie keine Snapshot-Kopien des Volume oder der Volumes mehr erstellt.
 
+.Bevor Sie beginnen
 Sie müssen die Snapshot-Richtlinie von jedem Volume, das sie verwendet, distanziert haben.
 
 .Schritte

@@ -19,6 +19,7 @@ Sie können ONTAP System Manager classic (verfügbar in ONTAP 9.7 und früher) v
 
 Quoten ermöglichen es Ihnen, den Festplattenspeicherplatz und die Anzahl der Dateien zu beschränken, die von einem Benutzer, einer Gruppe oder einem qtree verwendet werden. Sie können den Assistent zum Hinzufügen von Kontingenten in System Manager verwenden, um eine Quote zu erstellen und die Quote auf ein bestimmtes Volume oder einen bestimmten qtree anzuwenden.
 
+.Über diese Aufgabe
 Mit System Manager können Sie den Hardlimit und das weiche Limit für die Anzahl der Dateien angeben, für die das Kontingent besitzen kann, ist 1000. Wenn Sie einen Wert unter 1000 angeben möchten, sollten Sie die Befehlszeilenschnittstelle (CLI) verwenden.
 
 .Schritte
@@ -90,6 +91,7 @@ Mit System Manager können Sie für eine oder mehrere Volumes, die Sie auf Ihrem
 
 Sie können das Dialogfeld „Kontingent ändern“ in System Manager verwenden, um die aktiven Quoten in dem angegebenen Volume anzupassen, sodass sie die Änderungen widerspiegeln, die Sie an einer Quote vorgenommen haben.
 
+.Bevor Sie beginnen
 Für die Volumes, für die Sie die Größe der Quoten ändern möchten, müssen Quoten aktiviert werden.
 
 .Schritte

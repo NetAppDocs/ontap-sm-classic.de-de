@@ -13,6 +13,7 @@ summary: Ab System Manager 9.6 können Sie ein FlexCache Volume erstellen.
 [role="lead"]
 Ab System Manager 9.6 können Sie ein FlexCache Volume erstellen.
 
+.Über diese Aufgabe
 Sie müssen über eine FlexCache Kapazitätslizenz verfügen, bevor Sie ein FlexCache Volume erstellen können.
 
 .Schritte

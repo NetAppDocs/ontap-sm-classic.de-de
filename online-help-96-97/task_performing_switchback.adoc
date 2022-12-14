@@ -13,6 +13,7 @@ summary: 'Ab System Manager 9.6 können Sie einen Switchback-Vorgang durchführe
 [role="lead"]
 Ab System Manager 9.6 können Sie einen Switchback-Vorgang durchführen, der nach Abschluss des Switchover-Vorgangs die Kontrolle über den ursprünglichen MetroCluster Standort (Standort B) wiederherstellt.
 
+.Bevor Sie beginnen
 Bevor Sie einen Switchback-Vorgang durchführen, müssen Sie die folgenden Aufgaben ausführen:
 
 * Sie müssen die MetroCluster-Sites bis vorbereiten xref:task_performing_negotiated_planned_switchover.adoc[Durchführen einer ausgehandelten (geplanten) Umschaltung] Oder xref:task_performing_unplanned_switchover.adoc[Durchführung einer ungeplanten Umschaltung].
@@ -20,6 +21,7 @@ Bevor Sie einen Switchback-Vorgang durchführen, müssen Sie die folgenden Aufga
 * Wenn der Status des Remote-Standorts als „`Vorbereitungen für den Wechsel zurück`“ angezeigt wird, werden die Aggregate weiterhin neu synchronisiert. Sie sollten warten, bis der Status des Remote-Standorts angibt, dass er für den Wechsel bereit ist.
 
 
+.Über diese Aufgabe
 Wenn ein Switchover erfolgreich durchgeführt wird, wird das Fenster MetroCluster Switchover und Switch Back Operations angezeigt. Das Fenster zeigt den Status beider Standorte an und enthält eine Meldung, die Ihnen anzeigt, dass der Vorgang erfolgreich war.
 
 .Schritte
