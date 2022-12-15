@@ -7216,7 +7216,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 20:07:26 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:16:00 +0000">12/15/2022</time>
     
   
 
@@ -7240,6 +7240,7 @@
 <p>Mit System Manager können Sie eine gespiegelte Beziehung löschen und die gespiegelte Beziehung zwischen den Quell- und Ziel-Volumes permanent beenden. Wenn eine gespiegelte Beziehung gelöscht wird, wird die Basis-Snapshot Kopie des Quell-Volume gelöscht.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Es ist eine Best Practice, die Spiegelbeziehung zu unterbrechen, bevor die Beziehung gelöscht wird.</p>
 </div>
 <div class="olist arabic">
@@ -7257,6 +7258,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Die Beziehung wird gelöscht und die Snapshot Basis-Kopie auf dem Quell-Volume wird gelöscht.</p>
 </div>
 </div>
@@ -7268,6 +7270,7 @@
 <p>Sie können System Manager verwenden, um eine zuvor beschädigte Spiegelbeziehung wiederherzustellen. Sie können einen Neusynchronisierung durchführen, um nach einem Ausfall, bei dem das Quell-Volume deaktiviert wurde, eine Wiederherstellung durchzuführen.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Das Quell- und Ziel-Cluster sowie die Quell-SVM und Ziel-SVM müssen sich in Peer-Beziehungen befinden.</p>
 </div>
 <div class="ulist">
@@ -7331,6 +7334,7 @@
 <p>Sie können System Manager verwenden, um eine stillgelegte Spiegelbeziehung fortzusetzen. Wenn Sie die Beziehung fortsetzen, wird der normale Datentransfer zum Spiegelziel fortgesetzt und alle Spiegelaktivitäten werden neu gestartet.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Wenn Sie eine beschädigte Spiegelbeziehung von der Befehlszeilenschnittstelle (CLI) stillgelegt haben, können Sie die Beziehung zu System Manager nicht wieder aufnehmen. Sie müssen die Verbindung mit der CLI fortsetzen.</p>
 </div>
 <div class="olist arabic">
@@ -7351,6 +7355,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Die Datenübertragung an das gespiegelte Ziel wird für die ausgewählte gespiegelte Beziehung fortgesetzt.</p>
 </div>
 </div>
@@ -7362,6 +7367,7 @@
 <p>Mit System Manager können Sie eine außerplanmäßige Spiegelaktualisierung des Ziels initiieren. Möglicherweise müssen Sie ein manuelles Update durchführen, um Datenverlust aufgrund eines bevorstehenden Stromausfalls, geplanter Wartungsarbeiten oder Datenmigrationen zu vermeiden.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Die Mirror-Beziehung muss sich in einem Snapmirrored Zustand befinden.</p>
 </div>
 <div class="olist arabic">
@@ -7406,6 +7412,7 @@
 <p>Mit System Manager kann ein Spiegelungszielort stillgelegt werden, um es zu stabilisieren, bevor Sie eine Snapshot Kopie erstellen. Der Quiesce-Vorgang ermöglicht den Abschluss aktiver Spiegeltransfers und deaktiviert zukünftige Transfers für die Spiegelbeziehung.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Sie können nur Spiegelbeziehungen stilllegen, die im SnapMirror-Status liegen.</p>
 </div>
 <div class="olist arabic">
@@ -7454,6 +7461,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Eine Snapshot Kopie wird erstellt und an das Ziel übertragen. Diese Snapshot Kopie dient als Basis für nachfolgende inkrementelle Snapshot Kopien.</p>
 </div>
 </div>
@@ -7748,6 +7756,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Wenn Sie ein Zielvolume erstellen möchten, wird ein Zielvolumen vom Typ <em>dp</em> erstellt, wobei das Sprachattribut auf das Sprachattribut des Quell-Volumes eingestellt ist.</p>
 </div>
 <div class="paragraph">
@@ -7762,6 +7771,7 @@
 <p>Sie können mit System Manager eine zuvor beschädigte Spiegelbeziehung wiederherstellen. Bei einer umgekehrten Neusynchronisierung werden die Funktionen des Quell-Volume und des Ziel-Volume rückgängig gemacht.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Das Quell-Volume muss online sein.</p>
 </div>
 <div class="ulist">

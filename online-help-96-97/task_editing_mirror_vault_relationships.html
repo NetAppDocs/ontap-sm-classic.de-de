@@ -7216,7 +7216,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 20:07:26 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:16:00 +0000">12/15/2022</time>
     
   
 
@@ -7240,9 +7240,11 @@
 <p>Mit System Manager können Sie eine Mirror- und Vault-Beziehung bearbeiten, indem Sie die ausgewählte Richtlinie oder den ausgewählten Zeitplan ändern. Sie können jedoch die Parameter einer vorhandenen Richtlinie oder eines vorhandenen Zeitplans nicht bearbeiten.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Sie können den Beziehungstyp einer versionsflexiblen Spiegelbeziehung, Vault-Beziehung oder Mirror und Vault-Beziehung ändern, indem Sie den Richtlinientyp ändern.</p>
 </div>
 <div class="olist arabic">
@@ -7396,6 +7398,7 @@
 <p>Mit System Manager können Sie manuell eine außerplanmäßige inkrementelle Aktualisierung initiieren. Möglicherweise benötigen Sie ein manuelles Update, um Datenverlust aufgrund eines bevorstehenden Stromausfalls, geplanter Wartungsarbeiten oder Datenmigrationen zu vermeiden.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Die Mirror- und Vault-Beziehung muss initialisiert werden und in einem Snapmirrored-Status.</p>
 </div>
 <div class="olist arabic">
@@ -7440,6 +7443,7 @@
 <p>Sie können mit System Manager eine Mirror- und Vault-Beziehung initialisieren, wenn Sie die Beziehung beim Erstellen nicht bereits initialisiert haben. Wenn Sie eine Beziehung initialisieren, wird ein vollständiger Basistransfer der Daten vom Quell-Volume zum Zielsystem durchgeführt.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Die Quell- und Ziel-Cluster müssen eine gesunde Peer-Beziehung aufweisen.</p>
 </div>
 <div class="olist arabic">
@@ -7460,6 +7464,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Eine Snapshot Kopie wird erstellt und an das Ziel übertragen.</p>
 </div>
 <div class="paragraph">
@@ -7601,9 +7606,11 @@
 <p>Sie können System Manager verwenden, um eine zuvor kaputte Mirror und Vault-Beziehung wiederherzustellen. Sie können einen Neusynchronisierung durchführen, um nach einem Ausfall, bei dem das Quell-Volume deaktiviert wurde, eine Wiederherstellung durchzuführen.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Die Quell- und Ziel-Cluster sowie die Quell- und Ziel-Storage Virtual Machines (SVMs) müssen sich in Peer-Beziehungen befinden.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Vor der Durchführung einer Neusynchronisierung sollten Sie Folgendes beachten:</p>
 </div>
 <div class="ulist">
@@ -7653,6 +7660,7 @@
 <p>Sie können mit System Manager eine zuvor beschädigte Mirror und Vault-Beziehung wiederherstellen. Bei einer umgekehrten Neusynchronisierung werden die Funktionen der Quell- und Ziel-Volumes umgekehrt. Sie können das Ziel-Volume verwenden, um Daten bereitzustellen, während Sie die Quelle reparieren oder ersetzen, die Quelle aktualisieren und die ursprüngliche Konfiguration der Systeme wiederherstellen.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Das Quell-Volume muss online sein.</p>
 </div>
 <div class="ulist">
@@ -7714,6 +7722,7 @@
 </ul>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Sie können Beziehungen zwischen ONTAP Systemen und SolidFire Storage-Systemen spiegeln.</p>
 </div>
 <div class="olist arabic">
@@ -7731,6 +7740,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Die Beziehung zwischen Spiegel und Tresor ist kaputt. Der Ziel-Volume-Typ ändert sich von Datenschutz (DP) schreibgeschützt in Lesen/Schreiben. Das System speichert die Basis-Snapshot Kopie für die Mirror- und Vault-Beziehung zur späteren Verwendung.</p>
 </div>
 </div>
@@ -7742,6 +7752,7 @@
 <p>Wenn Sie eine stillgelegte Mirror- und Vault-Beziehung haben, können Sie mit System Manager die Beziehung fortsetzen. Wenn Sie die Beziehung fortsetzen, wird die normale Datenübertragung zum Ziel-Volume fortgesetzt und alle Schutzaktivitäten werden neu gestartet.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Wenn Sie eine beschädigte Mirror- und Vault-Beziehung von der Befehlszeilenschnittstelle (CLI) stillgelegt haben, können Sie die Beziehung nicht mehr aus System Manager fortsetzen. Sie müssen die Verbindung mit der CLI fortsetzen.</p>
 </div>
 <div class="olist arabic">
@@ -7759,6 +7770,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Normale Datenübertragungen werden fortgesetzt. Wenn ein geplanter Transfer für die Beziehung vorhanden ist, wird der Transfer vom nächsten Zeitplan gestartet.</p>
 </div>
 </div>
@@ -7801,6 +7813,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Die Beziehung wird gelöscht und die Snapshot Kopien der Basis auf dem Quell-Volume werden dauerhaft gelöscht.</p>
 </div>
 </div>
@@ -7812,6 +7825,7 @@
 <p>Mit System Manager kann ein Ziel-Volume stillgelegt werden, um das Ziel zu stabilisieren, bevor eine Snapshot Kopie erstellt wird. Der Quiesce-Vorgang ermöglicht den Abschluss aktiver Datentransfers und deaktiviert zukünftige Transfers für die Spiegelungs- und Vault-Beziehung.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Die Mirror- und Vault-Beziehung muss sich in einem Snapmirrored-Zustand befinden.</p>
 </div>
 <div class="olist arabic">
@@ -7829,6 +7843,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Wenn keine Übertragung läuft, wird der Transferstatus als stillgelegt angezeigt. Wenn eine Übertragung ausgeführt wird, ist die Übertragung nicht betroffen, und der Übertragungsstatus wird als Umleitung angezeigt, bis die Übertragung abgeschlossen ist.</p>
 </div>
 </div>

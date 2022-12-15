@@ -7216,7 +7216,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 20:07:26 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:16:00 +0000">12/15/2022</time>
     
   
 
@@ -7233,9 +7233,11 @@
 <p>Cluster kommunizieren miteinander über logische Schnittstellen (LIFs), die für die Kommunikation zwischen Clustern dediziert sind. Sie müssen innerhalb jedes IPspace, der für Peering verwendet wird, eine Intercluster LIF erstellen. Die LIFs müssen auf jedem Node in jedem Cluster erstellt werden, für das Sie eine Peer-Beziehung erstellen möchten.</p>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Sie müssen das Subnetz und die Ports und optional die IP-Adressen identifiziert haben, die Sie für die Intercluster LIFs verwenden möchten.</p>
 </div>
 <div class="paragraph">
+<div class="title">Über diese Aufgabe</div>
 <p>Sie müssen dieses Verfahren auf beiden Clustern durchführen, für die Sie eine Peer-Beziehung erstellen möchten. Wenn Sie beispielsweise ein Cluster mit vier Nodes haben, das Sie mit Cluster X über IPspace A Peer mit Cluster Y über IPspace Y erstellen möchten, benötigen Sie insgesamt acht Intercluster-LIFs. Vier auf IPspace A (einer pro Knoten) und vier auf IPspace Y (einer pro Knoten).</p>
 </div>
 <div class="olist arabic">
@@ -7296,7 +7298,7 @@
 </div>
 </li>
 <li>
-<p>Wiederholen ,Schritt 1 Für jeden Node im Cluster.</p>
+<p>Wiederholen <a href="#step1-intercluster-lif">Schritt 1</a> Für jeden Node im Cluster.</p>
 <div class="paragraph">
 <p>Jeder Node im Cluster verfügt über eine Intercluster-LIF.</p>
 </div>
@@ -7323,6 +7325,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Ergebnisse</div>
 <p>Alle Nodes in jedem Cluster verfügen über Intercluster LIFs, die alle miteinander kommunizieren können.</p>
 </div>
 
