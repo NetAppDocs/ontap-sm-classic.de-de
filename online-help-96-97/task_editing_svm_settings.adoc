@@ -44,7 +44,7 @@ System Manager zeigt den Switch Name Service und den Namenszuordnungsschalter ei
 
 .Schritte
 . Klicken Sie auf *Storage* > *SVMs*.
-. Wählen Sie die SVM aus, und klicken Sie dann auf *SVM Settings*.
+. Wählen Sie die SVM aus, und klicken Sie dann auf *Bearbeiten*.
 . Ändern Sie auf der Registerkarte *Details* die erforderlichen Protokolle.
 . Wählen Sie auf der Registerkarte *Ressourcenzuordnung* eine der folgenden Methoden zur Delegierung der Volume-Erstellung aus:
 +

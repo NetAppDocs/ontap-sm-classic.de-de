@@ -148,6 +148,13 @@ Aktualisiert die Informationen im Fenster.
 
 === Liste der Effizienzrichtlinien
 
+* *Auto*
++
+Gibt an, dass die Deduplizierung kontinuierlich im Hintergrund durchgeführt wird. Diese Richtlinie gilt für alle neu erstellten Volumes und für alle aktualisierten Volumes, die nicht manuell für die Deduplizierung im Hintergrund konfiguriert wurden. Wenn Sie die Richtlinie in „`default`“ oder eine andere Richtlinie ändern, ist die Richtlinie „`Auto`“ deaktiviert.
+
++
+Wenn ein Volume sich von einem nicht-All Flash FAS System auf ein AFF System verschiebt, ist die Richtlinie „`Auto`“ standardmäßig auf dem Ziel-Node aktiviert. Wenn ein Volume von einem AFF Node zu einem nicht All Flash FAS Node verschoben wird, wird die „`Auto`“-Richtlinie auf dem Ziel-Node standardmäßig durch die Richtlinie „`inline-only`“ ersetzt.
+
 * *Richtlinien*
 +
 Gibt den Namen einer Effizienzrichtlinie an.

@@ -8405,7 +8405,6 @@
   <block id="8ffc06d28e87576dd9ff2da3caa069e3" category="paragraph">Beginnend mit ONTAP 9.3 bis ONTAP 9.7 können Sie die ONTAP System Manager _classic_ Schnittstelle zum Erstellen von SVM-Peer-Beziehungen verwenden. Das Storage Virtual Machine (SVM)-Peering ermöglicht Ihnen die Einrichtung einer Peer-Beziehung zwischen zwei SVMs zur Datensicherung.</block>
   <block id="61c932880254c345e3760972ca757cab" category="list-text">Klicken Sie auf *SVM-Peering initiieren*.</block>
   <block id="1d38d81d646985ec3458b8d11103d5e2" category="summary">Nachdem Sie erfolgreich eine Cluster Peering-Beziehung erstellt haben, sind Sie bereit, die Verfügbarkeit Ihrer Daten zu schützen.</block>
-  <block id="16514528850809da669879bf9c0def51" category="paragraph">Nachdem Sie erfolgreich eine Cluster Peering-Beziehung erstellt haben, sind Sie bereit, die Verfügbarkeit Ihrer Daten zu schützen. Sie können Ihre Daten mithilfe der folgenden Informationen schützen:</block>
   <block id="a97f5cda69815f1e77668550fdaeedca" category="list-text"><block ref="a97f5cda69815f1e77668550fdaeedca" category="inline-link-macro-rx"></block></block>
   <block id="3552a03559c9745468390e65ff5420dd" category="paragraph">Beschreibt, wie SnapMirror Beziehungen zwischen Volumes in verschiedenen Clustern schnell konfiguriert und überwacht werden können</block>
   <block id="4a4c3d33f3a7344913b2fc74439a7be1" category="paragraph">Beschreibt die schnelle Konfiguration einer Cluster SnapVault Beziehung.</block>
@@ -9254,4 +9253,8 @@
   <block id="f6544266822afc00f9e28a38a852cab9" category="paragraph-title">Ergebnisliste für CIFS-Protokoll-Tracing</block>
   <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">Ergebnisliste für NFS-Protokoll-Tracing</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Verwandte Informationen</block>
+  <block id="0832a9959e45466f30fb7d8ac340284b" category="list-text">Wählen Sie die SVM aus, und klicken Sie dann auf *Bearbeiten*.</block>
+  <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">Gibt an, dass die Deduplizierung kontinuierlich im Hintergrund durchgeführt wird. Diese Richtlinie gilt für alle neu erstellten Volumes und für alle aktualisierten Volumes, die nicht manuell für die Deduplizierung im Hintergrund konfiguriert wurden. Wenn Sie die Richtlinie in „`default`“ oder eine andere Richtlinie ändern, ist die Richtlinie „`Auto`“ deaktiviert.</block>
+  <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">Wenn ein Volume sich von einem nicht-All Flash FAS System auf ein AFF System verschiebt, ist die Richtlinie „`Auto`“ standardmäßig auf dem Ziel-Node aktiviert. Wenn ein Volume von einem AFF Node zu einem nicht All Flash FAS Node verschoben wird, wird die „`Auto`“-Richtlinie auf dem Ziel-Node standardmäßig durch die Richtlinie „`inline-only`“ ersetzt.</block>
+  <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">Sie können Ihre Daten mithilfe der folgenden Informationen schützen:</block>
 </blocks>

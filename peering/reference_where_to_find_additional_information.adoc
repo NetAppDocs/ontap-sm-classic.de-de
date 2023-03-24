@@ -11,7 +11,9 @@ summary: Nachdem Sie erfolgreich eine Cluster Peering-Beziehung erstellt haben, 
 
 
 [role="lead"]
-Nachdem Sie erfolgreich eine Cluster Peering-Beziehung erstellt haben, sind Sie bereit, die Verfügbarkeit Ihrer Daten zu schützen. Sie können Ihre Daten mithilfe der folgenden Informationen schützen:
+Nachdem Sie erfolgreich eine Cluster Peering-Beziehung erstellt haben, sind Sie bereit, die Verfügbarkeit Ihrer Daten zu schützen.
+
+Sie können Ihre Daten mithilfe der folgenden Informationen schützen:
 
 * link:../volume-disaster-prep/index.html["Vorbereitung der Volume Disaster Recovery"]
 +
