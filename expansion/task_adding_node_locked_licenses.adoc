@@ -13,6 +13,10 @@ summary: Falls das Cluster über Funktionen verfügt, die Lizenzen mit einem Nod
 [role="lead"]
 Wenn der Cluster über Funktionen verfügt, die Lizenzen mit gesperrten Nodes nutzen (die nur bestimmte Nodes für die lizenzierte Funktionalität berechtigen), müssen Sie sicherstellen, dass Node-gesperrte Lizenzen für die neuen Nodes installiert sind. Bevor die Nodes dem Cluster hinzugefügt werden, sollten Sie die Lizenzen hinzufügen.
 
+Führen Sie diese Aufgabe aus, wenn Sie die Benutzeroberfläche _Classic_ System Manager mit ONTAP 9.7 und früheren Versionen verwenden. Wenn Sie die Benutzeroberfläche von System Manager mit ONTAP 9.7 und höher verwenden, finden Sie weitere Informationen unter link:https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["Aktivieren Sie neue Funktionen durch Hinzufügen von Lizenzschlüssel"].
+
+Weitere Informationen zum Verwalten von Lizenzen finden Sie unter link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["Überblick über die Verwaltung von Lizenzen"].
+
 .Schritte
 . Fügen Sie jeden Lizenzschlüssel mit hinzu `system license add` Befehl.
 +
