@@ -27,9 +27,9 @@ Diese Verfahren basieren auf folgenden Annahmen:
 * ISCSI-SAN-Start wird nicht konfiguriert.
 
 
-Weitere Informationen zum Konfigurieren Ihres spezifischen Hosts mit ONTAP finden Sie unter https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN-Host-Konfiguration"].
+Weitere Informationen zum Konfigurieren Ihres spezifischen Hosts mit ONTAP finden Sie unter https://["ONTAP SAN-Host-Konfiguration"].
 
-Weitere Informationen zur SAN-Administration finden Sie im https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 – Übersicht über die SAN-Administration"]
+Weitere Informationen zur SAN-Administration finden Sie im https://["ONTAP 9 – Übersicht über die SAN-Administration"]
 
 
 
@@ -41,8 +41,8 @@ Weitere Informationen zur SAN-Administration finden Sie im https://docs.netapp.c
 | Zum Abschließen dieser Aufgabe verwenden Sie... | Siehe... 
 
 
-| Der neu gestaltete System Manager (verfügbar ab 9.7) | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["Bereitstellen von SAN-Storage für Linux Server"^] 
+| Der neu gestaltete System Manager (verfügbar ab 9.7) | https://["Provisionierung von SAN-Storage"^] 
 
 
-| Die ONTAP Befehlszeilenschnittstelle (CLI) | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["LUN-Setup-Workflow mit der CLI"^] 
+| Die ONTAP Befehlszeilenschnittstelle (CLI) | https://["LUN-Setup-Workflow mit der CLI"^] 
 |===

@@ -26,8 +26,8 @@ Wenn Ihr Datennetzwerk fest zugeordnet ist, stellen diese Standardobjekte sicher
 
 Wenn Sie nähere Informationen über die verschiedenen ONTAP-NFS- und SMB-Protokollfunktionen benötigen, finden Sie in der folgenden Dokumentation:
 
-* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS-Management"^]
-* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB-Management"^]
+* https://["NFS-Management"^]
+* https://["SMB-Management"^]
 
 
 

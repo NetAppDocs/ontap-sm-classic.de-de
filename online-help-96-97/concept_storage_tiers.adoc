@@ -15,4 +15,4 @@ Mit System Manager können Aggregate erstellt werden, um die verschiedenen Siche
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["Festplatten- und Aggregatmanagement"]
+https://["Festplatten- und Aggregatmanagement"]

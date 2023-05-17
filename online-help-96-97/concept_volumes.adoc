@@ -22,6 +22,6 @@ Die Registerkarte Volumes wird nur angezeigt, wenn Sie die CIFS- und NFS-Lizenze
 ====
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP-Konzepte"^]
+https://["ONTAP-Konzepte"^]
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["Logisches Storage-Management"^]
+https://["Logisches Storage-Management"^]

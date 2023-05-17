@@ -30,13 +30,13 @@ image::../media/volume_move_workflow.jpg[Workflow zur Volume-Verschiebung]
  a| 
 Der neu gestaltete System Manager (verfügbar ab ONTAP 9.7)
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["Volumes managen"^]
+https://["Volumes managen"^]
 
 
 
  a| 
 Die ONTAP Befehlszeilenschnittstelle
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["Logisches Storage-Management"^]
+https://["Logisches Storage-Management"^]
 
 |===

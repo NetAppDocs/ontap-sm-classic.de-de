@@ -96,4 +96,4 @@ Im Detailbereich werden die Rollenattribute angezeigt, z. B. der Befehl oder das
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/authentication/index.html["Administratorauthentifizierung und RBAC"^]
+https://["Administratorauthentifizierung und RBAC"^]

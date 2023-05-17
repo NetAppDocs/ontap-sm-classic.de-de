@@ -53,14 +53,14 @@ Die Volume-Verschiebung wird für NVMe Konfigurationen mit ONTAP 9.5 nicht unter
  a| 
 Der neu gestaltete System Manager (verfügbar ab ONTAP 9.7)
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["Volumes managen"^]
+https://["Volumes managen"^]
 
 
 
  a| 
 Die ONTAP Befehlszeilenschnittstelle
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["Logisches Storage-Management"^]
+https://["Logisches Storage-Management"^]
 
 |===
 
@@ -71,10 +71,10 @@ Vor dem Verschieben von Volumes sollten Sie prüfen, ob die folgenden Ansätze f
 
 * Wenn Sie einen Controller unterbrechungsfrei aktualisieren möchten, können Sie die Aggregatverschiebung (ARL) nutzen, da keine physische Datenverschiebung erforderlich ist.
 +
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["Hochverfügbarkeit"^]
+https://["Hochverfügbarkeit"^]
 
 * Wenn Sie nur eine LUN ohne das entsprechende Volume verschieben möchten, können Sie den LUN-Vorgang verschieben.
 +
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN-Administration"^]
+https://["SAN-Administration"^]
 
 

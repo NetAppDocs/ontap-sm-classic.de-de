@@ -214,4 +214,4 @@ Im Detailbereich werden ausführliche Informationen zur Warnmeldung angezeigt, z
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["Systemadministration"]
+https://["Systemadministration"]

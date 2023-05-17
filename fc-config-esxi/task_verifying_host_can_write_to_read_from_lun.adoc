@@ -39,4 +39,4 @@ Wenn einer der Tests fehlschlägt, überprüfen Sie, ob der FC-Service auf dem S
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["ONTAP 9 High-Availability-Konfiguration"]
+https://["ONTAP 9 High-Availability-Konfiguration"]

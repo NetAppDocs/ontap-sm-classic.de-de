@@ -26,7 +26,7 @@ Obwohl in diesem Verfahren Beispiele ein Cluster mit zwei Nodes verwenden, gilt 
 Wenn Sie einem Single-Node-Cluster einen Node hinzufügen möchten, müssen Sie anders vorgehen.
 
 +
-https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.html["Hinzufügen eines zweiten Controllers zur Erstellung eines HA-Paars"]
+https://["Hinzufügen eines zweiten Controllers zur Erstellung eines HA-Paars"]
 
 ** IPv6-Adressen oder Speicherverschlüsselung werden nicht verwendet.
 ** Es ist keine MetroCluster-Konfiguration.
@@ -41,7 +41,7 @@ https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.htm
 
 * Wenn Sie die ONTAP-Konfigurationsaufgaben mit System Manager abschließen, möchten Sie die Benutzeroberfläche _Classic_ System Manager für ONTAP 9.7 und frühere Versionen verwenden und nicht die ONTAP System Manager Benutzeroberfläche für ONTAP 9.7 und höher.
 +
-https://docs.netapp.com/us-en/ontap/["Dokumentation von ONTAP System Manager"]
+https://["Dokumentation von ONTAP System Manager"]
 
 * Sie möchten Best Practices verwenden und nicht alle verfügbaren Optionen erkunden.
 * Sie wollen nicht viel konzeptuellen Hintergrund lesen.

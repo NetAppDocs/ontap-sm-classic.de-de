@@ -65,6 +65,6 @@ Das Zoning-Setup variiert abhängig von dem Switch, den Sie verwenden.
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN-Konfiguration"^]
+https://["SAN-Konfiguration"^]
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN-Administration"^]
+https://["SAN-Administration"^]

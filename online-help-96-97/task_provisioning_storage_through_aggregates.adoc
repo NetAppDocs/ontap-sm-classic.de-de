@@ -315,4 +315,4 @@ Gemeinsam genutzte Festplatten unterstützen zwei RAID-Typen: RAID-DP und RAID-T
 
 *Verwandte Informationen*
 
-http://www.netapp.com/us/media/tr-4070.pdf["Technischer Bericht 4070 zu NetApp: Flash Pool Design und Implementierung"^]
+http://["Technischer Bericht 4070 zu NetApp: Flash Pool Design und Implementierung"^]

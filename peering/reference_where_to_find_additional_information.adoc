@@ -27,15 +27,15 @@ Beschreibt die schnelle Konfiguration einer Cluster SnapVault Beziehung.
 
 Weitere Informationen sind verfügbar:
 
-* https://docs.netapp.com/us-en/ontap/data-protection/index.html["Datensicherung"^]
+* https://["Datensicherung"^]
 +
 Beschreibt die Vermeidung von Datenverlusten mithilfe von Snapshot Kopien und SnapMirror Replizierung auf einem Remote-System
 
-* http://www.netapp.com/us/media/tr-4015.pdf["Technischer Bericht 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2"^]
+* http://["Technischer Bericht 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2"^]
 +
 Beschreibt Informationen und Best Practices zum Konfigurieren der Replizierung, einschließlich Cluster-Peering.
 
-* https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP-Konzepte"^]
+* https://["ONTAP-Konzepte"^]
 +
 Liefert konzeptionelle Informationen zum Cluster-Peering.
 

@@ -29,4 +29,4 @@ Sie können die Einstellungen für die FC/FCoE- und NVMe-Adaptergeschwindigkeit 
 
 xref:reference_network_window.adoc[Netzwerkfenster]
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"]
+https://["Netzwerkmanagement"]

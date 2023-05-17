@@ -181,4 +181,4 @@ Im Bereich unterhalb der Liste Array-LUNs werden detaillierte Informationen übe
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.vs-irrg/home.html["Installationsanforderungen für FlexArray Virtualisierung und Referenz"]
+https://["Installationsanforderungen für FlexArray Virtualisierung und Referenz"]

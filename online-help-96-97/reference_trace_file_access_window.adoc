@@ -108,6 +108,6 @@ Wenn das Trace-Ergebnis eine Meldung anzeigt, dass der Zugriff nicht für "Synch
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS-Management"]
+https://["SMB/CIFS-Management"]
 
 xref:../nas-multiprotocol-config/index.html[Multiprotokollkonfiguration von SMB/CIFS und NFS]

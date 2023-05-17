@@ -152,4 +152,4 @@ Zeigt den Sicherheitsstil für den SNMP-Server an.
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"]
+https://["Netzwerkmanagement"]

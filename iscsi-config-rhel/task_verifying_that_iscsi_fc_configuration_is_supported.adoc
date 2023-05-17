@@ -14,7 +14,7 @@ summary: Für einen zuverlässigen Betrieb müssen Sie sicherstellen, dass die g
 Für einen zuverlässigen Betrieb müssen Sie sicherstellen, dass die gesamte iSCSI-Konfiguration unterstützt wird.
 
 .Schritte
-. Wechseln Sie zum https://mysupport.netapp.com/matrix["NetApp Interoperabilitäts-Matrix-Tool"] Um zu überprüfen, ob Sie eine unterstützte Kombination der folgenden Komponenten haben:
+. Wechseln Sie zum https://["NetApp Interoperabilitäts-Matrix-Tool"] Um zu überprüfen, ob Sie eine unterstützte Kombination der folgenden Komponenten haben:
 +
 ** ONTAP Software
 ** Host-Computer-CPU-Architektur (für Standard-Rack-Server)

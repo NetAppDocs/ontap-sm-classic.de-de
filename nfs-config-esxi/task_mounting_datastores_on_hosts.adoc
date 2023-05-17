@@ -22,4 +22,4 @@ Durch das Mounten eines Datastore kann ein Host auf den Speicher zugreifen. Wenn
 
 *Verwandte Informationen*
 
-https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["Virtual Storage Console, VASA Provider und Storage Replication Adapter für die VMware vSphere Administration für Version 9.6"]
+https://["Virtual Storage Console, VASA Provider und Storage Replication Adapter für die VMware vSphere Administration für Version 9.6"]

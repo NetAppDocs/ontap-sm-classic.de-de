@@ -19,7 +19,7 @@ IPv6 muss auf dem Cluster aktiviert sein, wenn Sie SNMP-Traphosts mit IPv6-Adres
 .Über diese Aufgabe
 SNMP- und SNMP-Traps sind standardmäßig aktiviert. Der technische Bericht TR-4220 zur SNMP-Unterstützung enthält Listen aller Standardereignisse, die durch SNMP-Traps unterstützt werden.
 
-http://www.netapp.com/us/media/tr-4220.pdf["Technischer Bericht von NetApp 4220: SNMP-Support in Data ONTAP"^]
+http://["Technischer Bericht von NetApp 4220: SNMP-Support in Data ONTAP"^]
 
 .Schritte
 . Klicken Sie im SNMP-Fenster auf *BEARBEITEN*, um das Dialogfeld *SNMP-Einstellungen bearbeiten* zu öffnen.

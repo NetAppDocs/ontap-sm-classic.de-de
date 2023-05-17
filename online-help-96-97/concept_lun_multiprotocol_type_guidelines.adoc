@@ -138,10 +138,10 @@ Bei RAW LUNs können Sie den Typ des Gast-Betriebssystems verwenden, den der LUN
 
 xref:task_creating_luns.adoc[LUNs werden erstellt]
 
-https://mysupport.netapp.com/NOW/products/interoperability["NetApp Interoperabilität"]
+https://["NetApp Interoperabilität"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148981["Installations- und Setup-Leitfaden für Solaris Host Utilities 6.1"]
+https://["Installations- und Setup-Leitfaden für Solaris Host Utilities 6.1"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148983["Solaris Host Utilities 6.1 Quick Command Reference"]
+https://["Solaris Host Utilities 6.1 Quick Command Reference"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148982["Solaris Host Utilities 6.1 – Versionshinweise"]
+https://["Solaris Host Utilities 6.1 – Versionshinweise"]

@@ -36,7 +36,7 @@ ONTAP System Manager in ONTAP 9.3 vereinfacht die Konfiguration von Peer-Beziehu
  a| 
 Der neu gestaltete System Manager (verfügbar ab ONTAP 9.7)
  a| 
-* https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["Cluster-Management mit System Manager"^]
+* https://["Cluster-Management mit System Manager"^]
 
 
 
@@ -44,11 +44,11 @@ Der neu gestaltete System Manager (verfügbar ab ONTAP 9.7)
  a| 
 Die ONTAP Befehlszeilenschnittstelle (CLI)
  a| 
-* https://docs.netapp.com/us-en/ontap/peering/index.html["Übersicht über Cluster- und SVM-Peering mit der CLI"^]
+* https://["Übersicht über Cluster- und SVM-Peering mit der CLI"^]
 +
 Verwenden Sie die Befehlszeilenschnittstelle, um Cluster-Peering-Beziehungen und SVM-Peering-Beziehungen einzurichten.
 
-* https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"^]
+* https://["Netzwerkmanagement"^]
 +
 Verwenden Sie die Befehlszeilenschnittstelle, um Subnetze, LIFs zwischen Clustern, Routen, Firewall-Richtlinien und andere Netzwerkkomponenten zu konfigurieren
 

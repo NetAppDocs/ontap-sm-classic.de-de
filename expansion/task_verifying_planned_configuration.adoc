@@ -22,11 +22,11 @@ Sie müssen zwei Anmeldedaten haben – den Benutzernamen und das Kennwort, die 
 .. Vergewissern Sie sich, dass die Plattform der neuen Controller mit den vorhandenen Controllern des Clusters kombiniert werden kann.
 .. Vergewissern Sie sich, dass das erweiterte Cluster die Systemgrenzen für die Plattformen nicht überschreitet.
 +
-https://hwu.netapp.com["NetApp Hardware Universe"^]
+https://["NetApp Hardware Universe"^]
 
 .. Wenn Ihr Cluster für SAN konfiguriert ist, vergewissern Sie sich, dass der erweiterte Cluster die Konfigurationsgrenzwerte für FC, FCoE und iSCSI nicht überschreitet.
 +
-https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN-Konfiguration"^]
+https://["SAN-Konfiguration"^]
 
 
 
@@ -53,7 +53,7 @@ CIFS              license CIFS License          -
 .. Überprüfen Sie die Ausgabe, um die vom Typ identifizierten Node-gesperrten Lizenzen zu identifizieren `license`) Das wird für die zusätzlichen Knoten benötigt.
 .. Vergewissern Sie sich, dass die Lizenzen, die in den zusätzlichen Nodes enthalten sind, mit den vorhandenen Lizenzen mit gesperrten Nodes des Clusters vereinbar sind.
 +
-http://mysupport.netapp.com/licenses["Suche nach NetApp Softwarelizenzen"^]
+http://["Suche nach NetApp Softwarelizenzen"^]
 
 
 
@@ -62,14 +62,14 @@ Wenn Sie nicht über die erforderlichen Lizenzen für die zusätzlichen Nodes ve
 
 . Vergewissern Sie sich, dass der Standort für die neue Ausstattung bereit ist.
 +
-https://hwu.netapp.com["NetApp Hardware Universe"^]
+https://["NetApp Hardware Universe"^]
 
 +
 Wenn die Website nicht bereit ist, müssen Sie die Site vorbereiten, bevor Sie mit der Erweiterung fortfahren.
 
 . Vergewissern Sie sich, dass die vorhandenen Switches die zusätzlichen Controller unterstützen.
 +
-https://hwu.netapp.com["NetApp Hardware Universe"^]
+https://["NetApp Hardware Universe"^]
 
 +
 Wenn das Cluster ohne Switches arbeitet oder die vorhandenen Switches die zusätzlichen Nodes nicht unterstützen, müssen Sie Cluster Switches beschaffen, die Sie später im Erweiterungsprozess installieren können.

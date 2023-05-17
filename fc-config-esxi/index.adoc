@@ -17,8 +17,8 @@ Gehen Sie folgendermaßen vor, wenn:
 
 * Sie verwenden eine unterstützte Version von Virtual Storage Console für VMware vSphere (VSC), um Storage-Einstellungen für Ihren ESX Host zu konfigurieren und die Datenspeicher bereitzustellen.
 +
-** Ab VSC 7.0 gehört die VSC Bestandteil der https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["ONTAP Tools für VMware vSphere"^] Virtuelle Appliance mit VSC, vStorage APIs for Storage Awareness (VASA) Provider und Storage Replication Adapter (SRA) für VMware vSphere Funktionen.
-** Prüfen Sie unbedingt die https://imt.netapp.com/matrix/["NetApp Interoperabilitäts-Matrix-Tool"^] Um die Kompatibilität zwischen Ihren aktuellen ONTAP und VSC Versionen zu überprüfen.
+** Ab VSC 7.0 gehört die VSC Bestandteil der https://["ONTAP Tools für VMware vSphere"^] Virtuelle Appliance mit VSC, vStorage APIs for Storage Awareness (VASA) Provider und Storage Replication Adapter (SRA) für VMware vSphere Funktionen.
+** Prüfen Sie unbedingt die https://["NetApp Interoperabilitäts-Matrix-Tool"^] Um die Kompatibilität zwischen Ihren aktuellen ONTAP und VSC Versionen zu überprüfen.
 
 
 * In Ihrem Netzwerk werden IPv4-Adressen verwendet.
@@ -37,4 +37,4 @@ Dieses Verfahren umfasst keine RDM-Festplatten (Raw Device Mapping) oder die Ver
 
 
 
-Weitere Informationen finden Sie unter https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["TR-4597: VMware vSphere für ONTAP"^] Und der Dokumentation für Ihre VSC Version.
+Weitere Informationen finden Sie unter https://["TR-4597: VMware vSphere für ONTAP"^] Und der Dokumentation für Ihre VSC Version.

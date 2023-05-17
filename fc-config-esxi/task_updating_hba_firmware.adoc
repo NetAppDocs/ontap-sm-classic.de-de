@@ -14,7 +14,7 @@ summary: Wenn auf den FC-Host-Bus-Adaptern im ESX-Host keine unterstützten Trei
 Wenn die FC-Host Bus Adapter (HBAs) im ESX-Host nicht unterstützte Treiber, Firmware und BIOS-Versionen ausführen, müssen Sie sie aktualisieren.
 
 .Bevor Sie beginnen
-Sie müssen die unterstützten Treiber-, Firmware- und BIOS-Versionen für Ihre Konfiguration über die identifiziert haben https://mysupport.netapp.com/matrix["NetApp Interoperabilitäts-Matrix-Tool"].
+Sie müssen die unterstützten Treiber-, Firmware- und BIOS-Versionen für Ihre Konfiguration über die identifiziert haben https://["NetApp Interoperabilitäts-Matrix-Tool"].
 
 .Über diese Aufgabe
 Die HBA-Anbieter stellen Treiber, Firmware, BIOS und HBA-Utilitys bereit.
@@ -29,4 +29,4 @@ Installationsanweisungen und alle erforderlichen Installationsprogramme stehen I
 
 *Verwandte Informationen*
 
-http://kb.vmware.com/kb/1002413["VMware KB-Artikel 1002413: Identifikation der Firmware eines Qlogic- oder Emulex FC-HBA"]
+http://["VMware KB-Artikel 1002413: Identifikation der Firmware eines Qlogic- oder Emulex FC-HBA"]

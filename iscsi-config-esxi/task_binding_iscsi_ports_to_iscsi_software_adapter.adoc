@@ -23,7 +23,7 @@ Sie können die iSCSI-Ports mit dem vSphere-Client binden.
 
 Detaillierte Anweisungen finden Sie unter _VMware vSphere Storage_ für Ihre Version von ESXi 5 von VMware.
 
-http://www.vmware.com["VMware"]
+http://["VMware"]
 
 .Schritte
 . Binden Sie den ersten iSCSI-Port an den iSCSI-Software-Adapter, indem Sie im vSphere Client die Registerkarte *Network Port Binding* des iSCSI-Software-Adapters *Adapterdetails* verwenden.

@@ -22,4 +22,4 @@ Die Registerkarte LUNs wird nur angezeigt, wenn Sie die FC/FCoE- und iSCSI-Lizen
 ====
 *Verwandte Informationen*
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN-Administration"^]
+https://["SAN-Administration"^]
