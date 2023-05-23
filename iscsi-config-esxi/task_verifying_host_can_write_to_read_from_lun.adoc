@@ -39,4 +39,4 @@ Wenn einer der Tests fehlschlägt, überprüfen Sie, ob der iSCSI-Service auf de
 
 *Verwandte Informationen*
 
-https://["Hochverfügbarkeits-Management"^]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html["Hochverfügbarkeits-Management"^]

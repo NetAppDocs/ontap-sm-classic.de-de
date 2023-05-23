@@ -16,7 +16,7 @@ Damit ONTAP sich mit StorageGRID als Objektspeicher für ein FabricPool-fähiges
 .Schritte
 . Befolgen Sie die StorageGRID Systemdokumentation, um das CA-Zertifikat des StorageGRID Systems mithilfe der Grid-Managementoberfläche zu kopieren.
 +
-https://["StorageGRID 11.3 – Administratorhandbuch"]
+https://docs.netapp.com/sgws-113/topic/com.netapp.doc.sg-admin/home.html["StorageGRID 11.3 – Administratorhandbuch"]
 
 +
 Beim Hinzufügen von StorageGRID als Cloud-Tier wird eine Meldung angezeigt, wenn das CA-Zertifikat nicht installiert ist.

@@ -193,6 +193,6 @@ xref:reference_network_window.adoc[Netzwerkfenster]
 
 xref:task_configuring_iscsi_protocol_on_svms.adoc[Konfigurieren des iSCSI-Protokolls auf SVMs]
 
-https://["ONTAP-Konzepte"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP-Konzepte"]
 
-https://["Netzwerkmanagement"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"]

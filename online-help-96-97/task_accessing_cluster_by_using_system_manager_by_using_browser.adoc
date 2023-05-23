@@ -45,4 +45,4 @@ Diese Option wird nicht auf Systemen unterstützt, auf denen die SAML-Authentifi
 
 *Verwandte Informationen*
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]

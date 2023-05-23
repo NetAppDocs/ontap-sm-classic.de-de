@@ -16,7 +16,7 @@ Für einen zuverlässigen Betrieb müssen Sie sicherstellen, dass die gesamte Ko
 .Schritte
 . Überprüfen Sie im, ob eine unterstützte Kombination der folgenden Komponenten unterstützt wird:
 +
-https://["NetApp Interoperabilitäts-Matrix-Tool"]
+https://mysupport.netapp.com/matrix["NetApp Interoperabilitäts-Matrix-Tool"]
 
 +
 ** ONTAP Software

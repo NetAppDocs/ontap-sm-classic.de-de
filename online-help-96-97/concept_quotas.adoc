@@ -345,4 +345,4 @@ Im Bereich unterhalb der Quotenliste werden Quota-Details angezeigt, beispielswe
 
 *Verwandte Informationen*
 
-https://["Logisches Storage-Management"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["Logisches Storage-Management"^]

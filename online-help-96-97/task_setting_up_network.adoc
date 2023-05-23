@@ -131,11 +131,11 @@ Geben Sie Ereignisbenachrichtigungen auf der Seite Support ein, um mit dem Clust
 
 *Verwandte Informationen*
 
-https://["Was ist ein Service Processor und wie verwende ich ihn?"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F["Was ist ein Service Processor und wie verwende ich ihn?"]
 
-https://["Anleitung zum Konfigurieren und Beheben von Fehlern bei NTP auf Clustered Data ONTAP 8.2 und höher mithilfe von CLI"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI["Anleitung zum Konfigurieren und Beheben von Fehlern bei NTP auf Clustered Data ONTAP 8.2 und höher mithilfe von CLI"]
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]
 
 xref:reference_network_window.adoc[Netzwerkfenster]
 

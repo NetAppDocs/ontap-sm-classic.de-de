@@ -19,7 +19,7 @@ Um konsistenten Zugriff auf die Virtual Machines auf dem ESXi Host zu ermöglich
 .Schritte
 . Laden Sie das NFS-Plug-in für VMware VAAI herunter.
 +
-https://["NetApp Support"]
+https://mysupport.netapp.com/site/global/dashboard["NetApp Support"]
 
 +
 Sie sollten das Online Bundle herunterladen (`NetAppNasPlugIn.vib`) Des neuesten Plug-ins

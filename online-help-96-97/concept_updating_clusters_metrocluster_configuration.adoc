@@ -17,4 +17,4 @@ image::../media/updating_cluster_mcc_configuration.gif[Aktualisieren der Cluster
 
 *Verwandte Informationen*
 
-https://["Upgrade von ONTAP"]
+https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html["Upgrade von ONTAP"]

@@ -93,4 +93,4 @@ Im Detailbereich werden Informationen zum Status des FC/FCoE-Service, des Node-N
 
 xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[Konfiguration des FC-Protokolls und FCoE-Protokolls auf SVMs]
 
-https://["SAN-Administration"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN-Administration"^]

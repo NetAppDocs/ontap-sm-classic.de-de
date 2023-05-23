@@ -103,4 +103,4 @@ Bei Bedarf können Sie die SVM-Details bearbeiten.
 
 *Verwandte Informationen*
 
-https://["System Manager Cluster Guided Setup Vorlagen"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/System_Manager_Cluster_Guided_Setup_Templates["System Manager Cluster Guided Setup Vorlagen"]

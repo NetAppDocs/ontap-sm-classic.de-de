@@ -18,7 +18,7 @@ Bevor Sie ein Cluster erweitern, müssen Sie überprüfen, ob alle Komponenten d
 +
 ** Wenn Sie Config Advisor nicht auf Ihrem Laptop haben, laden Sie es herunter.
 +
-https://["NetApp Downloads: Config Advisor"]
+https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp Downloads: Config Advisor"]
 
 ** Wenn Sie Config Advisor haben, starten Sie es, klicken Sie auf *Hilfe* > *nach Updates suchen* und folgen Sie den Anweisungen, um es ggf. zu aktualisieren.
 +

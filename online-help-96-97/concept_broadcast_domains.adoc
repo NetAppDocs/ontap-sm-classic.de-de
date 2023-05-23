@@ -61,4 +61,4 @@ Sie müssen stattdessen die Befehlszeilenschnittstelle (CLI) verwenden.
 
 xref:reference_network_window.adoc[Netzwerkfenster]
 
-https://["Netzwerkmanagement"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"]

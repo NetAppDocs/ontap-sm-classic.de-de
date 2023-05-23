@@ -19,13 +19,13 @@ Wenn die Storage Virtual Machine (SVM) Benutzerdaten aus dem Active Directory-ba
 Wenn Sie einen anderen LDAP-Typ verwenden, müssen Sie LDAP über die Befehlszeilenschnittstelle (CLI) und andere Dokumentation konfigurieren.
 
 +
-https://["Technischer Bericht 4067: NFS in NetApp ONTAP"^]
+https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["Technischer Bericht 4067: NFS in NetApp ONTAP"^]
 
 +
-https://["Technischer Bericht von NetApp 4616: NFS Kerberos im ONTAP mit Microsoft Active Directory"^]
+https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["Technischer Bericht von NetApp 4616: NFS Kerberos im ONTAP mit Microsoft Active Directory"^]
 
 +
-https://["Technischer Bericht von NetApp 4835: Konfigurieren von LDAP in ONTAP"^]
+https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["Technischer Bericht von NetApp 4835: Konfigurieren von LDAP in ONTAP"^]
 
 * Sie müssen die AD-Domäne und die Server sowie die folgenden Bindungsinformationen kennen: Die Authentifizierungsebene, den Bind-Benutzer und das Passwort, den Basis-DN und den LDAP-Port.
 

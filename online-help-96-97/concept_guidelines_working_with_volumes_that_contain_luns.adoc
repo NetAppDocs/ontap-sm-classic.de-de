@@ -48,4 +48,4 @@ Dies ist eine Best Practice, die die LUN-Administration und -Protokollierung ver
 
 *Verwandte Informationen*
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]

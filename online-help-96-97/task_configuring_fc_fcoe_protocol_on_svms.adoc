@@ -57,4 +57,4 @@ Wenn die LIF-Erstellung fehlschlägt, können Sie die LIFs erstellen und den FCP
 
 *Verwandte Informationen*
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]

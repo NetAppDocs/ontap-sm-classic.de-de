@@ -18,7 +18,7 @@ Gehen Sie folgendermaßen vor, wenn Sie den Zugriff auf ein Volume wie folgt kon
 * Sie möchten Best Practices verwenden und nicht alle verfügbaren Optionen erkunden.
 * Im Datennetzwerk wird der Standard-IPspace, die Standard-Broadcast-Domäne und die Standard-Failover-Gruppe verwendet.
 +
-Wenn Ihr Datennetzwerk fest zugeordnet ist, stellen diese Standardobjekte sicher, dass bei einem Verbindungsausfall LIFs ein ordnungsgemäßer Failover erfolgt. Wenn Sie die Standardobjekte nicht verwenden, sollten Sie auf die verweisen https://["Dokumentation des Netzwerkmanagements"^] Weitere Informationen zur Konfiguration von LIF-Pfad-Failover.
+Wenn Ihr Datennetzwerk fest zugeordnet ist, stellen diese Standardobjekte sicher, dass bei einem Verbindungsausfall LIFs ein ordnungsgemäßer Failover erfolgt. Wenn Sie die Standardobjekte nicht verwenden, sollten Sie auf die verweisen https://docs.netapp.com/us-en/ontap/networking/index.html["Dokumentation des Netzwerkmanagements"^] Weitere Informationen zur Konfiguration von LIF-Pfad-Failover.
 
 * NTFS-Dateiberechtigungen werden zum Sichern des neuen Volumes verwendet.
 

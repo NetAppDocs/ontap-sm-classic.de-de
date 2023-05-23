@@ -129,4 +129,4 @@ Gibt die Richtung der Gruppenzuordnung an. Mögliche Werte sind `krb_unix` Für 
 
 *Verwandte Informationen*
 
-https://["SMB/CIFS-Management"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS-Management"]

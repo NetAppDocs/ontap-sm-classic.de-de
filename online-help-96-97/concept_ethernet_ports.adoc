@@ -124,8 +124,8 @@ Die Ports werden unter den Nodes gruppiert, und die Nodes werden basierend auf d
 
 *Verwandte Informationen*
 
-https://["Netzwerkmanagement"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"]
 
-https://["ONTAP-Konzepte"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP-Konzepte"]
 
 xref:reference_network_window.adoc[Netzwerkfenster]

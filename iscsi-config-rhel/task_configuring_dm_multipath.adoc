@@ -16,7 +16,7 @@ DM-Multipath managt mehrere Pfade zwischen dem Linux-Host und dem Storage-Cluste
 .Bevor Sie beginnen
 Sie müssen die erforderliche Version von DM-Multipath aus dem Interoperabilitäts-Matrix-Tool ermittelt haben.
 
-https://["NetApp Interoperabilitäts-Matrix-Tool"]
+https://mysupport.netapp.com/matrix["NetApp Interoperabilitäts-Matrix-Tool"]
 
 [NOTE]
 ====

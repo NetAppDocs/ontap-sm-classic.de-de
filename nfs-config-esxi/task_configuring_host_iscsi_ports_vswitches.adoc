@@ -20,7 +20,7 @@ Die für NFS verwendeten Host-Ports und Storage-Cluster-Ports müssen IP-Adresse
 
 In dieser Aufgabe werden die allgemeinen Schritte zur Konfiguration des ESXi-Hosts aufgelistet. Weitere detaillierte Anweisungen finden Sie in der VMware-Publikation _Storage_ für Ihre ESXi-Version.
 
-http://["VMware"]
+http://www.vmware.com["VMware"]
 
 .Schritte
 . Melden Sie sich beim vSphere-Client an, und wählen Sie dann den ESXi-Host aus dem Bereich Inventar aus.

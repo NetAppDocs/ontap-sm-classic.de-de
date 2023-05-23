@@ -133,6 +133,6 @@ Die Cache-Festplatten werden dem ausgewählten Flash Pool Aggregat hinzugefügt.
 
 *Verwandte Informationen*
 
-http://["Technischer Bericht 4070 zu NetApp: Flash Pool Design und Implementierung"^]
+http://www.netapp.com/us/media/tr-4070.pdf["Technischer Bericht 4070 zu NetApp: Flash Pool Design und Implementierung"^]
 
 xref:concept_how_storage_pool_works.adoc[So funktioniert der Storage-Pool]

@@ -225,10 +225,10 @@ Zeigt detaillierte Informationen zum ausgewählten qtree an, z. B. den Mount-Pfa
 
 *Verwandte Informationen*
 
-https://["ONTAP-Konzepte"^]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP-Konzepte"^]
 
-https://["Logisches Storage-Management"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["Logisches Storage-Management"^]
 
-https://["NFS-Management"^]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS-Management"^]
 
-https://["SMB/CIFS-Management"^]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS-Management"^]

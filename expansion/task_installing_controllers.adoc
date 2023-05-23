@@ -23,7 +23,7 @@ Ab ONTAP 9.0 ist der HA-Modus auf der neuen Hardware standardmäßig aktiviert.
 . Anweisungen _Installation and Setup_ zur FAS-Modellnummer des Controller-Moduls einholen, die Sie zum Cluster hinzufügen möchten.
 +
 ** Für ein neues Controller-Modul ist das Dokument im Feld verfügbar.
-** Für ein Controller-Modul mit neuer Verwendung können Sie das Dokument herunterladen.https://["NetApp Dokumentation"]
+** Für ein Controller-Modul mit neuer Verwendung können Sie das Dokument herunterladen.https://mysupport.netapp.com/site/docs-and-kb["NetApp Dokumentation"]
 
 
 . Befolgen Sie den Abschnitt _Installation_ mit folgenden Ausnahmen:

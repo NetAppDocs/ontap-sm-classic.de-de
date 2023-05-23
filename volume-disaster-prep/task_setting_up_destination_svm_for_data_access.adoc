@@ -46,4 +46,4 @@ Wurden Änderungen an der SVM vorgenommen, die das Quell-Volume enthält, müsse
 
 *Verwandte Informationen*
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]

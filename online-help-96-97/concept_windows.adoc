@@ -15,4 +15,4 @@ Sie können mit System Manager Windows-Gruppen und Benutzerkonten erstellen und 
 
 *Verwandte Informationen*
 
-https://["SMB/CIFS-Management"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS-Management"]

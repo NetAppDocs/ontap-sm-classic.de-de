@@ -70,4 +70,4 @@ Aktualisiert die Informationen im Fenster.
 
 *Verwandte Informationen*
 
-https://["NFS-Management"^]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS-Management"^]

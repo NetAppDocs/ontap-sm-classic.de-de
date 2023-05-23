@@ -47,4 +47,4 @@ Die Liste der verfügbaren Snapshot Kopien für das ausgewählte Volume wird ang
 
 xref:reference_volumes_window.adoc[Fenster Volumes]
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]

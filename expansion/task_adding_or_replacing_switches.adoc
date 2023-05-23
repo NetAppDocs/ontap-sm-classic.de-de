@@ -19,13 +19,13 @@ Bevor Sie das Cluster erweitern, müssen Sie sicherstellen, dass die Cluster-Swi
 
 * Wenn es sich um ein 2-Node-Cluster ohne Switches handelt, migrieren Sie das Cluster unter Verwendung des bevorzugten Switch-Typs zu einem Switch mit zwei Nodes.
 +
-https://["Migration zu einem Switch-basierten Cluster mit zwei Nodes mit Cisco Cluster-Switches"]
+https://library.netapp.com/ecm/ecm_download_file/ECMP1140536["Migration zu einem Switch-basierten Cluster mit zwei Nodes mit Cisco Cluster-Switches"]
 
 +
-https://["Migration zu einem 2-Node-Cluster mit NetApp CN1610 Cluster-Switches"]
+https://library.netapp.com/ecm/ecm_download_file/ECMP1140535["Migration zu einem 2-Node-Cluster mit NetApp CN1610 Cluster-Switches"]
 
 * Wenn die vorhandenen Switches nicht über genügend Anschlüsse verfügen, um die zukünftige Konfiguration zu unterstützen, ersetzen Sie die Switches durch das entsprechende Ersatzverfahren.
 +
-https://["NetApp Dokumentation: Cluster, Management und Storage Switches"]
+https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["NetApp Dokumentation: Cluster, Management und Storage Switches"]
 
 

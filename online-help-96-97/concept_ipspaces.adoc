@@ -51,4 +51,4 @@ Der vom System definierte IPspace „`Default`“ und der IPspace „`Cluster`�
 
 *Verwandte Informationen*
 
-https://["Netzwerkmanagement"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"]

@@ -42,4 +42,4 @@ SVM-Administratoren können Jobs, Netzwerkverbindungen, Netzwerkschnittstelle un
 
 *Verwandte Informationen*
 
-https://["ONTAP 9 Dokumentationszentrum"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 Dokumentationszentrum"]

@@ -16,7 +16,7 @@ Mithilfe der Schnittstelle ONTAP System Manager _classic_ mit ONTAP 9.7 oder ein
 .Über diese Aufgabe
 In allen Versionen von ONTAP ist SNMPv3 standardmäßig auf Clusterebene aktiviert und SNMPv1 und SNMPv2c standardmäßig deaktiviert. SNMPv1 und SNMPv2c sind aktiviert, wenn Sie eine SNMP-Community erstellen.
 
-SNMP ist standardmäßig auf Daten-LIFs deaktiviert. Informationen zur Aktivierung von SNMP auf Daten-LIFs finden Sie unter https://["Netzwerkmanagement"^].
+SNMP ist standardmäßig auf Daten-LIFs deaktiviert. Informationen zur Aktivierung von SNMP auf Daten-LIFs finden Sie unter https://docs.netapp.com/us-en/ontap/networking/index.html["Netzwerkmanagement"^].
 
 .Schritte
 . Klicken Sie auf das Nut-Symbol.

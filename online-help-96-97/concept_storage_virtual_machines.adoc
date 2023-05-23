@@ -15,6 +15,6 @@ Mit ONTAP System Manager Classic (verfügbar in ONTAP 9.7 und früher) lassen si
 
 *Verwandte Informationen*
 
-https://["SAN-Administration"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN-Administration"^]
 
-https://["ONTAP-Konzepte"^]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP-Konzepte"^]

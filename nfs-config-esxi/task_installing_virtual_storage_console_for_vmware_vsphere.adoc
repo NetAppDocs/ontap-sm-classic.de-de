@@ -23,7 +23,7 @@ Sie müssen über Administratoranmeldedaten auf dem vCenter Server verfügen, de
 .Schritte
 . Laden Sie die Version herunter, deren Version für Ihre Konfiguration unterstützt wird, wie im Interoperabilitäts-Matrix-Tool dargestellt.
 +
-https://["NetApp Support"]
+https://mysupport.netapp.com/site/global/dashboard["NetApp Support"]
 
 . Implementieren Sie die virtuelle Appliance und konfigurieren Sie sie gemäß den Schritten in _Deployment and Setup Guide_.
 

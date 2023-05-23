@@ -45,4 +45,4 @@ xref:task_setting_time_zone_for_cluster.adoc[Einstellen der Zeitzone für ein Cl
 
 xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Einrichten eines Netzwerks, wenn ein IP-Adressbereich deaktiviert ist]
 
-https://["Systemadministration"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["Systemadministration"]

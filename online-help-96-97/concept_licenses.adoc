@@ -22,7 +22,7 @@ Sie können im Fenster Lizenzen in System Manager jede Softwarelizenz löschen, 
 Weitere Informationen zum Verwalten von Lizenzen mit ONTAP 9.8 und höher finden Sie in den folgenden Informationen:
 
 * link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["Übersicht über die Lizenzverwaltung (nur Cluster-Administratoren)"^]
-* https://["Aktivieren Sie neue Funktionen durch Hinzufügen von Lizenzschlüssel"^]
+* https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["Aktivieren Sie neue Funktionen durch Hinzufügen von Lizenzschlüssel"^]
 
 
 .Bevor Sie beginnen
@@ -263,6 +263,6 @@ Zeigt das Ablaufdatum des Softwarelizenzpakets an.
 
 *Verwandte Informationen*
 
-https://["Systemadministration"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["Systemadministration"]
 
 xref:task_creating_cluster.adoc[Erstellen eines Clusters]

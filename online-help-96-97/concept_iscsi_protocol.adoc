@@ -192,4 +192,4 @@ Im Detailbereich werden Informationen zum Status des iSCSI-Dienstes, des iSCSI-Z
 
 *Verwandte Informationen*
 
-https://["SAN-Administration"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN-Administration"^]
