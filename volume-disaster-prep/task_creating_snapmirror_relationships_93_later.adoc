@@ -32,7 +32,7 @@ Sie müssen diese Aufgabe aus dem Cluster *source* ausführen.
 +
 Es werden nur Peering SVMs und erlaubte SVMs unter Ziel-SVMs aufgeführt.
 
-.. Klicken Sie Auf image:../media/advanced_options_icon_disaster.gif[""].
+.. Klicken Sie Auf image:../media/advanced_options_icon_disaster.gif["Symbol für erweiterte Optionen"].
 .. Überprüfen Sie das im Dialogfeld *Erweiterte Optionen* `MirrorAllSnapshots` Wird als Sicherungsrichtlinie festgelegt.
 +
 `DPDefault` Und `MirrorLatest` Die anderen standardmäßigen Sicherungsrichtlinien für SnapMirror Beziehungen sind verfügbar.
@@ -47,7 +47,7 @@ Alle Datensicherungsbeziehungen werden standardmäßig initialisiert. Durch Init
 
 .. Klicken Sie auf *Anwenden*, um die Änderungen zu speichern.
 +
-image::../media/snapmirror_advanced_options_93.gif[Erweiterte snapmirror Optionen 93]
+image::../media/snapmirror_advanced_options_93.gif[Fenster „Erweiterte Optionen“]
 
 
 
@@ -59,7 +59,7 @@ image::../media/snapmirror_advanced_options_93.gif[Erweiterte snapmirror Optione
 
 
 +
-image::../media/snapmirror_9_3.gif[snapmirror 9 3]
+image::../media/snapmirror_9_3.gif[Screenshot mit dem SnapMirror Status]
 
 
 

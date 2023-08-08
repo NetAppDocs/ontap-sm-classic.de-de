@@ -62,7 +62,7 @@ Keine Peered
 
 
 +
-image::../media/destination_volume_settings.gif[Einstellungen für Zielvolume]
+image::../media/destination_volume_settings.gif[Einstellungen für das Ziel-Volume]
 
 . Wählen Sie im Abschnitt *Konfigurationsdetails* die Option *MirrorAllSnapshot* als Spiegelrichtlinie aus.
 +
@@ -74,7 +74,7 @@ image::../media/destination_volume_settings.gif[Einstellungen für Zielvolume]
 Durch Initialisieren der SnapMirror Beziehung wird sichergestellt, dass das Ziel-Volume über eine Baseline zum Sichern des Quell-Volume verfügt.
 
 +
-image::../media/create_snapmirror_relationship_window.gif[snapmirror Beziehungsfenster erstellen]
+image::../media/create_snapmirror_relationship_window.gif[SnapMirror Fenster erstellen]
 
 +
 Die Beziehung wird initialisiert durch einen Basistransfer der Daten vom Quell-Volume zum Ziel-Volume.
@@ -83,14 +83,14 @@ Die Beziehung wird initialisiert durch einen Basistransfer der Daten vom Quell-V
 Der Initialisierungsvorgang kann einige Zeit in Anspruch nehmen. Im Abschnitt Status wird der Status jedes Jobs angezeigt.
 
 +
-image::../media/snapmirror_create_3_successful.gif[snapmirror wurde erfolgreich erstellt 3]
+image::../media/snapmirror_create_3_successful.gif[Erstellung von SnapMirror erfolgreich]
 
 . Überprüfen Sie den Beziehungsstatus der SnapMirror Beziehung:
 +
 .. Wählen Sie das Volume aus, für das Sie die SnapMirror-Beziehung aus der Liste *Volumes* erstellt haben, und klicken Sie dann auf *Data Protection*.
 .. Überprüfen Sie auf der Registerkarte *Data Protection*, ob die von Ihnen erstellte SnapMirror-Beziehung aufgelistet ist und der Beziehungsstatus lautet `Snapmirrored`.
 +
-image::../media/snapmirror_create_4_verify.gif[snapmirror erstellen 4 überprüfen]
+image::../media/snapmirror_create_4_verify.gif[Überprüfen Sie, ob die Beziehung erstellt wurde]
 
 
 

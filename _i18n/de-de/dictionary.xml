@@ -776,37 +776,30 @@
   <block id="c6f72273f7a337fe5b7d4335bbc864cc" category="paragraph">Das Fenster Schutzbeziehung erstellen wird angezeigt.</block>
   <block id="dea23fcf1dfe72ca8217d8c0881b9d1d" category="list-text">Wählen Sie im Abschnitt *Beziehungstyp* aus der Dropdown-Liste *Beziehungstyp* die Option *Spiegel* aus.</block>
   <block id="bf3c24cccf670b34d6776b8942e7a929" category="list-text">Verwenden Sie den Standard-Volume-Namen, oder geben Sie einen neuen Volume-Namen an.</block>
-  <block id="25889688d2dab599f422759da9889d11" category="image-alt">Einstellungen für Zielvolume</block>
   <block id="9f010bb70a3cf9f282ab15c52a375d90" category="list-text">Wählen Sie im Abschnitt *Konfigurationsdetails* die Option *MirrorAllSnapshot* als Spiegelrichtlinie aus.</block>
   <block id="daf602eff6257ccc1585152cfa264dff" category="paragraph"><block ref="7e09f5121e9c61e839183558ddb0f17d" prefix="" category="inline-code"></block> Und<block ref="e162cfb3e9ccdaa06cb8c6b686825bee" prefix=" " category="inline-code"></block> Sind die anderen standardmäßigen Spiegelungsrichtlinien, die für SnapMirror Beziehungen verfügbar sind.</block>
   <block id="962acae637b5a6d13230ba6c3c1db5e2" category="list-text">Stellen Sie sicher, dass das Kontrollkästchen *Beziehung initialisieren* aktiviert ist, und klicken Sie dann auf *Erstellen*.</block>
   <block id="9006c9f92be4bea3381f69a4a4f9506b" category="paragraph">Durch Initialisieren der SnapMirror Beziehung wird sichergestellt, dass das Ziel-Volume über eine Baseline zum Sichern des Quell-Volume verfügt.</block>
-  <block id="3dd7b013b73a1c6f7e075f0af837ac53" category="image-alt">snapmirror Beziehungsfenster erstellen</block>
   <block id="6b30a92bd990fd6bdf7ef4a3b009417a" category="paragraph">Die Beziehung wird initialisiert durch einen Basistransfer der Daten vom Quell-Volume zum Ziel-Volume.</block>
   <block id="71f4dfe0a538ccc961465fbef08d3f18" category="paragraph">Der Initialisierungsvorgang kann einige Zeit in Anspruch nehmen. Im Abschnitt Status wird der Status jedes Jobs angezeigt.</block>
-  <block id="ca5b32513c7bc82739ecbb42c0816f5a" category="image-alt">snapmirror wurde erfolgreich erstellt 3</block>
   <block id="1e09209118660dffb580a75afff21cd6" category="list-text">Überprüfen Sie den Beziehungsstatus der SnapMirror Beziehung:</block>
   <block id="72ec6eb58743e16b28503a78409f276c" category="list-text">Wählen Sie das Volume aus, für das Sie die SnapMirror-Beziehung aus der Liste *Volumes* erstellt haben, und klicken Sie dann auf *Data Protection*.</block>
   <block id="ed8df297d64d8ea7830711d96a0f8774" category="list-text">Überprüfen Sie auf der Registerkarte *Data Protection*, ob die von Ihnen erstellte SnapMirror-Beziehung aufgelistet ist und der Beziehungsstatus lautet<block ref="d34e79870b17da17e894ddc837954dcc" prefix=" " category="inline-code"></block>.</block>
-  <block id="5e8ac563a17019f0db410450d785301b" category="image-alt">snapmirror erstellen 4 überprüfen</block>
   <block id="028fafb74e3b83afc82a43a425f93cb9" category="paragraph">Sie müssen die Einstellungen für das Quell-Volume wie Thin Provisioning, Deduplizierung, Komprimierung und Autogrow notieren. Sie können diese Informationen nutzen, um die Zielvolume-Einstellungen zu überprüfen, wenn Sie die SnapMirror-Beziehung unterbrechen.</block>
   <block id="808373648c6575e38ce0160c14bf829d" category="doc">SnapMirror Beziehung erstellen (beginnend mit ONTAP 9.3)</block>
   <block id="2c9838f3a2bfef58875104013a2df101" category="list-text">Wählen Sie das Volume aus, für das Sie eine Spiegelbeziehung erstellen möchten, und klicken Sie dann auf *Aktionen* &gt; *schützen*.</block>
   <block id="b1d6c3bc5dbf7b37cbdbe937bcacaae1" category="list-text">Wählen Sie als Beziehungstyp * Mirror* aus.</block>
   <block id="db9f6468d4481688fa9033abc1963271" category="list-text">Wählen Sie das Ziel-Cluster, die Ziel-SVM und das Suffix für den Namen des Ziel-Volume aus.</block>
   <block id="00eb0c752078cdbcec9dd22b17ea3c76" category="paragraph">Es werden nur Peering SVMs und erlaubte SVMs unter Ziel-SVMs aufgeführt.</block>
-  <block id="1ec1faf69d8ee6e200c521f39fba978d" category="list-text">Klicken Sie Auf <block ref="a1671da25382ecdf2e7c60b53cc3fc3d" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="b690261847676d1036c0d37c3ab9e7cd" category="list-text">Überprüfen Sie das im Dialogfeld *Erweiterte Optionen*<block ref="549e9a8369377ab9bda71541111ca2f9" prefix=" " category="inline-code"></block> Wird als Sicherungsrichtlinie festgelegt.</block>
   <block id="cc4e6ab08b9e6aa23e33393c70c86c2c" category="paragraph"><block ref="7e09f5121e9c61e839183558ddb0f17d" prefix="" category="inline-code"></block> Und<block ref="e162cfb3e9ccdaa06cb8c6b686825bee" prefix=" " category="inline-code"></block> Die anderen standardmäßigen Sicherungsrichtlinien für SnapMirror Beziehungen sind verfügbar.</block>
   <block id="63aac8665b835b82daf050f515b927ed" category="list-text">Wählen Sie einen Schutzzeitplan aus.</block>
   <block id="75ab9bcce7f0d478affeb55e4cd67a60" category="paragraph">Standardmäßig wird der verwendet<block ref="745fd0ea7f576f350a0eed4b8c48a8e2" prefix=" " category="inline-code"></block> Der Zeitplan ist ausgewählt.</block>
   <block id="0531876d83d0e6dd65845a4e72053423" category="paragraph">Alle Datensicherungsbeziehungen werden standardmäßig initialisiert. Durch Initialisieren der SnapMirror Beziehung wird sichergestellt, dass das Ziel-Volume über eine Baseline zum Sichern des Quell-Volume verfügt.</block>
-  <block id="b0d23a57325c3084c24baecf58667326" category="image-alt">Erweiterte snapmirror Optionen 93</block>
   <block id="acb8bdf1358d7537887f6dc69f5224e6" category="list-text">Klicken Sie auf *Save*, um die SnapMirror Beziehung zu erstellen.</block>
   <block id="ec658862dd1e10953fce5b7f177f02f1" category="list-text">Vergewissern Sie sich, dass der Beziehungsstatus der SnapMirror-Beziehung im lautet<block ref="d34e79870b17da17e894ddc837954dcc" prefix=" " category="inline-code"></block> Bundesland.</block>
   <block id="376cacbb467173386e24f40a767d478b" category="list-text">Navigieren Sie zum Fenster *Volumes* und wählen Sie dann den Datenträger aus, für den Sie die SnapMirror-Beziehung erstellt haben.</block>
   <block id="e01451bc5d1145df607e72e46d03d5d2" category="list-text">Doppelklicken Sie auf das Volume, um die Volume-Details anzuzeigen, und klicken Sie dann auf *SCHUTZ*, um den Datenschutzstatus des Volumes anzuzeigen.</block>
-  <block id="67dfc6258a4d7b0eef457b3eeb43e734" category="image-alt">snapmirror 9 3</block>
   <block id="571763439882f51383ff1b593960c4c7" category="summary">Sie können die Unterbrechung beim Datenzugriff minimieren, wenn Sie das Ziel-Volume aktivieren, indem Sie erforderliche Konfigurationen wie LIFs, CIFS-Freigaben und Exportrichtlinien für die NAS-Umgebung sowie LIFs und Initiatorgruppen für die SAN-Umgebung auf der SVM mit dem Ziel-Volume einrichten.</block>
   <block id="4e981e00b2fdc4984df393f0b5ad2eba" category="doc">Ziel-SVM für Datenzugriff einrichten</block>
   <block id="fc2f949cd1527c8a079726c8a1434fe6" category="paragraph">Sie müssen diese Aufgabe auf dem *Ziel*-Cluster für die SVM mit dem Ziel-Volume ausführen.</block>
@@ -2309,7 +2302,6 @@
   <block id="85d7a739c6bad7aa6a52aeb9d15d8dc7" category="paragraph">Im Bereich Details werden AutoSupport-Einstellungsinformationen angezeigt, z. B. Node-Name, AutoSupport-Status, verwendetes Transportprotokoll und Name des Proxy-Servers.</block>
   <block id="d48c8b246d92a7c78407fc86df071671" category="summary">System Manager ist eine grafische Managementoberfläche, über die Sie Storage-Systeme und Storage-Objekte (beispielsweise Festplatten, Volumes und Aggregate) managen und allgemeine Managementaufgaben in Bezug auf Storage-Systeme über einen Webbrowser durchführen können. Als Cluster-Administrator können Sie mit System Manager das gesamte Cluster und seine Ressourcen verwalten.</block>
   <block id="3ce055103da31ce1df71764f20016d59" category="doc">Cluster-Management mit OnCommand® System Manager</block>
-  <block id="0c8ff84025de62a7a5aeea1fe6d60ebf" category="paragraph">System Manager ist nicht mehr als ausführbare Datei verfügbar und ist nun in der ONTAP-Software als Webdienst enthalten, standardmäßig aktiviert und über einen Browser zugänglich.</block>
   <block id="08528f0f39e6782683d545afe6b1f198" category="paragraph">Der Name des System Manager hat sich von früheren Versionen geändert. Versionen 9.5 und frühere Versionen erhielten den Namen OnCommand System Manager. Versionen 9.6 und höher werden jetzt ONTAP System Manager genannt.</block>
   <block id="9270ee495bc464b61000cccd332db6a6" category="paragraph">Mit System Manager können Sie viele Routineaufgaben ausführen, z. B. die folgenden:</block>
   <block id="160e6c815686e81a07d0da8d6912bd7d" category="list-text">Erstellen Sie ein Cluster, konfigurieren Sie ein Netzwerk und richten Sie Support-Details für das Cluster ein.</block>
@@ -9260,4 +9252,13 @@
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">Überblick über die Verwaltung von Lizenzen</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">Weitere Informationen zum Verwalten von Lizenzen finden Sie unter <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>.</block>
   <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
+  <block id="5c210c9c66a924b033442506eda7fd06" category="paragraph">System Manager ist eine HTML5-basierte grafische Managementoberfläche, über die Sie Storage-Systeme und Storage-Objekte (wie Festplatten, Volumes und Aggregate) managen und gängige Management-Aufgaben in Verbindung mit Storage-Systemen über einen Webbrowser durchführen können. System Manager ist als Webservice in die ONTAP Software integriert, ist standardmäßig aktiviert und kann über einen Browser aufgerufen werden. Als Cluster-Administrator können Sie mit System Manager das gesamte Cluster und seine Ressourcen verwalten.</block>
+  <block id="f45292349272c0e8d698e0559d3516b8" category="image-alt">Einstellungen für das Ziel-Volume</block>
+  <block id="66329551f2e91e48bc40cabcda0d761b" category="image-alt">SnapMirror Fenster erstellen</block>
+  <block id="1338eec46c9b0932a879be3427d074eb" category="image-alt">Erstellung von SnapMirror erfolgreich</block>
+  <block id="f7d9fc01c37002a8f4bfc1d0c51eebee" category="image-alt">Überprüfen Sie, ob die Beziehung erstellt wurde</block>
+  <block id="dd69bf72e13ac23bfd95e008374ecb5d" category="inline-image-macro">Symbol für erweiterte Optionen</block>
+  <block id="ef801f1f815e00496ec892cdfa53d06d" category="list-text">Klicken Sie Auf <block ref="215361fd1fc3c1e3c1287fe809a1790a" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="52d4c2f2276b49422642781ce12ded0c" category="image-alt">Fenster „Erweiterte Optionen“</block>
+  <block id="f730116d3cb429cf0e30f40c1db51df9" category="image-alt">Screenshot mit dem SnapMirror Status</block>
 </blocks>
