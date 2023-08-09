@@ -35,6 +35,11 @@ Sie müssen die Befehlszeilenschnittstelle verwenden, um Festplatten für MetroC
 
 
 
+[NOTE]
+====
+In späteren ONTAP Versionen können Sie die ONTAP CLI verwenden, um die Festplatteneigentümer zu entfernen und einen neuen Eigentümer zuzuweisen.
+
+====
 .Schritte
 . Klicken Sie Auf *Storage* > *Aggregate & Disks* > *Disks*.
 . Wählen Sie im Fenster *Disks* die Registerkarte *Inventar* aus.
@@ -42,4 +47,10 @@ Sie müssen die Befehlszeilenschnittstelle verwenden, um Festplatten für MetroC
 . Klicken Sie im Dialogfeld *Warnung* auf *Weiter*.
 . Wählen Sie im Dialogfeld *Festplatten zuweisen* den Knoten aus, dem Sie die Festplatten neu zuweisen möchten.
 . Klicken Sie Auf *Zuweisen*.
+
+
+.Verwandte Informationen
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/remove-ownership-disk-task.html["Festplatteneigentümer über die ONTAP CLI entfernen (ONTAP 9.3 und höher)"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/disk-autoassignment-policy-concept.html["Automatische Zuweisung von Festplatten über die ONTAP CLI (ONTAP 9.3 und höher)"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/manual-assign-disks-ownership-manage-task.html["Manuelles Zuweisen von Festplatten über die ONTAP CLI (ONTAP 9.3 und höher)"]
 
