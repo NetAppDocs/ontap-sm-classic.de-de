@@ -7160,7 +7160,6 @@
   <block id="a1036b59d73505365ef378243a1e483a" category="list-text">Der IdP, den Sie für die Remote-Authentifizierung verwenden möchten, muss konfiguriert werden.</block>
   <block id="72577700d76e5482df206852d16b3918" category="paragraph">Lesen Sie die Dokumentation, die von der von Ihnen konfigurierten IdP bereitgestellt wird.</block>
   <block id="3a9e3f68d0c667f8a7b447e51b0c8cba" category="list-text">Sie müssen die URI des IdP haben.</block>
-  <block id="de421c081fd7f349421dae3208f4659f" category="paragraph">Die mit System Manager validierten IDPs sind Shibboleth und Active Directory Federation Services.</block>
   <block id="fa8cd930b8e2dc9dc9fd65817b5ce669" category="paragraph">Nachdem die SAML-Authentifizierung aktiviert ist, können nur Remote-Benutzer auf die System Manager-GUI zugreifen. Lokale Benutzer können nach Aktivierung der SAML-Authentifizierung nicht auf die System Manager-GUI zugreifen.</block>
   <block id="384442b2283e770fe0861c6ff52fe9ca" category="list-text">Klicken Sie Auf *Konfiguration* &gt; *Cluster* &gt; *Authentifizierung*.</block>
   <block id="a7d79b434e817cf2263ffd64d11515ad" category="list-text">Aktivieren Sie das Kontrollkästchen * SAML-Authentifizierung aktivieren*.</block>
@@ -9268,4 +9267,14 @@
   <block id="fdfcc2567d3a9cc9343a1e14e2a5778e" category="list-text"><block ref="fdfcc2567d3a9cc9343a1e14e2a5778e" category="inline-link-macro-rx"></block></block>
   <block id="a3f857c78c1b112becd5a124491290c0" category="inline-link-macro">Manuelles Zuweisen von Festplatten über die ONTAP CLI (ONTAP 9.3 und höher)</block>
   <block id="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="list-text"><block ref="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="inline-link-macro-rx"></block></block>
+  <block id="d3804326967b3c4d0d1fe456e58f9e3c" category="paragraph">Die folgenden IDPs wurden mit System Manager validiert:</block>
+  <block id="3a6d511a9d218e11dc64c9d43b7d1d73" category="list-text">Active Directory Federation Services</block>
+  <block id="76d715baa02451f676fce832bea3cab0" category="list-text">Cisco DUO (validiert mit den folgenden ONTAP-Versionen:)</block>
+  <block id="99ee2d51ff9d719a2f4ed99cdd7e8201" category="list-text">9.7P21 und höher 9.7</block>
+  <block id="7dec5294fcbec488e754eddbe6ba09b4" category="list-text">9.8P17 und höher 9.8</block>
+  <block id="0802d2f599d23393bab9380c14849ce2" category="list-text">9.9.1P13 und höher 9.9 Versionen</block>
+  <block id="761c4970281fb273f713e924e77278ad" category="list-text">9.10.1P9 und höher 9.10 Versionen</block>
+  <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4 und höher Version 9.11</block>
+  <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1 und höhere Versionen</block>
+  <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Shibboleth</block>
 </blocks>

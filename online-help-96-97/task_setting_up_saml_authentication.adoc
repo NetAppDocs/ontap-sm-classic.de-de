@@ -33,7 +33,21 @@ Lesen Sie die Dokumentation, die von der von Ihnen konfigurierten IdP bereitgest
 
 
 .Über diese Aufgabe
-Die mit System Manager validierten IDPs sind Shibboleth und Active Directory Federation Services.
+Die folgenden IDPs wurden mit System Manager validiert:
+
+* Active Directory Federation Services
+* Cisco DUO (validiert mit den folgenden ONTAP-Versionen:)
++
+** 9.7P21 und höher 9.7
+** 9.8P17 und höher 9.8
+** 9.9.1P13 und höher 9.9 Versionen
+** 9.10.1P9 und höher 9.10 Versionen
+** 9.11.1P4 und höher Version 9.11
+** 9.12.1 und höhere Versionen
+
+
+* Shibboleth
+
 
 [NOTE]
 ====
