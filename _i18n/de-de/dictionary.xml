@@ -7832,7 +7832,6 @@
   <block id="503e6a1d24532cf16b90068dcf9d0814" category="list-text">Geben Sie im Fenster *FlexCache-Volume-Größe ändern* die Größe an, auf die Sie die Größe des FlexCache-Volumens ändern möchten.</block>
   <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">Standardmäßig werden vorhandene Aggregate verwendet, um die Größe des FlexCache Volume zu ändern. Ab System Manager 9.6 wird neben dem Feld „Größe“ die maximal zulässige Größe für das Volume angezeigt.</block>
   <block id="ee06c3a75d2f90d528d0bdad6ee8b794" category="inline-link-macro">Festlegen erweiterter Optionen für FlexCache Volumes</block>
-  <block id="bf1a8ac5c931866758030b4588ed85b1" category="paragraph">Wenn Sie das FlexCache Volume durch Hinzufügen neuer Ressourcen erweitern möchten, klicken Sie auf <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (Erweiterte Optionen). Siehe <block ref="ff23e8b352173b9385a50749f03a49b1" category="inline-link-macro-rx"></block>.</block>
   <block id="689dc6ae2f8d54723af8baa6aff39f7d" category="list-text">Klicken Sie auf *Speichern*, um die Größe des FlexCache-Volumens zu ändern.</block>
   <block id="114168a53a6b42c89026b910fc64289f" category="summary">Ab System Manager 9.6 können Sie bei der Bearbeitung eines FlexCache-Volumes die erweiterten Optionen angeben, die Sie mit dem FlexCache-Volume verknüpfen möchten.</block>
   <block id="fa8ddae57fb0b13c4eb7a2f3b7deaa99" category="doc">Festlegen erweiterter Optionen für ein FlexCache-Volume</block>
@@ -9277,4 +9276,5 @@
   <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4 und höher Version 9.11</block>
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1 und höhere Versionen</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Shibboleth</block>
+  <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">Wenn Sie das FlexCache Volume durch Hinzufügen neuer Ressourcen erweitern möchten, klicken Sie auf <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (Erweiterte Optionen). Siehe <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>.</block>
 </blocks>
