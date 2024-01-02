@@ -33,7 +33,7 @@ entries:
     url: "/smb-config/task_verifying_smb_client_access.html"
   - title: Konfigurieren und Überprüfen des CIFS-Client-Zugriffs
     url: "/smb-config/task_configuring_verifying_client_access.html"
-- title: Laden Sie ein CIFS-Volume auf eine CIFS-fähige SVM ein
+- title: Fügen Sie ein CIFS Volume zu einer CIFS-fähigen SVM hinzu
   url: "/smb-config/concept_adding_protocol_volume_to_protocol_enabled_svm.html"
   entries:
   - title: Erstellung und Konfiguration eines Volume
