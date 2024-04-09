@@ -9024,7 +9024,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Mehr Ressourcen</block>
   <block id="c09b5be4c2da04f4040eef1878f258aa" category="sidebar">ONTAP 9-Dokumentation</block>
   <block id="7b974027d646fea794167794eca699d0" category="sidebar">Automatisierungs- und REST-API-Dokumentation</block>
-  <block id="d1b92a4930d50c6ed1038655db0d2684" category="sidebar">Gesamte ONTAP Produktdokumentation</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Überblick</block>
   <block id="7764db582957448eb25528aee4db56b7" category="sidebar">FC-Konfiguration für ESXi mithilfe von VSC</block>
   <block id="36308d81e97ed47d001a9e37fd37634b" category="sidebar">Konfigurieren Sie logische Volumes auf Multipath-Geräten und erstellen Sie ein Filesystem</block>
@@ -9235,7 +9234,6 @@
   <block id="2e8a972dbf09cb9d9e8634a9ff967882" category="sidebar">Exportrichtlinie des SVM-Root-Volumes öffnen (Erstellung einer neuen NFS-fähigen SVM)</block>
   <block id="6f001c629b64ce94f74af79735f0c5ad" category="sidebar">Erstellen Sie eine Freigabe und legen Sie deren Berechtigungen fest</block>
   <block id="1cea5f7ff46fdcaad82b7016abae2ceb" category="sidebar">SMB/CIFS-Konfiguration</block>
-  <block id="8cadc76a323c196244af8dd4c3ad5543" category="sidebar">Laden Sie ein CIFS-Volume auf eine CIFS-fähige SVM ein</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">Administration der Cluster-Erweiterung</block>
   <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">Ergebnisse</block>
   <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[Prerequisites-Peering, Voraussetzungen für Cluster Peering]] Voraussetzungen für Cluster-Peering</block>
@@ -9277,4 +9275,5 @@
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1 und höhere Versionen</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Shibboleth</block>
   <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">Wenn Sie das FlexCache Volume durch Hinzufügen neuer Ressourcen erweitern möchten, klicken Sie auf <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (Erweiterte Optionen). Siehe <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>.</block>
+  <block id="5069c081842d21ed175ea7a6154fbacb" category="sidebar">Die Oberfläche von System Manager Classic ist ab ONTAP 9.7 und älteren Versionen von ONTAP 9 verfügbar. Auf dieser Website finden Sie eine Dokumentation für Konfigurations-Workflows mit System Manager Classic sowie die Online-Hilfe von System Manager Classic für ONTAP 9.6 und 9.7.</block>
 </blocks>
